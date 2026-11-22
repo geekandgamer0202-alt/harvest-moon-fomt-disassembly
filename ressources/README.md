@@ -12,6 +12,7 @@ Les fichiers sont conservés dans leurs formats d’origine, avec leurs noms et 
 | Activités A4NE USA | Croissance et repousse des cultures, recettes et ingrédients, zones et prises de pêche. | [Dossier](donnees/activites/A4NE/) · [Format](../docs/activites.md) |
 | Horaires A4NE USA | Variantes de 32 personnages, 1 122 étapes, lieux et points des trajets. | [Dossier](donnees/horaires/A4NE/) · [Format](../docs/horaires.md) |
 | Sélection des horaires A4NE USA | Choix des 32 sélecteurs par jour et par code météo dans deux états d’essai. | [Dossier](donnees/selecteurs/A4NE/) · [Protocole](../docs/selection-horaires.md) |
+| Audio M4A USA et Europe | Catalogue des 211 cases, pistes et boucles, instruments, PCM et ondes CGB. | [A4NE](donnees/audio/A4NE/) · [A4NP](donnees/audio/A4NP/) · [Format et export](../docs/audio.md) |
 | Essais mGBA | Rapports de jeu, captures d’écran et palettes relevées. | [A4NP Europe](mgba/A4NP/Rapport.md) · [A4NE USA](graphismes/A4NE/mgba/LISEZ-MOI.md) |
 | Localisation A4NP Europe | Essais historiques 0.1 et 0.2 avec manifestes de texte, scripts, BPS et captures. Le bouton **Fini** figure dans la 0.2. | [Essai 0.1](localisation/A4NP/0.1/LISEZMOI.md) · [Essai 0.2](localisation/A4NP/0.2/LISEZMOI.md) |
 | Repères BFGE | Index des événements de *More Friends of Mineral Town* USA d’après le catalogue de symboles. | [Dossier](evenements/BFGE/) · [Guide](evenements/BFGE/Lire-moi.md) |

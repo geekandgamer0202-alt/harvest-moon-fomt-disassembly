@@ -16,6 +16,7 @@ Le projet vise à inventorier, extraire et documenter toutes les données de *Ha
 | Le déclencheur d’une scène | [Événements et appels](docs/evenements/) · [Vie de famille](docs/evenements/vie-de-famille.md) · [Audit des 14 déclencheurs](docs/evenements/declencheurs-14.md) |
 | Une carte, un portrait ou un sprite | [Dossier des graphismes](ressources/graphismes/A4NE/) · [Aperçu](ressources/graphismes/A4NE/Apercu.png) · [Index et offsets graphiques](docs/graphismes/) |
 | Les attributs et scripts d’une case | [Grilles de terrain](ressources/donnees/terrain/A4NE/) · [Index des interactions](ressources/donnees/terrain/A4NE/Interactions-A4NE.csv) · [Format des données](docs/terrain.md) |
+| Une musique, une ambiance ou un effet sonore | [Audio USA](ressources/donnees/audio/A4NE/) · [Audio Europe](ressources/donnees/audio/A4NP/) · [Format et extraction](docs/audio.md) |
 | Une procédure ou une capture mGBA | [Guide mGBA 0.10.5](docs/mgba/) · [Captures Europe](ressources/mgba/A4NP/captures/) · [Captures USA](ressources/graphismes/A4NE/mgba/) |
 | Les premiers essais de traduction | [Prototype 0.1](ressources/localisation/A4NP/0.1/LISEZMOI.md) · [Prototype 0.2](ressources/localisation/A4NP/0.2/LISEZMOI.md) |
 
@@ -84,6 +85,10 @@ Les exports A4NE couvrent **39 types de parcelles** avec les tables de croissanc
 
 Les tables A4NE couvrent **32 personnages**, **254 cases de variante** dont 222 avec un horaire, **1 122 étapes** et **430 trajets**. Un relevé distinct compte **38 400 appels** aux sélecteurs natifs sur les 120 jours de l’an 1, pour cinq codes météo et deux états mGBA, à 06:00. Ces appels ont renvoyé **122 cases de variante distinctes**. [Horaires et trajets](ressources/donnees/horaires/A4NE/) · [Résultats des sélecteurs](ressources/donnees/selecteurs/A4NE/) · [Méthode et résultats](docs/selection-horaires.md)
 
+## Audio M4A
+
+Le catalogue contient **211 cases**, dont **144 séquences**, ainsi que **277 pistes**, **263 fiches d’instrument**, **106 échantillons PCM** et **32 ondes CGB**. Il relève **149 cycles de piste** et **27 boucles PCM**. Les données USA et Europe concordent après correction des adresses. [Audio USA](ressources/donnees/audio/A4NE/) · [Audio Europe](ressources/donnees/audio/A4NP/) · [Format et extraction](docs/audio.md)
+
 ## Reproduire les vérifications
 
 Les exemples utilisent **Python 3.10 ou ultérieur** et des copies locales des ROM d’origine. Après avoir cloné le dépôt, placer les copies sous `roms/A4NE.gba` et, pour la comparaison, `roms/A4NP.gba`. Les ROM, sauvegardes et états mGBA restent dans l’environnement de test.
@@ -124,10 +129,12 @@ python3 outils/mgba/inspecter_etat.py --rom roms/A4NE.gba exports/mgba/sommeil-a
 
 Le relevé des sélecteurs d’horaires utilise Unicorn pour exécuter les routines ROM isolément. Il fait varier la date et la météo et garde les autres champs de l’état fixes. [Procédure de relevé](docs/selection-horaires.md#refaire-le-relevé)
 
+L’outil audio fonctionne sur les deux éditions et peut générer les CSV ainsi que les pistes et échantillons bruts. [Commande d’export audio](docs/audio.md#reproduire-lexport)
+
 Pour ajouter un relevé reproductible, préciser l’édition, l’ID ou l’offset, la situation en jeu et l’outil utilisé. Les rapports distinguent les observations en partie normale, les essais sur un état préparé et la lecture statique de la ROM.
 
 ## Données à documenter
 
-Les travaux en cours couvrent les textes natifs A4NE hors scripts d’événement, les déclencheurs et conditions d’horaires encore inconnus, les transitions entre cartes et le placement des retouches, les interfaces et mini-jeux restants, les données d’élevage et le format des sauvegardes sur cartouche. La table audio M4A à `0x13ABF0` compte 211 entrées. L’extraction des séquences, banques d’instruments, échantillons et boucles reste à faire, ainsi que l’inventaire des plages d’octets de la ROM. [État détaillé de la couverture](docs/couverture-a4ne.md)
+Les travaux en cours couvrent les textes natifs A4NE hors scripts d’événement, les déclencheurs et conditions d’horaires encore inconnus, les transitions entre cartes et le placement des retouches, les interfaces et mini-jeux restants, les données d’élevage et le format des sauvegardes sur cartouche. Il reste à identifier 31 séquences audio et à vérifier leur rendu dans mGBA, ainsi qu’à inventorier les plages d’octets de la ROM. [État détaillé de la couverture](docs/couverture-a4ne.md)
 
 [Désassemblage FoMT de Wokann](https://github.com/Wokann/fomt) · [Format des scripts d’événement](https://github.com/StanHash/FOMT-DOC/blob/master/EventScripts.txt) · [mGBA 0.10.5](https://github.com/mgba-emu/mgba/releases/tag/0.10.5)

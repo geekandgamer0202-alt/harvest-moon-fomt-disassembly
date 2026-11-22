@@ -16,6 +16,7 @@ This project aims to catalog, extract, and document all data from *Harvest Moon:
 | What triggers a scene | [Events and calls](docs/evenements/) · [Family events](docs/evenements/vie-de-famille.md) · [Audit of 14 triggers](docs/evenements/declencheurs-14.md) |
 | A map, portrait, or sprite | [Graphics directory](ressources/graphismes/A4NE/) · [Preview](ressources/graphismes/A4NE/Apercu.png) · [Graphics indexes and offsets](docs/graphismes/) |
 | A tile’s attributes and scripts | [Terrain grids](ressources/donnees/terrain/A4NE/) · [Interaction index](ressources/donnees/terrain/A4NE/Interactions-A4NE.csv) · [Data format](docs/terrain.md) |
+| Music, ambience, or a sound effect | [US audio](ressources/donnees/audio/A4NE/) · [European audio](ressources/donnees/audio/A4NP/) · [Format and extraction](docs/audio.md) |
 | An mGBA procedure or screenshot | [mGBA 0.10.5 guide](docs/mgba/) · [European screenshots](ressources/mgba/A4NP/captures/) · [US screenshots](ressources/graphismes/A4NE/mgba/) |
 | The early localization experiments | [Prototype 0.1](ressources/localisation/A4NP/0.1/LISEZMOI.md) · [Prototype 0.2](ressources/localisation/A4NP/0.2/LISEZMOI.md) |
 
@@ -84,6 +85,10 @@ The A4NE exports cover **39 field plot types** with growth, regrowth, and weathe
 
 The A4NE tables cover **32 characters**, **254 variant slots**, including 222 with schedules, **1,122 steps**, and **430 routes**. A separate survey records **38,400 calls** to the native selectors across the 120 days of Year 1, with five weather codes and two mGBA states, at 06:00. Those calls returned **122 distinct variant slots**. [Schedules and routes](ressources/donnees/horaires/A4NE/) · [Selector results](ressources/donnees/selecteurs/A4NE/) · [Method and findings](docs/selection-horaires.md)
 
+## M4A audio
+
+The catalog contains **211 slots**, including **144 sequences**, along with **277 tracks**, **263 instrument entries**, **106 PCM samples**, and **32 CGB waveforms**. It identifies **149 track cycles** and **27 PCM loops**. The US and European data match after adjusting the addresses. [US audio](ressources/donnees/audio/A4NE/) · [European audio](ressources/donnees/audio/A4NP/) · [Format and extraction](docs/audio.md)
+
 ## Reproduce the checks
 
 The examples use **Python 3.10 or later** and local copies of the original ROMs. After cloning the repository, place the copies at `roms/A4NE.gba` and, for comparison, `roms/A4NP.gba`. Keep ROMs, game saves, and mGBA states in the local test environment.
@@ -124,10 +129,12 @@ python3 outils/mgba/inspecter_etat.py --rom roms/A4NE.gba exports/mgba/sommeil-a
 
 The schedule selector survey uses Unicorn to run the ROM routines in isolation. It varies the date and weather and keeps the other state fields fixed. [Survey procedure](docs/selection-horaires.md#refaire-le-relevé)
 
+The audio tool works on both releases and can generate the CSVs as well as raw tracks and sample data. [Audio export command](docs/audio.md#reproduire-lexport)
+
 To add a reproducible result, specify the release, the ID or offset, the in-game situation, and the tool used. The reports distinguish normal gameplay observations, tests using prepared states, and static ROM analysis.
 
 ## Data still to document
 
-Work in progress covers native A4NE text outside event scripts, unresolved triggers and schedule conditions, map transitions and overlay placement, the remaining interfaces and minigames, livestock data, and the cartridge save format. The M4A audio table at `0x13ABF0` contains 211 entries. Sequences, instrument banks, samples, and loops still need to be extracted, and the ROM byte ranges still need to be inventoried. [Detailed coverage status](docs/couverture-a4ne.md)
+Work in progress covers native A4NE text outside event scripts, unresolved triggers and schedule conditions, map transitions and overlay placement, the remaining interfaces and minigames, livestock data, and the cartridge save format. The remaining 31 audio sequences need to be identified and their playback checked in mGBA. The ROM byte ranges also need to be inventoried. [Detailed coverage status](docs/couverture-a4ne.md)
 
 [Wokann’s FoMT disassembly](https://github.com/Wokann/fomt) · [Event script format](https://github.com/StanHash/FOMT-DOC/blob/master/EventScripts.txt) · [mGBA 0.10.5](https://github.com/mgba-emu/mgba/releases/tag/0.10.5)
