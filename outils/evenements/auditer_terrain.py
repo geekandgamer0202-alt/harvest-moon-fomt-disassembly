@@ -2,6 +2,7 @@
 """Compte les cellules de terrain et relève les attributs qui ciblent des scripts."""
 
 import argparse
+from dataclasses import dataclass
 import json
 from pathlib import Path
 from struct import unpack_from
@@ -14,6 +15,18 @@ TABLES = {
     'A4NP': (0x105F34, 0x106984, 0x106AD4, 0x10725C),
 }
 TAILLES = ((0x28, 66), (0x18, 14), (0x18, 68), (0x2C, 7))
+FAMILLES = ('base', 'retouches-ferme', 'autres-retouches', 'visuels-maison')
+
+
+@dataclass(frozen=True)
+class Terrain:
+    numero: int
+    descripteur: int
+    largeur: int
+    hauteur: int
+    valeurs: int | None
+    grille: int | None
+    indices: bytes
 
 
 def profil(rom, descripteur, base):
@@ -24,6 +37,28 @@ def profil(rom, descripteur, base):
     return valeurs, grille, largeur, hauteur
 
 
+def lire_terrains(rom, debut, taille, nombre, base):
+    for numero in range(nombre):
+        descripteur = debut + taille * numero
+        valeurs, grille, largeur, hauteur = profil(rom, descripteur, base)
+        donnees = valeurs - BASE_GBA if valeurs else None
+        coord = grille - BASE_GBA if grille else None
+        indices = b''
+        compteur = largeur * hauteur
+        if donnees is not None and coord is not None and compteur:
+            if donnees < 0 or donnees + 4 > len(rom) or not 0 <= coord <= len(rom) - compteur:
+                raise ValueError(f'Pointeur de terrain invalide à {hex_rom(descripteur)}')
+            indices = rom[coord:coord + compteur]
+            if donnees + 4 * (max(indices) + 1) > len(rom):
+                raise ValueError(f'Dictionnaire de terrain tronqué à {hex_rom(donnees)}')
+        yield Terrain(numero, descripteur, largeur, hauteur, donnees, coord, indices)
+
+
+def decoder_attribut(rom, adresse):
+    mot = u32(rom, adresse)
+    return mot, (mot >> 2) & 0x7FFF, mot >> 17
+
+
 def auditer(rom, version, cibles):
     tables = []
     for famille, (debut, (taille, nombre)) in enumerate(zip(TABLES[version], TAILLES)):
@@ -31,30 +66,19 @@ def auditer(rom, version, cibles):
         actifs = 0
         adresses = set()
         occurrences = []
-        for numero in range(nombre):
-            descripteur = debut + taille * numero
-            valeurs, grille, largeur, hauteur = profil(rom, descripteur, famille == 0)
-            if not (valeurs and largeur and hauteur) or (famille == 0 and not grille):
+        for terrain in lire_terrains(rom, debut, taille, nombre, famille == 0):
+            if not terrain.indices:
                 continue
-            compteur = largeur * hauteur
-            coord = grille - BASE_GBA
-            donnees = valeurs - BASE_GBA
-            if donnees < 0 or donnees + 4 > len(rom) or (grille and not 0 <= coord <= len(rom) - compteur):
-                raise ValueError(f'Pointeur de terrain invalide à {hex_rom(descripteur)}')
-            indices = rom[coord:coord + compteur] if grille else range(compteur)
-            attribut_max = donnees + 4 * max(indices)
-            if attribut_max + 4 > len(rom):
-                raise ValueError(f'Dictionnaire de terrain tronqué à {hex_rom(donnees)}')
-            cellules += compteur
+            cellules += len(terrain.indices)
             actifs += 1
-            for indice in sorted(set(indices)):
-                adresse = donnees + 4 * indice
+            for indice in sorted(set(terrain.indices)):
+                adresse = terrain.valeurs + 4 * indice
                 adresses.add(adresse)
-                mot = u32(rom, adresse)
-                marche, bouton = (mot >> 2) & 0x7FFF, mot >> 17
+                _, marche, bouton = decoder_attribut(rom, adresse)
                 if {marche, bouton} & cibles:
-                    positions = [[i % largeur, i // largeur] for i, v in enumerate(indices) if v == indice]
-                    occurrences.append({'descripteur': hex_rom(descripteur), 'entree': numero,
+                    positions = [[i % terrain.largeur, i // terrain.largeur]
+                                 for i, v in enumerate(terrain.indices) if v == indice]
+                    occurrences.append({'descripteur': hex_rom(terrain.descripteur), 'entree': terrain.numero,
                                         'attribut': hex_rom(adresse), 'marche': f'{marche:04d}',
                                         'bouton_a': f'{bouton:04d}', 'positions': positions})
         tables.append({'offset': hex_rom(debut), 'pas_octets': taille,

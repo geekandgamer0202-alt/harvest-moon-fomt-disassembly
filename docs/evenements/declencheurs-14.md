@@ -25,14 +25,14 @@ L’audit statique A4NE couvre aussi 214 667 cellules de terrain. Les tables d
 
 ## Lecture du terrain A4NE
 
-La table `gMapData` a 66 entrées de `0x28` octets à `0x105EDC`. À `+0x18`, chaque entrée donne le pointeur vers les mots d’attribut, puis le pointeur vers les indices, puis les dimensions 16 bits. Les tables de retouches des plans ont leurs dimensions sous forme de deux octets au début du descripteur, et les deux pointeurs à `+0x10`. Chaque cellule lit un index sur un octet dans la grille. Dans une retouche, un pointeur de grille nul signifie que les attributs sont lus dans l’ordre. Un plan de base sans grille reçoit des attributs vides. Le mot 32 bits fournit l’identifiant d’action de marche avec `(mot >> 2) & 0x7FFF`, et l’identifiant du bouton A avec `mot >> 17`.
+La table `gMapData` a 66 entrées de `0x28` octets à `0x105EDC`. À `+0x18`, chaque entrée donne le pointeur vers les mots d’attribut, puis le pointeur vers les indices, puis les dimensions 16 bits. Les tables de retouches ont leurs dimensions sous forme de deux octets au début du descripteur et les deux pointeurs à `+0x10`. Chaque cellule lit un indice sur un octet dans la grille. Le moteur applique les attributs d’une retouche lorsque les deux pointeurs sont renseignés. Un plan de base sans grille reçoit des attributs vides. Le mot 32 bits fournit l’identifiant d’action de marche avec `(mot >> 2) & 0x7FFF`, et l’identifiant du bouton A avec `mot >> 17`. [Données de terrain et lecture du moteur](../terrain.md)
 
 | Table | Offset A4NE | Descripteurs | Cellules examinées |
 | --- | --- | ---: | ---: |
 | Plans de base | `0x105EDC` | 66 | 205 432 |
 | Retouches de la ferme | `0x10692C` | 14 | 2 844 |
 | Autres retouches | `0x106A7C` | 68 | 5 189 |
-| Petites retouches | `0x107204` | 7 | 1 202 |
+| Visuels de la maison | `0x107204` | 7 | 1 202 |
 
 Le [script de vérification](../../outils/evenements/auditer_terrain.py) prend en option les identifiants à rechercher pour afficher leurs positions.
 
