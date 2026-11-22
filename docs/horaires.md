@@ -21,6 +21,8 @@ Plusieurs étapes peuvent partager le même trajet. Un trajet de zéro point fou
 
 ## Conditions repérées
 
+Le relevé des 32 sélecteurs natifs couvre l’an 1, cinq codes météo et deux états mGBA à 06:00. Les résultats se joignent aux trajets par le personnage et le numéro de variante. [Choix relevés et protocole](selection-horaires.md)
+
 | Personnage | Variante et règle confirmée dans le code |
 | --- | --- |
 | Zack | La variante `1` est la tournée ordinaire. À **17:03**, son horaire indique la ferme `MAP_FARM` à `(244, 171)`. Le règlement intervient lorsque Zack atteint ce point. La variante `2` le laisse chez lui aux dates renvoyées par `IsNpcScheduleDateListed`. |

@@ -10,7 +10,7 @@ Le projet vise à inventorier, extraire et documenter toutes les données de *Ha
 | Un personnage ou un objet | [Noms des personnages](docs/textes/Personnages.csv) · [Objets et descriptions](docs/textes/Libelles-objets-A4NE.csv) · [Icônes nommées](docs/graphismes/objets/Index-icones-objets-A4NE.csv) |
 | Un prix, un aliment ou une offre de boutique | [Données économiques A4NE](ressources/donnees/economie/A4NE/) · [Structures et conditions](docs/economie.md) |
 | Une culture, une recette ou une prise de pêche | [Données d’activités A4NE](ressources/donnees/activites/A4NE/) · [Tables et conditions](docs/activites.md) |
-| Un horaire, un lieu ou un trajet de personnage | [Données d’horaires A4NE](ressources/donnees/horaires/A4NE/) · [Lecture des trajets et conditions](docs/horaires.md) |
+| Un horaire, un lieu ou un trajet de personnage | [Données d’horaires A4NE](ressources/donnees/horaires/A4NE/) · [Lecture des trajets](docs/horaires.md) · [Sélection par date et par météo](docs/selection-horaires.md) |
 | Le déclencheur d’une scène | [Événements et appels](docs/evenements/) · [Vie de famille](docs/evenements/vie-de-famille.md) · [Audit des 14 déclencheurs](docs/evenements/declencheurs-14.md) |
 | Une carte, un portrait ou un sprite | [Dossier des graphismes](ressources/graphismes/A4NE/) · [Aperçu](ressources/graphismes/A4NE/Apercu.png) · [Index et offsets graphiques](docs/graphismes/) |
 | Les attributs et scripts d’une case | [Grilles de terrain](ressources/donnees/terrain/A4NE/) · [Index des interactions](ressources/donnees/terrain/A4NE/Interactions-A4NE.csv) · [Format des données](docs/terrain.md) |
