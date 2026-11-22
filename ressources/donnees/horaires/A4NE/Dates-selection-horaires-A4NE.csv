@@ -1,0 +1,15 @@
+offset_rom,valeur_rom,saison,jour
+0x0F1A66,0,printemps,1
+0x0F1A67,17,printemps,18
+0x0F1A68,21,printemps,22
+0x0F1A69,30,été,1
+0x0F1A6A,36,été,7
+0x0F1A6B,49,été,20
+0x0F1A6C,53,été,24
+0x0F1A6D,62,automne,3
+0x0F1A6E,68,automne,9
+0x0F1A6F,72,automne,13
+0x0F1A70,77,automne,18
+0x0F1A71,80,automne,21
+0x0F1A72,113,hiver,24
+0x0F1A73,119,hiver,30
