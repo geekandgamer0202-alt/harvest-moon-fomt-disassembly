@@ -1,0 +1,254 @@
+[
+  {
+    "observation": "depart",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "06:00",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      5,
+      0,
+      255,
+      255
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      8,
+      171,
+      0,
+      8
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "essai-miel",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "08:11",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      0,
+      0,
+      41,
+      0
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      8,
+      171,
+      0,
+      8
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "miel-dans-sac",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "08:12",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      5,
+      0,
+      255,
+      255
+    ],
+    "sac_02004214_octets": [
+      124,
+      41,
+      0,
+      0,
+      8,
+      171,
+      0,
+      8
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "miel-repris",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "08:16",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      0,
+      0,
+      41,
+      0
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      124,
+      171,
+      131,
+      1
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "miel-juste-avant",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "09:29",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      0,
+      0,
+      41,
+      0
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      124,
+      171,
+      131,
+      1
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "miel-apres",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "09:30",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      5,
+      0,
+      255,
+      255
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      124,
+      171,
+      131,
+      1
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "zack-apres",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "17:03",
+    "or_g": 550,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      5,
+      0,
+      255,
+      255
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      124,
+      171,
+      131,
+      1
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "rick-introterm",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "11:13",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      0,
+      0,
+      41,
+      0
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      124,
+      171,
+      131,
+      1
+    ],
+    "rick_affinite_octet_02004338": 50
+  },
+  {
+    "observation": "rick-apres-cadeau",
+    "annee": 1,
+    "saison": "printemps",
+    "jour": 2,
+    "heure": "11:13",
+    "or_g": 500,
+    "meteo_id": 0,
+    "endurance_brute": 75,
+    "fatigue_brute": 0,
+    "objet_en_main_octets": [
+      5,
+      0,
+      255,
+      255
+    ],
+    "sac_02004214_octets": [
+      8,
+      171,
+      0,
+      8,
+      124,
+      171,
+      131,
+      1
+    ],
+    "rick_affinite_octet_02004338": 59
+  }
+]

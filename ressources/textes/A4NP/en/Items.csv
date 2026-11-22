@@ -1,0 +1,366 @@
+﻿category,item_id,original_name,rom_offset,french_translation,name_byte_count,terminator_hex,status,alias_of,rom_table_offset,shipping_id
+Tool,0x00,Iron Sickle,0x0E96B4,,11,00,Inventory name,,0x0EAB58,
+Tool,0x01,Copper Sickle,0x0E96FC,,13,00,Inventory name,,0x0EAB64,
+Tool,0x02,Silver Sickle,0x0E9750,,13,00,Inventory name,,0x0EAB70,
+Tool,0x03,Gold Sickle,0x0E97A4,,11,00,Inventory name,,0x0EAB7C,
+Tool,0x04,Mystrile Sickle,0x0E97F0,,15,00,Inventory name,,0x0EAB88,
+Tool,0x05,Cursed Sickle,0x0E9844,,13,00,Inventory name,,0x0EAB94,
+Tool,0x06,Blessed Sickle,0x0E9890,,14,00,Inventory name,,0x0EABA0,
+Tool,0x07,Mythic Sickle,0x0E98D8,,13,00,Inventory name,,0x0EABAC,
+Tool,0x08,Iron Hoe,0x0E992C,,8,00,Inventory name,,0x0EABB8,
+Tool,0x09,Copper Hoe,0x0E9974,,10,00,Inventory name,,0x0EABC4,
+Tool,0x0A,Silver Hoe,0x0E99C4,,10,00,Inventory name,,0x0EABD0,
+Tool,0x0B,Gold Hoe,0x0E9A14,,8,00,Inventory name,,0x0EABDC,
+Tool,0x0C,Mystrile Hoe,0x0E9A60,,12,00,Inventory name,,0x0EABE8,
+Tool,0x0D,Cursed Hoe,0x0E9AB0,,10,00,Inventory name,,0x0EABF4,
+Tool,0x0E,Blessed Hoe,0x0E9AF4,,11,00,Inventory name,,0x0EAC00,
+Tool,0x0F,Mythic Hoe,0x0E9B34,,10,00,Inventory name,,0x0EAC0C,
+Tool,0x10,Iron Axe,0x0E9B7C,,8,00,Inventory name,,0x0EAC18,
+Tool,0x11,Copper Axe,0x0E9BC4,,10,00,Inventory name,,0x0EAC24,
+Tool,0x12,Silver Axe,0x0E9C04,,10,00,Inventory name,,0x0EAC30,
+Tool,0x13,Gold Axe,0x0E9C44,,8,00,Inventory name,,0x0EAC3C,
+Tool,0x14,Mystrile Axe,0x0E9C84,,12,00,Inventory name,,0x0EAC48,
+Tool,0x15,Cursed Axe,0x0E9CCC,,10,00,Inventory name,,0x0EAC54,
+Tool,0x16,Blessed Axe,0x0E9D0C,,11,00,Inventory name,,0x0EAC60,
+Tool,0x17,Mythic Axe,0x0E9D4C,,10,00,Inventory name,,0x0EAC6C,
+Tool,0x18,Iron Hammer,0x0E9D8C,,11,00,Inventory name,,0x0EAC78,
+Tool,0x19,Copper Hammer,0x0E9DD8,,13,00,Inventory name,,0x0EAC84,
+Tool,0x1A,Silver Hammer,0x0E9E34,,13,00,Inventory name,,0x0EAC90,
+Tool,0x1B,Gold Hammer,0x0E9E80,,11,00,Inventory name,,0x0EAC9C,
+Tool,0x1C,Mystrile Hammer,0x0E9ED0,,15,00,Inventory name,,0x0EACA8,
+Tool,0x1D,Cursed Hammer,0x0E9F28,,13,00,Inventory name,,0x0EACB4,
+Tool,0x1E,Blessed Hammer,0x0E9F74,,14,00,Inventory name,,0x0EACC0,
+Tool,0x1F,Mythic Hammer,0x0E9FC0,,13,00,Inventory name,,0x0EACCC,
+Tool,0x20,Watering Can,0x0EA018,,12,00,Inventory name,,0x0EACD8,
+Tool,0x21,Copper Watering Can,0x0EA048,,19,00,Inventory name,,0x0EACE4,
+Tool,0x22,Silver Watering Can,0x0EA080,,19,00,Inventory name,,0x0EACF0,
+Tool,0x23,Gold Watering Can,0x0EA0B8,,17,00,Inventory name,,0x0EACFC,
+Tool,0x24,Mystrile Watering Can,0x0EA0F0,,21,00,Inventory name,,0x0EAD08,
+Tool,0x25,Cursed Watering Can,0x0EA130,,19,00,Inventory name,,0x0EAD14,
+Tool,0x26,Blessed Watering Can,0x0EA184,,20,00,Inventory name,,0x0EAD20,
+Tool,0x27,Mythic Watering Can,0x0EA1CC,,19,00,Inventory name,,0x0EAD2C,
+Tool,0x28,Fishing Rod,0x0EA204,,11,00,Inventory name,,0x0EAD38,
+Tool,0x29,Copper Fishing Rod,0x0EA228,,18,00,Inventory name,,0x0EAD44,
+Tool,0x2A,Silver Fishing Rod,0x0EA260,,18,00,Inventory name,,0x0EAD50,
+Tool,0x2B,Gold Fishing Rod,0x0EA298,,16,00,Inventory name,,0x0EAD5C,
+Tool,0x2C,Mystrile Fishing Rod,0x0EA2D0,,20,00,Inventory name,,0x0EAD68,
+Tool,0x2D,Cursed Fishing Rod,0x0EA310,,18,00,Inventory name,,0x0EAD74,
+Tool,0x2E,Blessed Fishing Rod,0x0EA364,,19,00,Inventory name,,0x0EAD80,
+Tool,0x2F,Mythic Fishing Rod,0x0EA3BC,,18,00,Inventory name,,0x0EAD8C,
+Tool,0x30,Cow Miracle Potion,0x0EA3F4,,18,00,Inventory name,,0x0EAD98,
+Tool,0x31,Sheep Miracle Potion,0x0EA43C,,20,00,Inventory name,,0x0EADA4,
+Tool,0x32,Turnip Seeds,0x0EA48C,,12,00,Inventory name,,0x0EADB0,
+Tool,0x33,Potato Seeds,0x0EA4C0,,12,00,Inventory name,,0x0EADBC,
+Tool,0x34,Cucumber Seeds,0x0EA4F4,,14,00,Inventory name,,0x0EADC8,
+Tool,0x35,Strawberry Seeds,0x0EA528,,16,00,Inventory name,,0x0EADD4,
+Tool,0x36,Cabbage Seeds,0x0EA564,,13,00,Inventory name,,0x0EADE0,
+Tool,0x37,Tomato Seeds,0x0EA598,,12,00,Inventory name,,0x0EADEC,
+Tool,0x38,Corn Seeds,0x0EA5CC,,10,00,Inventory name,,0x0EADF8,
+Tool,0x39,Onion Seeds,0x0EA5F8,,11,00,Inventory name,,0x0EAE04,
+Tool,0x3A,Pumpkin Seeds,0x0EA624,,13,00,Inventory name,,0x0EAE10,
+Tool,0x3B,Pineapple Seeds,0x0EA658,,15,00,Inventory name,,0x0EAE1C,
+Tool,0x3C,Eggplant Seeds,0x0EA68C,,14,00,Inventory name,,0x0EAE28,
+Tool,0x3D,Carrot Seeds,0x0EA6C0,,12,00,Inventory name,,0x0EAE34,
+Tool,0x3E,Sweet Potato Seeds,0x0EA6F0,,18,00,Inventory name,,0x0EAE40,
+Tool,0x3F,Spinach Seeds,0x0EA72C,,13,00,Inventory name,,0x0EAE4C,
+Tool,0x40,Green Pepper Seeds,0x0EA75C,,18,00,Inventory name,,0x0EAE58,
+Tool,0x41,Grass Seeds,0x0EA798,,11,00,Inventory name,,0x0EAE64,
+Tool,0x42,Moon Drop Seeds,0x0EA7D0,,15,00,Inventory name,,0x0EAE70,
+Tool,0x43,Pink Cat Seeds,0x0EA80C,,14,00,Inventory name,,0x0EAE7C,
+Tool,0x44,Magic Seeds,0x0EA848,,11,00,Inventory name,,0x0EAE88,
+Tool,0x45,Toy Flower Seeds,0x0EA874,,16,00,Inventory name,,0x0EAE94,
+Tool,0x46,Brush,0x0EA8B0,,5,00,Inventory name,,0x0EAEA0,
+Tool,0x47,Milker,0x0EA8F0,,6,00,Inventory name,,0x0EAEAC,
+Tool,0x48,Clipper,0x0EA928,,7,00,Inventory name,,0x0EAEB8,
+Tool,0x49,Bell,0x0EA960,,4,00,Inventory name,,0x0EAEC4,
+Tool,0x4A,Animal Medicine,0x0EA99C,,15,00,Inventory name,,0x0EAED0,
+Tool,0x4B,Blue Feather,0x0EA9DC,,12,00,Inventory name,,0x0EAEDC,
+Tool,0x4C,Pedometer,0x0EAA24,,9,00,Inventory name,,0x0EAEE8,
+Tool,0x4D,Teleport Stone,0x0EAA3C,,14,00,Inventory name,,0x0EAEF4,
+Tool,0x4E,Gem of the Goddess,0x0EAA84,,18,00,Inventory name,,0x0EAF00,
+Tool,0x4F,Gem of the Kappa,0x0EAACC,,16,00,Inventory name,,0x0EAF0C,
+Tool,0x50,Gem of Truth,0x0EAB14,,12,00,Inventory name,,0x0EAF18,
+Food,0x00,Turnip,0x0EAF24,,6,00,Inventory name,,0x0EDD24,0x00
+Food,0x01,Potato,0x0EAF50,,6,00,Inventory name,,0x0EDD34,0x01
+Food,0x02,Cucumber,0x0EAF7C,,8,00,Inventory name,,0x0EDD44,0x02
+Food,0x03,Strawberry,0x0EAFB0,,10,00,Inventory name,,0x0EDD54,0x04
+Food,0x04,Cabbage,0x0EAFE4,,7,00,Inventory name,,0x0EDD64,0x03
+Food,0x05,Tomato,0x0EB010,,6,00,Inventory name,,0x0EDD74,0x05
+Food,0x06,Corn,0x0EB03C,,4,00,Inventory name,,0x0EDD84,0x06
+Food,0x07,Onion,0x0EB068,,5,00,Inventory name,,0x0EDD94,0x07
+Food,0x08,Pumpkin,0x0EB094,,7,00,Inventory name,,0x0EDDA4,0x09
+Food,0x09,Pineapple,0x0EB0C0,,9,00,Inventory name,,0x0EDDB4,0x08
+Food,0x0A,Eggplant,0x0EB0F4,,8,00,Inventory name,,0x0EDDC4,0x0A
+Food,0x0B,Carrot,0x0EB128,,6,00,Inventory name,,0x0EDDD4,0x0B
+Food,0x0C,Sweet Potato,0x0EB154,,12,00,Inventory name,,0x0EDDE4,0x0C
+Food,0x0D,Spinach,0x0EB190,,7,00,Inventory name,,0x0EDDF4,0x0E
+Food,0x0E,Green Pepper,0x0EB1BC,,12,00,Inventory name,,0x0EDE04,0x0D
+Food,0x0F,Regular Quality Egg,0x0EB1F8,,19,00,Inventory name,,0x0EDE14,0x0F
+Food,0x10,Good Quality Egg,0x0EB23C,,16,00,Inventory name,,0x0EDE24,0x10
+Food,0x11,High Quality Egg,0x0EB280,,16,00,Inventory name,,0x0EDE34,0x11
+Food,0x12,Golden Egg,0x0EB2C4,,10,00,Inventory name,,0x0EDE44,0x12
+Food,0x13,P Egg,0x0EB2F8,,5,00,Inventory name,,0x0EDE54,0x13
+Food,0x14,X Egg,0x0EB324,,5,00,Inventory name,,0x0EDE64,0x14
+Food,0x15,Spa-Boiled Egg,0x0EB350,,14,00,Inventory name,,0x0EDE74,0x15
+Food,0x16,Mayonnaise (S),0x0EB3A4,,14,00,Inventory name,,0x0EDE84,0x16
+Food,0x17,Mayonnaise (M),0x0EB3EC,,14,00,Inventory name,,0x0EDE94,0x17
+Food,0x18,Mayonnaise (L),0x0EB434,,14,00,Inventory name,,0x0EDEA4,0x18
+Food,0x19,Mayonnaise (G),0x0EB47C,,14,00,Inventory name,,0x0EDEB4,0x19
+Food,0x1A,Mayonnaise (P),0x0EB4C4,,14,00,Inventory name,,0x0EDEC4,0x1A
+Food,0x1B,Mayonnaise (X),0x0EB50C,,14,00,Inventory name,,0x0EDED4,0x1B
+Food,0x1C,Milk (S),0x0EB554,,8,00,Inventory name,,0x0EDEE4,0x1C
+Food,0x1D,Milk (M),0x0EB598,,8,00,Inventory name,,0x0EDEF4,0x1D
+Food,0x1E,Milk (L),0x0EB5DC,,8,00,Inventory name,,0x0EDF04,0x1E
+Food,0x1F,Milk (G),0x0EB620,,8,00,Inventory name,,0x0EDF14,0x1F
+Food,0x20,Milk (P),0x0EB664,,8,00,Inventory name,,0x0EDF24,0x20
+Food,0x21,Milk (X),0x0EB6A8,,8,00,Inventory name,,0x0EDF34,0x21
+Food,0x22,Cheese (S),0x0EB6EC,,10,00,Inventory name,,0x0EDF44,0x22
+Food,0x23,Cheese (M),0x0EB728,,10,00,Inventory name,,0x0EDF54,0x23
+Food,0x24,Cheese (L),0x0EB764,,10,00,Inventory name,,0x0EDF64,0x24
+Food,0x25,Cheese (G),0x0EB7A0,,10,00,Inventory name,,0x0EDF74,0x25
+Food,0x26,Cheese (P),0x0EB7DC,,10,00,Inventory name,,0x0EDF84,0x26
+Food,0x27,Cheese (X),0x0EB818,,10,00,Inventory name,,0x0EDF94,0x27
+Food,0x28,Apple,0x0EB854,,5,00,Inventory name,,0x0EDFA4,0x28
+Food,0x29,Honey,0x0EB894,,5,00,Inventory name,,0x0EDFB4,0x2C
+Food,0x2A,Bamboo Shoot,0x0EB8D4,,12,00,Inventory name,,0x0EDFC4,0x2D
+Food,0x2B,Wild Grapes,0x0EB928,,11,00,Inventory name,,0x0EDFD4,0x2E
+Food,0x2C,Mushroom,0x0EB978,,8,00,Inventory name,,0x0EDFE4,0x2F
+Food,0x2D,Poisonous Mushroom,0x0EB9C4,,18,00,Inventory name,,0x0EDFF4,0x30
+Food,0x2E,Truffle,0x0EBA20,,7,00,Inventory name,,0x0EE004,0x31
+Food,0x2F,Blue Grass,0x0EBA5C,,10,00,Inventory name,,0x0EE014,0x32
+Food,0x30,Green Grass,0x0EBAB0,,11,00,Inventory name,,0x0EE024,0x33
+Food,0x31,Red Grass,0x0EBB04,,9,00,Inventory name,,0x0EE034,0x34
+Food,0x32,Yellow Grass,0x0EBB4C,,12,00,Inventory name,,0x0EE044,0x35
+Food,0x33,Orange Grass,0x0EBB9C,,12,00,Inventory name,,0x0EE054,0x36
+Food,0x34,Purple Grass,0x0EBBE0,,12,00,Inventory name,,0x0EE064,0x37
+Food,0x35,Indigo Grass,0x0EBC28,,12,00,Inventory name,,0x0EE074,0x38
+Food,0x36,Black Grass,0x0EBC78,,11,00,Inventory name,,0x0EE084,0x39
+Food,0x37,White Grass,0x0EBCBC,,11,00,Inventory name,,0x0EE094,0x3A
+Food,0x38,Queen of the Night,0x0EBD00,,18,00,Inventory name,,0x0EE0A4,
+Food,0x39,Bodigizer,0x0EBD58,,9,00,Inventory name,,0x0EE0B4,
+Food,0x3A,Bodigizer XL,0x0EBD8C,,12,00,Inventory name,,0x0EE0C4,
+Food,0x3B,Turbojolt,0x0EBDD0,,9,00,Inventory name,,0x0EE0D4,
+Food,0x3C,Turbojolt XL,0x0EBE04,,12,00,Inventory name,,0x0EE0E4,
+Food,0x3D,Wine,0x0EBE48,,4,00,Inventory name,,0x0EE0F4,
+Food,0x3E,Grape Juice,0x0EBE8C,,11,00,Inventory name,,0x0EE104,
+Food,0x3F,Rice Ball,0x0EBEDC,,9,00,Inventory name,,0x0EE114,
+Food,0x40,Bread,0x0EBF20,,5,00,Inventory name,,0x0EE124,
+Food,0x41,Oil,0x0EBF5C,,3,00,Inventory name,,0x0EE134,
+Food,0x42,Flower,0x0EBF90,,6,00,Inventory name,,0x0EE144,
+Food,0x43,Curry Powder,0x0EBFCC,,12,00,Inventory name,,0x0EE154,
+Food,0x44,Muffin Mix,0x0EC014,,10,00,Inventory name,,0x0EE164,
+Food,0x45,Chocolate,0x0EC058,,9,00,Inventory name,,0x0EE174,0x3B
+Food,0x46,Relax Tea Leaves,0x0EC09C,,16,00,Inventory name,,0x0EE184,0x3C
+Food,0x47,SUGDW Apple,0x0EC0F8,,11,00,Inventory name,,0x0EE194,0x29
+Food,0x48,HMSGB Apple,0x0EC14C,,11,00,Inventory name,,0x0EE1A4,0x2A
+Food,0x49,AEPFE Apple,0x0EC19C,,11,00,Inventory name,,0x0EE1B4,0x2B
+Food,0x4A,Buckwheat Flour,0x0EC1E8,,15,00,Inventory name,,0x0EE1C4,
+Food,0x4B,Wild Grape Juice,0x0EC234,,16,00,Inventory name,,0x0EE1D4,
+Food,0x4C,Salad,0x0EC26C,,5,00,Inventory name,,0x0EE1E4,
+Food,0x4D,Curry Rice,0x0EC2B4,,10,00,Inventory name,,0x0EE1F4,
+Food,0x4E,Stew,0x0EC300,,4,00,Inventory name,,0x0EE204,
+Food,0x4F,Miso Soup,0x0EC33C,,9,00,Inventory name,,0x0EE214,
+Food,0x50,Stir Fry,0x0EC384,,8,00,Inventory name,,0x0EE224,
+Food,0x51,Fried Rice,0x0EC3CC,,10,00,Inventory name,,0x0EE234,
+Food,0x52,Savory Pancake,0x0EC414,,14,00,Inventory name,,0x0EE244,
+Food,0x53,Sandwich,0x0EC46C,,8,00,Inventory name,,0x0EE254,
+Food,0x54,Fruit Juice,0x0EC4B0,,11,00,Inventory name,,0x0EE264,
+Food,0x55,Vegetable Juice,0x0EC500,,15,00,Inventory name,,0x0EE274,
+Food,0x56,Mixed Juice,0x0EC558,,11,00,Inventory name,,0x0EE284,
+Food,0x57,Fruit Latte,0x0EC5A8,,11,00,Inventory name,,0x0EE294,
+Food,0x58,Vegetable Latte,0x0EC5F8,,15,00,Inventory name,,0x0EE2A4,
+Food,0x59,Mixed Latte,0x0EC644,,11,00,Inventory name,,0x0EE2B4,
+Food,0x5A,Strawberry Milk,0x0EC690,,15,00,Inventory name,,0x0EE2C4,
+Food,0x5B,Strawberry Jam,0x0EC6E8,,14,00,Inventory name,,0x0EE2D4,
+Food,0x5C,Tomato Juice,0x0EC740,,12,00,Inventory name,,0x0EE2E4,
+Food,0x5D,Pickled Turnip,0x0EC798,,14,00,Inventory name,,0x0EE2F4,
+Food,0x5E,French Fries,0x0EC7E4,,12,00,Inventory name,,0x0EE304,
+Food,0x5F,Pickles,0x0EC834,,7,00,Inventory name,,0x0EE314,
+Food,0x60,Ketchup,0x0EC874,,7,00,Inventory name,,0x0EE324,
+Food,0x61,Popcorn,0x0EC8BC,,7,00,Inventory name,,0x0EE334,
+Food,0x62,Corn Flakes,0x0EC900,,11,00,Inventory name,,0x0EE344,
+Food,0x63,Baked Corn,0x0EC94C,,10,00,Inventory name,,0x0EE354,
+Food,0x64,Pineapple Juice,0x0EC994,,15,00,Inventory name,,0x0EE364,
+Food,0x65,Pumpkin Pudding,0x0EC9EC,,15,00,Inventory name,,0x0EE374,
+Food,0x66,Pumpkin Stew,0x0ECA3C,,12,00,Inventory name,,0x0EE384,
+Food,0x67,Happy Eggplant,0x0ECA8C,,14,00,Inventory name,,0x0EE394,
+Food,0x68,Sweet Potatoes,0x0ECAE0,,14,00,Inventory name,,0x0EE3A4,
+Food,0x69,Baked Sweet Potato,0x0ECB2C,,18,00,Inventory name,,0x0EE3B4,
+Food,0x6A,Greens,0x0ECB84,,6,00,Inventory name,,0x0EE3C4,
+Food,0x6B,Scrambled Eggs,0x0ECBC8,,14,00,Inventory name,,0x0EE3D4,
+Food,0x6C,Omelet,0x0ECC18,,6,00,Inventory name,,0x0EE3E4,
+Food,0x6D,Omelet Rice,0x0ECC58,,11,00,Inventory name,,0x0EE3F4,
+Food,0x6E,Boiled Egg,0x0ECCA4,,10,00,Inventory name,,0x0EE404,
+Food,0x6F,Hot Milk,0x0ECCF0,,8,00,Inventory name,,0x0EE414,
+Food,0x70,Butter,0x0ECD38,,6,00,Inventory name,,0x0EE424,
+Food,0x71,Cheese Cake,0x0ECD78,,11,00,Inventory name,,0x0EE434,
+Food,0x72,Cheese Fondue,0x0ECDC4,,13,00,Inventory name,,0x0EE444,
+Food,0x73,Apple Pie,0x0ECE18,,9,00,Inventory name,,0x0EE454,
+Food,0x74,Apple Jam,0x0ECE60,,9,00,Inventory name,,0x0EE464,
+Food,0x75,Apple Souffl?,0x0ECEAC,,13,00,Inventory name,,0x0EE474,
+Food,0x76,Mushroom Rice,0x0ECF00,,13,00,Inventory name,,0x0EE484,
+Food,0x77,Bamboo Rice,0x0ECF50,,11,00,Inventory name,,0x0EE494,
+Food,0x78,Truffle Rice,0x0ECFA0,,12,00,Inventory name,,0x0EE4A4,
+Food,0x79,Sushi,0x0ECFEC,,5,00,Inventory name,,0x0EE4B4,
+Food,0x7A,Jam Bun,0x0ED024,,7,00,Inventory name,,0x0EE4C4,
+Food,0x7B,Dinner Role,0x0ED068,,11,00,Inventory name,,0x0EE4D4,
+Food,0x7C,Raisin Bread,0x0ED0B8,,12,00,Inventory name,,0x0EE4E4,
+Food,0x7D,Grape Jam,0x0ED108,,9,00,Inventory name,,0x0EE4F4,
+Food,0x7E,Curry Bread,0x0ED150,,11,00,Inventory name,,0x0EE504,
+Food,0x7F,Sashimi,0x0ED1A0,,7,00,Inventory name,,0x0EE514,
+Food,0x80,Grilled Fish,0x0ED1E4,,12,00,Inventory name,,0x0EE524,
+Food,0x81,Chirashi Sushi,0x0ED234,,14,00,Inventory name,,0x0EE534,
+Food,0x82,Pizza,0x0ED28C,,5,00,Inventory name,,0x0EE544,
+Food,0x83,Noodles,0x0ED2CC,,7,00,Inventory name,,0x0EE554,
+Food,0x84,Curry Noodles,0x0ED308,,13,00,Inventory name,,0x0EE564,
+Food,0x85,Tempura Noodles,0x0ED360,,15,00,Inventory name,,0x0EE574,
+Food,0x86,Fried Noodles,0x0ED3B0,,13,00,Inventory name,,0x0EE584,
+Food,0x87,Buckwheat Noodles,0x0ED3FC,,17,00,Inventory name,,0x0EE594,
+Food,0x88,Noodles w/ Tempura,0x0ED44C,,18,00,Inventory name,,0x0EE5A4,
+Food,0x89,Fried Noodles,0x0ED3B0,,13,00,Inventory name,Food 0x86,0x0EE5B4,
+Food,0x8A,Buckwheat Chips,0x0ED4A8,,15,00,Inventory name,,0x0EE5C4,
+Food,0x8B,Cookies,0x0ED500,,7,00,Inventory name,,0x0EE5D4,
+Food,0x8C,Chocolate Cookies,0x0ED540,,17,00,Inventory name,,0x0EE5E4,
+Food,0x8D,Tempura,0x0ED594,,7,00,Inventory name,,0x0EE5F4,
+Food,0x8E,Ice Cream,0x0ED5CC,,9,00,Inventory name,,0x0EE604,
+Food,0x8F,Cake,0x0ED610,,4,00,Inventory name,,0x0EE614,
+Food,0x90,Chocolate Cake,0x0ED648,,14,00,Inventory name,,0x0EE624,
+Food,0x91,Relaxation Tea,0x0ED698,,14,00,Inventory name,,0x0EE634,
+Food,0x92,Toast,0x0ED6E8,,5,00,Inventory name,,0x0EE644,
+Food,0x93,French Toast,0x0ED720,,12,00,Inventory name,,0x0EE654,
+Food,0x94,Pudding,0x0ED770,,7,00,Inventory name,,0x0EE664,
+Food,0x95,Mountain Stew,0x0ED7B0,,13,00,Inventory name,,0x0EE674,
+Food,0x96,Moon Dumplings,0x0ED800,,14,00,Inventory name,,0x0EE684,
+Food,0x97,Rice Cake,0x0ED858,,9,00,Inventory name,,0x0EE694,
+Food,0x98,Roasted Rice Cake,0x0ED8A4,,17,00,Inventory name,,0x0EE6A4,
+Food,0x99,Elli Leaves,0x0ED8FC,,11,00,Inventory name,,0x0EE6B4,
+Food,0x9A,Failed Dish,0x0ED94C,,11,00,Inventory name,,0x0EE6C4,
+Food,0x9B,Failed Drink,0x0ED988,,12,00,Inventory name,,0x0EE6D4,
+Food,0x9C,Failed Pot Dish,0x0ED998,,15,00,Inventory name,,0x0EE6E4,
+Food,0x9D,Failed Dessert,0x0ED9A8,,14,00,Inventory name,,0x0EE6F4,
+Food,0x9E,Failed Bread,0x0ED9B8,,12,00,Inventory name,,0x0EE704,
+Food,0x9F,Failed Noodles,0x0ED9C8,,14,00,Inventory name,,0x0EE714,
+Food,0xA0,Small Fish,0x0ED9D8,,10,00,Inventory name,,0x0EE724,0x3D
+Food,0xA1,Medium Fish,0x0EDA24,,11,00,Inventory name,,0x0EE734,0x3E
+Food,0xA2,Large Fish,0x0EDA74,,10,00,Inventory name,,0x0EE744,0x3F
+Food,0xA3,Toasted Rice Ball,0x0EDAC0,,17,00,Inventory name,,0x0EE754,
+Food,0xA4,Tempura Rice,0x0EDB14,,12,00,Inventory name,,0x0EE764,
+Food,0xA5,Egg Over Rice,0x0EDB60,,13,00,Inventory name,,0x0EE774,
+Food,0xA6,Rice Gruel,0x0EDBB4,,10,00,Inventory name,,0x0EE784,
+Food,0xA7,Pancakes,0x0EDBF8,,8,00,Inventory name,,0x0EE794,
+Food,0xA8,Fish Sticks,0x0EDC3C,,11,00,Inventory name,,0x0EE7A4,
+Food,0xA9,Candied Potato,0x0EDC80,,14,00,Inventory name,,0x0EE7B4,
+Food,0xAA,Potato Pancakes,0x0EDCD4,,15,00,Inventory name,,0x0EE7C4,
+Article,0x00,Moon Drop Grass,0x0EE7D4,,15,00,Inventory name,,0x0EFF20,
+Article,0x01,Pink Cat Grass,0x0EE81C,,14,00,Inventory name,,0x0EFF2C,
+Article,0x02,Blue Magic Grass,0x0EE864,,16,00,Inventory name,,0x0EFF38,
+Article,0x03,Red Magic Grass,0x0EE8B0,,15,00,Inventory name,,0x0EFF44,0x42
+Article,0x04,Toy Flower,0x0EE8F8,,10,00,Inventory name,,0x0EFF50,
+Article,0x05,Wool (S),0x0EE938,,8,00,Inventory name,,0x0EFF5C,0x43
+Article,0x06,Wool (M),0x0EE964,,8,00,Inventory name,,0x0EFF68,0x44
+Article,0x07,Wool (L),0x0EE990,,8,00,Inventory name,,0x0EFF74,0x45
+Article,0x08,Wool (G),0x0EE9BC,,8,00,Inventory name,,0x0EFF80,0x46
+Article,0x09,Wool (P),0x0EE9E8,,8,00,Inventory name,,0x0EFF8C,0x47
+Article,0x0A,Wool (P),0x0EE9E8,,8,00,Inventory name,Article 0x09,0x0EFF98,0x48
+Article,0x0B,Yarn (S),0x0EEA14,,8,00,Inventory name,,0x0EFFA4,0x49
+Article,0x0C,Yarn (M),0x0EEA54,,8,00,Inventory name,,0x0EFFB0,0x4A
+Article,0x0D,Yarn (L),0x0EEA94,,8,00,Inventory name,,0x0EFFBC,0x4B
+Article,0x0E,Yarn (G),0x0EEAD4,,8,00,Inventory name,,0x0EFFC8,0x4C
+Article,0x0F,Yarn (P),0x0EEB14,,8,00,Inventory name,,0x0EFFD4,0x4D
+Article,0x10,Yarn (X),0x0EEB54,,8,00,Inventory name,,0x0EFFE0,0x4E
+Article,0x11,Junk Ore,0x0EEB94,,8,00,Inventory name,,0x0EFFEC,0x53
+Article,0x12,Copper,0x0EEBDC,,6,00,Inventory name,,0x0EFFF8,0x54
+Article,0x13,Silver,0x0EEC18,,6,00,Inventory name,,0x0F0004,0x55
+Article,0x14,Gold,0x0EEC54,,4,00,Inventory name,,0x0F0010,0x56
+Article,0x15,Mystrile,0x0EEC8C,,8,00,Inventory name,,0x0F001C,0x57
+Article,0x16,Orichalc,0x0EECCC,,8,00,Inventory name,,0x0F0028,0x58
+Article,0x17,Adamantite,0x0EED0C,,10,00,Inventory name,,0x0F0034,0x59
+Article,0x18,Moon Stone,0x0EED4C,,10,00,Inventory name,,0x0F0040,0x5D
+Article,0x19,Sand Rose,0x0EED90,,9,00,Inventory name,,0x0F004C,0x5E
+Article,0x1A,Pink Diamond,0x0EEDD4,,12,00,Inventory name,,0x0F0058,0x5B
+Article,0x1B,Alexandrite,0x0EEE1C,,11,00,Inventory name,,0x0F0064,0x5C
+Article,0x1C,Mythic Stone,0x0EEE60,,12,00,Inventory name,,0x0F0070,0x5A
+Article,0x1D,Diamond,0x0EEEB0,,7,00,Inventory name,,0x0F007C,0x5F
+Article,0x1E,Emerald,0x0EEEE8,,7,00,Inventory name,,0x0F0088,0x60
+Article,0x1F,Ruby,0x0EEF20,,4,00,Inventory name,,0x0F0094,0x61
+Article,0x20,Topaz,0x0EEF5C,,5,00,Inventory name,,0x0F00A0,0x62
+Article,0x21,Peridot,0x0EEF98,,7,00,Inventory name,,0x0F00AC,0x63
+Article,0x22,Fluorite,0x0EEFD4,,8,00,Inventory name,,0x0F00B8,0x64
+Article,0x23,Agate,0x0EF018,,5,00,Inventory name,,0x0F00C4,0x65
+Article,0x24,Amethyst,0x0EF054,,8,00,Inventory name,,0x0F00D0,0x66
+Article,0x25,Harvest Goddess Jewel,0x0EF098,,21,00,Inventory name,,0x0F00DC,
+Article,0x26,Kappa Jewel,0x0EF0F8,,11,00,Inventory name,,0x0F00E8,
+Article,0x27,Jewel of Truth,0x0EF144,,14,00,Inventory name,,0x0F00F4,
+Article,0x28,The Spring Sun,0x0EF188,,14,00,Inventory name,,0x0F0100,
+Article,0x29,The Summer Sun,0x0EF1B8,,14,00,Inventory name,,0x0F010C,
+Article,0x2A,The Autumn Sun,0x0EF1C8,,14,00,Inventory name,,0x0F0118,
+Article,0x2B,The Winter Sun,0x0EF1D8,,14,00,Inventory name,,0x0F0124,
+Article,0x2C,Bracelet,0x0EF1E8,,8,00,Inventory name,,0x0F0130,0x4F
+Article,0x2D,Necklace,0x0EF228,,8,00,Inventory name,,0x0F013C,0x50
+Article,0x2E,Earrings,0x0EF268,,8,00,Inventory name,,0x0F0148,0x51
+Article,0x2F,Broach,0x0EF2A8,,6,00,Inventory name,,0x0F0154,0x52
+Article,0x30,Weeds,0x0EF2E0,,5,00,Inventory name,,0x0F0160,
+Article,0x31,Stones,0x0EF31C,,6,00,Inventory name,,0x0F016C,
+Article,0x32,Branches,0x0EF368,,8,00,Inventory name,,0x0F0178,
+Article,0x33,Lithograph,0x0EF3B4,,10,00,Inventory name,,0x0F0184,
+Article,0x34,Message in a Bottle,0x0EF410,,19,00,Inventory name,,0x0F0190,
+Article,0x35,Ball,0x0EF468,,4,00,Inventory name,,0x0F019C,
+Article,0x36,Pirate Treasure,0x0EF484,,15,00,Inventory name,,0x0F01A8,0x40
+Article,0x37,Fossil of Fish,0x0EF4D4,,14,00,Inventory name,,0x0F01B4,0x41
+Article,0x38,Empty Can,0x0EF518,,9,00,Inventory name,,0x0F01C0,
+Article,0x39,Boots,0x0EF53C,,5,00,Inventory name,,0x0F01CC,
+Article,0x3A,Fish Bones,0x0EF558,,10,00,Inventory name,,0x0F01D8,
+Article,0x3B,Karen's Wine,0x0EF57C,,12,00,Inventory name,,0x0F01E4,
+Article,0x3C,Popuri's Mud Ball,0x0EF5D0,,17,00,Inventory name,,0x0F01F0,
+Article,0x3D,Ann's Music Box,0x0EF618,,15,00,Inventory name,,0x0F01FC,
+Article,0x3E,Mary's Great Book,0x0EF670,,17,00,Inventory name,,0x0F0208,
+Article,0x3F,Elli's Pressed Flwr,0x0EF6C0,,19,00,Inventory name,,0x0F0214,
+Article,0x40,Album 1,0x0EF71C,,7,00,Inventory name,,0x0F0220,
+Article,0x41,Album 2,0x0EF748,,7,00,Inventory name,,0x0F022C,
+Article,0x42,Album 3,0x0EF770,,7,00,Inventory name,,0x0F0238,
+Article,0x43,Album 4,0x0EF79C,,7,00,Inventory name,,0x0F0244,
+Article,0x44,Album 5,0x0EF7C4,,7,00,Inventory name,,0x0F0250,
+Article,0x45,Album 6,0x0EF7F0,,7,00,Inventory name,,0x0F025C,
+Article,0x46,Album 7,0x0EF81C,,7,00,Inventory name,,0x0F0268,
+Article,0x47,Album 8,0x0EF848,,7,00,Inventory name,,0x0F0274,
+Article,0x48,Album 9,0x0EF874,,7,00,Inventory name,,0x0F0280,
+Article,0x49,Album 10,0x0EF8A0,,8,00,Inventory name,,0x0F028C,
+Article,0x4A,Album 11,0x0EF8CC,,8,00,Inventory name,,0x0F0298,
+Article,0x4B,Album 12,0x0EF91C,,8,00,Inventory name,,0x0F02A4,
+Article,0x4C,Album 13,0x0EF96C,,8,00,Inventory name,,0x0F02B0,
+Article,0x4D,Album 14,0x0EF9BC,,8,00,Inventory name,,0x0F02BC,
+Article,0x4E,Album 15,0x0EFA0C,,8,00,Inventory name,,0x0F02C8,
+Article,0x4F,Band-Aid,0x0EFA5C,,8,00,Inventory name,,0x0F02D4,
+Article,0x50,Book,0x0EFA9C,,4,00,Inventory name,,0x0F02E0,
+Article,0x51,Perfume,0x0EFAF8,,7,00,Inventory name,,0x0F02EC,
+Article,0x52,Photo,0x0EFB40,,5,00,Inventory name,,0x0F02F8,
+Article,0x53,Plant Encyclopedia,0x0EFB84,,18,00,Inventory name,,0x0F0304,
+Article,0x54,Invitation,0x0EFBE4,,10,00,Inventory name,,0x0F0310,
+Article,0x55,Dress,0x0EFC30,,5,00,Inventory name,,0x0F031C,
+Article,0x56,Facial Pack,0x0EFC74,,11,00,Inventory name,,0x0F0328,
+Article,0x57,Skin Lotion,0x0EFCC0,,11,00,Inventory name,,0x0F0334,
+Article,0x58,Sunblock,0x0EFD14,,8,00,Inventory name,,0x0F0340,
+Article,0x59,Lumber,0x0EFD54,,6,00,Inventory name,,0x0F034C,
+Article,0x5A,Golden Lumber,0x0EFD94,,13,00,Inventory name,,0x0F0358,
+Article,0x5B,Animal Fodder,0x0EFDE4,,13,00,Inventory name,,0x0F0364,
+Article,0x5C,Chicken Feed,0x0EFE34,,12,00,Inventory name,,0x0F0370,
+Article,0x5D,Lottery,0x0EFE80,,7,00,Inventory name,,0x0F037C,
+Article,0x5E,Frisbee,0x0EFEE0,,7,00,Inventory name,,0x0F0388,
+Cooking,0x00,　　　　　,0x1010B1,,10,00,Empty slot in a fixed-width 11-byte field,,0x1010B1,
+Utensil,0x01,Knife     ,0x1010BC,,10,00,Fixed-width 11-byte field,,0x1010BC,
+Utensil,0x02,Frying pan,0x1010C7,,10,00,Fixed-width 11-byte field,,0x1010C7,
+Utensil,0x03,Pot       ,0x1010D2,,10,00,Fixed-width 11-byte field,,0x1010D2,
+Utensil,0x04,Mixer     ,0x1010DD,,10,00,Fixed-width 11-byte field,,0x1010DD,
+Utensil,0x05,Whisk     ,0x1010E8,,10,00,Fixed-width 11-byte field,,0x1010E8,
+Utensil,0x06,Roll.Pin  ,0x1010F3,,10,00,Fixed-width 11-byte field,,0x1010F3,
+Utensil,0x07,Oven      ,0x1010FE,,10,00,Fixed-width 11-byte field,,0x1010FE,
+Seasoning,0x08,Sugar     ,0x101109,,10,00,Fixed-width 11-byte field,,0x101109,
+Seasoning,0x09,Salt      ,0x101114,,10,00,Fixed-width 11-byte field,,0x101114,
+Seasoning,0x0A,Vinegar   ,0x10111F,,10,00,Fixed-width 11-byte field,,0x10111F,
+Seasoning,0x0B,Soy Sauce ,0x10112A,,10,00,Fixed-width 11-byte field,,0x10112A,
+Seasoning,0x0C,Miso      ,0x101135,,10,00,Fixed-width 11-byte field,,0x101135,
+Equipment,panier,Basket,0x117AA8,,6,0D0A00,Status label,,,
+Tool,hors plage,Broken Tool,0x0E966C,,11,00,Fallback label with no valid item ID,,,
+Food,hors plage,Broken Food,0x0E9688,,11,00,Fallback label with no valid item ID,,,
+Article,hors plage,Broken Article,0x0E9694,,14,00,Fallback label with no valid item ID,,,
+Shippable product,hors plage,Broken Shipment,0x0E96A4,,15,00,Fallback label with no valid item ID,,,

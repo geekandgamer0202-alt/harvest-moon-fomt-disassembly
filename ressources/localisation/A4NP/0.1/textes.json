@@ -1,0 +1,42 @@
+{
+  "jeu": "Harvest Moon: Friends of Mineral Town (Europe), A4NP, révision 00",
+  "sha1_rom": "7ba1ec1e46ce424e3c6fd72e4e8d5e9eb5ede247",
+  "zone_libre": "0x75D000",
+  "caracteres": {"é": "c5"},
+  "glyphes": [
+    {"lettre": "é", "offset": "0x4FA07C", "hex": "00 18 20 00 38 44 7C 40 44 38 00 00"}
+  ],
+  "textes": [
+    {"id": "menu.journal", "offset": "0x0F1A34", "taille": 8, "original": "Diary", "fr": "Journal"},
+    {"id": "menu.sac", "offset": "0x0F1A3C", "taille": 12, "original": "Rucksack", "fr": "Sac"},
+    {"id": "menu.carte_monde", "offset": "0x0F1A48", "taille": 12, "original": "World Map", "fr": "Carte"},
+    {"id": "menu.carte_ferme", "offset": "0x0F1A54", "taille": 12, "original": "Farm Map", "fr": "Plan ferme"},
+    {"id": "menu.bilan", "offset": "0x0F1A60", "taille": 12, "original": "Earnings", "fr": "Bilan"},
+    {"id": "menu.notes", "offset": "0x0F1A6C", "taille": 8, "original": "Memo", "fr": "Mémo"},
+    {"id": "menu.aide", "offset": "0x0F1A74", "taille": 12, "original": "Tutorial", "fr": "Aide"},
+    {"id": "journal.titre", "offset": "0x0E86F4", "taille": 8, "original": "Diary", "fr": "Journal"},
+    {"id": "journal.sauvegarder", "offset": "0x0E86FC", "taille": 8, "original": "Save", "fr": "Sauver"},
+    {"id": "journal.charger", "offset": "0x0E8704", "taille": 8, "original": "Load", "fr": "Lire"},
+    {"id": "journal.case1", "offset": "0x0E8710", "taille": 8, "original": "Data 1", "fr": "Case 1"},
+    {"id": "journal.case2", "offset": "0x0E8718", "taille": 8, "original": "Data 2", "fr": "Case 2"},
+    {"id": "sac.outils", "offset": "0x100108", "taille": 8, "original": "Tools", "fr": "Outils"},
+    {"id": "sac.objets", "offset": "0x100110", "taille": 8, "original": "Items", "fr": "Objets"},
+    {"id": "saisie.joueur", "offset": "0x0E8980", "taille": 8, "original": "Your  ", "fr": "Ton nom"},
+    {"id": "saisie.ferme", "offset": "0x0E8988", "taille": 8, "pointeur": "0x004F00", "original": "Farm's", "fr": "Ta ferme"},
+    {"id": "saisie.chien", "offset": "0x0E8990", "taille": 8, "pointeur": "0x004F04", "original": "Dog's ", "fr": "Ton chien"},
+    {"id": "saisie.suffixe", "offset": "0x0E8C40", "taille": 8, "original": "Name  ", "fr": ""},
+    {"id": "profil.nom", "offset": "0x0E89A4", "taille": 16, "original": "Your name     ", "fr": "Nom           "},
+    {"id": "profil.anniversaire", "offset": "0x0E89B4", "taille": 16, "original": "Your birthday ", "fr": "Anniversaire  "},
+    {"id": "profil.ferme", "offset": "0x0E89C4", "taille": 16, "original": "Farm name     ", "fr": "Ferme         "},
+    {"id": "profil.chien", "offset": "0x0E89D4", "taille": 16, "original": "Dog's name    ", "fr": "Chien         "},
+    {"id": "profil.valider", "offset": "0x0E89E4", "taille": 12, "original": "Is this OK?", "fr": "Valider ?"},
+    {"id": "profil.oui", "offset": "0x0E89F0", "taille": 4, "original": "Yes", "fr": "Oui"},
+    {"id": "profil.non", "offset": "0x0E89F4", "taille": 4, "original": "No", "fr": "Non"},
+    {"id": "saisie.fin", "offset": "0x0E8C5C", "taille": 4, "original": "End", "fr": "Fin"},
+    {"id": "saisie.fin_selection", "offset": "0x0E8C74", "taille": 4, "original": "End", "fr": "Fin"},
+    {"id": "saisie.confirmer_nom", "offset": "0x0E8C78", "taille": 24, "original": "Is this name correct?", "fr": "Confirmer ce nom ?"},
+    {"id": "saisie.oui", "offset": "0x0E8C90", "taille": 4, "original": "Yes", "fr": "Oui"},
+    {"id": "saisie.non", "offset": "0x0E8C94", "taille": 4, "original": "No", "fr": "Non"},
+    {"id": "ferme.panneau_envoi", "offset": "0x2CC178", "taille": 16, "fin_hex": "81a80500", "original": "Shipment Box", "fr": "Caisse"}
+  ]
+}

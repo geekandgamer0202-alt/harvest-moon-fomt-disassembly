@@ -4,6 +4,8 @@ Les relevés portent sur *Harvest Moon: Friends of Mineral Town* GBA, révision 
 
 ## Textes d’événement
 
+Les textes complets sont disponibles avec les index de travail. [Dialogues USA](../../ressources/textes/A4NE/) · [Catalogue Europe en français](../../ressources/textes/A4NP/fr/) · [Catalogue Europe en anglais](../../ressources/textes/A4NP/en/)
+
 | Édition | Table des scripts | Scripts | Chaînes `STR` | Index |
 | --- | ---: | ---: | ---: | --- |
 | A4NE USA | `0x0F89D4` | 1 328 | 8 368 | [Métadonnées A4NE](Evenements-A4NE.csv) |

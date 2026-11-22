@@ -2,7 +2,7 @@
 
 Les relevés portent sur la révision 0, code `A4NE`, SHA-1 `a2fc3574f0a65a4fcf7682fb274b9d7eebdef963`. Les offsets comptent à partir du début du fichier ROM. Pour obtenir l’adresse GBA, ajouter `0x08000000`.
 
-Les colonnes `export_local*` désignent des fichiers d’extraction locaux, sous `exports/graphismes-a4ne/` à la racine du dépôt. Les liens de cette page mènent aux index et aux documents de référence.
+Les colonnes `export_local*` désignent les chemins d’origine sous `exports/graphismes-a4ne/`. Les fichiers ont la même arborescence dans le dépôt sous `ressources/graphismes/A4NE/`. [Fichiers graphiques](../../ressources/graphismes/A4NE/) · [Aperçu PNG](../../ressources/graphismes/A4NE/Apercu.png)
 
 | Famille | Repère natif | Index |
 | --- | --- | --- |

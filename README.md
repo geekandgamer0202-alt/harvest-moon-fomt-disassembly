@@ -2,6 +2,8 @@
 
 Notes techniques et outils d’analyse de *Harvest Moon: Friends of Mineral Town* sur Game Boy Advance pour préparer une traduction française. L’édition américaine `A4NE` sert de référence. Les essais et catalogues européens `A4NP` sont identifiés par leur version.
 
+[Ouvrir les fichiers d’extraction](ressources/) pour consulter les dialogues complets, les images, les ressources graphiques natives, les captures mGBA et les essais de localisation.
+
 ## Résultats
 
 | Sujet | Repères |

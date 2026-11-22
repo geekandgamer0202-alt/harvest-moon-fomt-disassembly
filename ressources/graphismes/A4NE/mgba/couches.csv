@@ -1,0 +1,17 @@
+﻿scene,couche,priorite,bpp,largeur_tuiles,hauteur_tuiles,base_motifs_gba,base_carte_gba,decalage_x,decalage_y,pixels_autorises_par_fenetre,cellules_referencees,indices_tuiles_distincts,banques_4bpp_referencees
+ferme-reveil,BG0,0,4,32,32,0x0600C000,0x0600F800,0,376,2688,42,9,0
+ferme-reveil,BG1,1,4,32,32,0x06000000,0x0600F000,0,0,38400,600,31,0 | 1 | 2 | 5
+ferme-reveil,BG2,2,4,32,32,0x06000000,0x0600E800,0,0,38400,600,103,0 | 2 | 3 | 4 | 5 | 6 | 10
+ferme-reveil,BG3,3,4,32,32,0x06000000,0x0600E000,0,0,38400,600,54,0 | 1 | 2 | 4 | 7
+ferme-sommeil,BG0,0,4,32,32,0x0600C000,0x0600F800,0,432,13440,210,9,0
+ferme-sommeil,BG1,1,4,32,32,0x06000000,0x0600F000,0,1,38400,630,21,0 | 1 | 2 | 5
+ferme-sommeil,BG2,2,4,32,32,0x06000000,0x0600E800,0,1,38400,630,115,0 | 2 | 3 | 4 | 5 | 6 | 10
+ferme-sommeil,BG3,3,4,32,32,0x06000000,0x0600E000,0,1,38400,630,70,0 | 1 | 2 | 4 | 7
+ferme-karen,BG0,0,4,32,32,0x0600C000,0x0600F800,0,432,16128,252,9,0
+ferme-karen,BG1,1,4,32,32,0x06000000,0x0600F000,4,6,38400,651,13,0 | 1 | 5
+ferme-karen,BG2,2,4,32,32,0x06000000,0x0600E800,4,6,38400,651,117,0 | 1 | 2 | 3 | 4 | 5 | 6 | 10
+ferme-karen,BG3,3,4,32,32,0x06000000,0x0600E000,4,6,38400,651,73,0 | 1 | 2 | 4 | 5 | 7
+clinique-annonce,BG0,0,4,32,32,0x0600C000,0x0600F800,0,432,16128,252,9,0
+clinique-annonce,BG1,1,4,32,32,0x06000000,0x0600F000,4,4,38400,651,29,0 | 4 | 9 | 11
+clinique-annonce,BG2,2,4,32,32,0x06000000,0x0600E800,4,4,38400,651,99,0 | 4 | 9 | 11 | 14
+clinique-annonce,BG3,3,4,32,32,0x06000000,0x0600E000,4,4,38400,651,47,1

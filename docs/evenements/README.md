@@ -2,6 +2,8 @@
 
 Cette analyse porte sur la révision 0 américaine de *Harvest Moon: Friends of Mineral Town* (SHA-1 `a2fc3574f0a65a4fcf7682fb274b9d7eebdef963`). Les identifiants de script sont décimaux et les offsets de fichiers sont hexadécimaux. Pour obtenir une adresse GBA à partir d’un offset de fichier, ajouter `0x08000000`.
 
+Les dialogues et catalogues d’origine accompagnent les index d’analyse. [Fichiers USA](../../ressources/textes/A4NE/) · [Fichiers Europe](../../ressources/textes/A4NP/) · [Catalogue BFGE](../../ressources/evenements/BFGE/)
+
 - [Catalogue annoté A4NE](catalogue-a4ne.csv) et [catalogue annoté A4NP](catalogue-a4np.csv) réunissent les 1 328 événements par édition avec les fonctions, conditions, liens et preuves relevés au cours de l’analyse. Le catalogue A4NP conserve les observations européennes. Le catalogue A4NE indique les points d’entrée confirmés pour la ROM américaine ainsi que les appels et affectations du bytecode.
 - [Scripts A4NE](scripts-a4ne.csv) situe les 1 328 blocs d’événement, leur bytecode et leurs tables. Le décompte des 8 368 chaînes correspond aux entrées des blocs `STR ` des scripts.
 - [Sites d’appel A4NE](appels-a4ne.csv) donne l’adresse de chacune des 696 instructions `CallScript` et des 459 instructions `SetEntityEventScript`, ainsi que son script d’origine et sa cible. Une affectation fixe un dialogue pour un acteur. Elle peut prendre effet lors d’une interaction ultérieure.

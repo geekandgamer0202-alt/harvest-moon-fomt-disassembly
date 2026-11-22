@@ -1,6 +1,6 @@
 # Archives de travail
 
-Ces noms et empreintes identifient les ZIP produits dans l’espace de travail. Les CSV et notes du dépôt servent à retrouver les scripts, conditions, tuiles ou palettes dans ces exports ou dans une copie locale de la ROM correspondante.
+Ces noms et empreintes identifient les ZIP produits dans l’espace de travail. Les fichiers importés depuis ces archives sont consultables dans [les ressources du dépôt](../ressources/). Les CSV et notes du dépôt servent à retrouver les scripts, conditions, tuiles ou palettes dans ces exports ou dans une copie locale de la ROM correspondante.
 
 | Archive | Résultat | SHA-256 |
 | --- | --- | --- |
