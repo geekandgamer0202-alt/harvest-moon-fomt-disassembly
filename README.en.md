@@ -2,40 +2,91 @@
 
 [Français](README.md) · **English**
 
-This project catalogs, extracts, and documents game data from *Harvest Moon: Friends of Mineral Town* for Game Boy Advance. The reference ROM is the US release (`A4NE`, revision 0). The European release (`A4NP`, revision 0) is used for comparison. The repository also contains a separate event index for *More Friends of Mineral Town* (`BFGE`) and two archived French localization prototypes for `A4NP`. [ROM coverage](docs/couverture-a4ne.md) · [Version details](docs/versions.md)
+This project aims to catalog, extract, and document all data from *Harvest Moon: Friends of Mineral Town* for Game Boy Advance. The US release (**A4NE**) serves as the reference. The European release (**A4NP**) is used for comparison. The original French localization experiments are part of the project archives. [ROM coverage and extraction batches](docs/couverture-a4ne.md)
 
-## What’s in the repository
+## Quick links
 
-| Area | Contents | Files |
+| To find… | Files to open |
+| --- | --- |
+| A line of dialogue and its location | [US dialogue in CSV](ressources/textes/A4NE/Dialogues-A4NE.csv) · [US dialogue in TXT](ressources/textes/A4NE/Dialogues-A4NE.txt) · [European catalog in French](ressources/textes/A4NP/fr/) · [European catalog in English](ressources/textes/A4NP/en/) |
+| A character or item | [Character names](docs/textes/Personnages.csv) · [Items and descriptions](docs/textes/Libelles-objets-A4NE.csv) · [Named icons](docs/graphismes/objets/Index-icones-objets-A4NE.csv) |
+| A price, food, or shop offer | [A4NE economy data](ressources/donnees/economie/A4NE/) · [Structures and conditions](docs/economie.md) |
+| A crop, recipe, or fishing catch | [A4NE activity data](ressources/donnees/activites/A4NE/) · [Tables and conditions](docs/activites.md) |
+| A character’s schedule, location, or route | [A4NE schedule data](ressources/donnees/horaires/A4NE/) · [Reading routes](docs/horaires.md) · [Selection by date and weather](docs/selection-horaires.md) |
+| What triggers a scene | [Events and calls](docs/evenements/) · [Family events](docs/evenements/vie-de-famille.md) · [Audit of 14 triggers](docs/evenements/declencheurs-14.md) |
+| A map, portrait, or sprite | [Graphics directory](ressources/graphismes/A4NE/) · [Preview](ressources/graphismes/A4NE/Apercu.png) · [Graphics indexes and offsets](docs/graphismes/) |
+| A tile’s attributes and scripts | [Terrain grids](ressources/donnees/terrain/A4NE/) · [Interaction index](ressources/donnees/terrain/A4NE/Interactions-A4NE.csv) · [Data format](docs/terrain.md) |
+| An mGBA procedure or screenshot | [mGBA 0.10.5 guide](docs/mgba/) · [European screenshots](ressources/mgba/A4NP/captures/) · [US screenshots](ressources/graphismes/A4NE/mgba/) |
+| The early localization experiments | [Prototype 0.1](ressources/localisation/A4NP/0.1/LISEZMOI.md) · [Prototype 0.2](ressources/localisation/A4NP/0.2/LISEZMOI.md) |
+
+`ressources/` contains text, images, native graphics files, and reports. `docs/` contains technical indexes and verification results, most of them in French. `outils/` contains Python scripts. To view a large CSV or TXT file on GitHub, use **Raw** or **Download raw file**. [Resource inventory](ressources/README.md) · [Original ZIP checksums](docs/archives-de-travail.md) · [Python tools](outils/)
+
+## Reference releases and addresses
+
+| Code | Release | Revision | Reference SHA-1 |
+| --- | --- | ---: | --- |
+| `A4NE` | *Friends of Mineral Town*, USA | 0 | `a2fc3574f0a65a4fcf7682fb274b9d7eebdef963` |
+| `A4NP` | *Friends of Mineral Town*, Europe | 0 | `7ba1ec1e46ce424e3c6fd72e4e8d5e9eb5ede247` |
+| `BFGE` | *More Friends of Mineral Town*, USA | — | `3aa4d46cbbf152e440942acd5f5d37ddc7b05e1d` |
+
+The A4NE and A4NP ROMs analyzed are 8,388,608 bytes each. The game code is at offset `0xAC` and the revision is at `0xBC`. The indexes use file offsets. Add `0x08000000` to convert them into GBA ROM addresses. For example, the A4NE script table at `0x0F89D4` is at `0x080F89D4` in memory. [Checksums, headers, and comparison](docs/versions.md)
+
+The community clue at `0x080000A0` points to the BFGE header of *More Friends of Mineral Town*. Its index of 1,415 script slots and 31 family-scene references comes from the symbol catalog and documentation. The A4NE scripts and offsets below are for *Friends of Mineral Town*. [BFGE files](ressources/evenements/BFGE/) · [Interpreting the clue](docs/versions.md#lindice-communautaire-bfge)
+
+## Text and names
+
+The A4NE and A4NP releases each contain **8,368 event strings**. The European catalog adds **283 native strings** read by menus and other parts of the game. Its French and English editions translate the annotations and preserve the original game text. [European catalog in French](ressources/textes/A4NP/fr/) · [European catalog in English](ressources/textes/A4NP/en/)
+
+An identifier such as `0162.00` refers to the first string in script `0162`. It identifies the shipping bin sign at `0x2CC120` in A4NE or `0x2CC178` in A4NP. The exports give the string’s ID, offset, length, and context. The text includes engine commands such as `05` to wait for input, `0C` to start a new page, and `FF21` to insert the player’s name. [Index and control codes](docs/textes/)
+
+The **52 character entries** cover displayed names, roles, and names stored in the save. The inventory tables contain **347 items**, comprising 81 tools, 171 foods, and 95 articles. Their names and descriptions were compared across the two releases. [Character catalog](docs/textes/Personnages.csv) · [A4NE item text](docs/textes/Libelles-objets-A4NE.csv) · [A4NP item text](docs/textes/Libelles-objets-A4NP.csv)
+
+The early A4NP experiments documented the player, farm, and dog name fields, the label widths, and the pointers used by the engine. The two prototypes include BPS patches, build scripts, text manifests, and screenshots. Version **0.2** includes the **Fini** button. [Prototype 0.1](ressources/localisation/A4NP/0.1/LISEZMOI.md) · [Prototype 0.2](ressources/localisation/A4NP/0.2/LISEZMOI.md) · [Interface offsets](docs/textes/README.md#saisie-du-joueur-de-la-ferme-et-du-chien)
+
+## Events and triggers
+
+The tables for the **1,328 scripts** begin at `0x0F89D4` in A4NE and `0x0F8A20` in A4NP. Each `RIFF/SCR` block can contain `CODE` bytecode, a `JUMP` table, and `STR` strings. The ROM comparison confirms that `CODE` and `JUMP` match. The only differing event string is `1008.00` in Karen’s introduction. [Script structure](docs/evenements/README.md#structure-vérifiée) · [A4NE/A4NP comparison](docs/comparaison-a4ne-a4np.json)
+
+- **Calls and dialogue.** The A4NE index records 696 `CallScript` calls and 459 `SetEntityEventScript` assignments. The assignments attach dialogue to an actor for a later interaction. Whether an assignment runs depends on the branch leading to the instruction. [Call sites](docs/evenements/appels-a4ne.csv)
+- **Family events.** Sleeping follows `0342 → 0988 → 0980 → 0982 → 0983`. The scheduler `0983`, at A4NE offset `0x390C7C`, selects a branch based on marriage, affection, date, and family progression. Static analysis identified 24 scenes. The bed script `0342` was observed in mGBA in a new game. After sleeping in-game from a copy of a state prepared in RAM, the game selected Karen’s script `0657` and displayed the announcement `0657.03`. [Conditions and scenes](docs/evenements/vie-de-famille.md) · [Karen test procedure](docs/mgba/usa-a4ne.md#test-ciblé-de-karen)
+- **Fourteen triggers.** The search covered the indexed calls and assignments and 214,667 terrain cells per release. It found zero references to the 14 IDs through those mechanisms. European tests confirmed related interactions such as Ellen’s bookshelf via `0191`. Normal in-game access to the blocks remains to be established where the audit found only clues. [Results by script](docs/evenements/declencheurs-14.md)
+
+## Graphics and mGBA captures
+
+![Preview of A4NE maps, portraits, items, and scenes](ressources/graphismes/A4NE/Apercu.png)
+
+The A4NE graphics extraction includes **4,577 PNGs** and preserves indexes, palettes, and native graphics blocks. [File guide](ressources/graphismes/A4NE/Lire-moi.md) · [SHA-256 manifest](ressources/graphismes/A4NE/Manifest-graphismes.csv)
+
+| Category | Contents | A4NE reference |
 | --- | --- | --- |
-| Dialogue and names | 8,368 event strings in each FoMT release, with script IDs and ROM offsets. The European catalog adds 283 strings read by the game outside event scripts and is available with English or French annotations. The indexes cover 52 character entries and the names and descriptions of 347 inventory items. | [US dialogue CSV](ressources/textes/A4NE/Dialogues-A4NE.csv) · [US dialogue TXT](ressources/textes/A4NE/Dialogues-A4NE.txt) · [Europe, English](ressources/textes/A4NP/en/) · [Europe, French](ressources/textes/A4NP/fr/) · [Text formats and indexes](docs/textes/) |
-| Event scripts and triggers | 1,328 scripts per FoMT release. The US index records 696 `CallScript` sites and 459 `SetEntityEventScript` assignments. The notes map 24 family scenes and track 14 script triggers whose normal activation is still under study. | [Event index and bytecode format](docs/evenements/) · [Family events](docs/evenements/vie-de-famille.md) · [Trigger audit](docs/evenements/declencheurs-14.md) · [Regional comparison](docs/comparaison-a4ne-a4np.json) |
-| Graphics | 4,577 US PNGs alongside original-format graphics blocks, palettes, indexes, and checksums. The exports include 66 base maps, 84 map renders including night variants, 184 portraits, 3,009 sprite images, 347 item icons, and assets for menus, fonts, the title screen, and the intro. | [Graphics exports](ressources/graphismes/A4NE/) · [Graphics indexes and offsets](docs/graphismes/) · [SHA-256 manifest](ressources/graphismes/A4NE/Manifest-graphismes.csv) |
-| Terrain and interactions | 155 terrain descriptors, 214,667 cells read from the ROM, and 722 attribute values used for collision checks and script references. The interaction index locates 9,383 cells by map or overlay and local coordinates. | [Terrain exports](ressources/donnees/terrain/A4NE/) · [Interaction index](ressources/donnees/terrain/A4NE/Interactions-A4NE.csv) · [Terrain format](docs/terrain.md) |
-| Items and economy | 347 item records, base stamina and fatigue effects for 171 foods, shipping prices for 103 products, and 12 shop catalogs. The documentation records stock and purchase conditions where identified. | [Economy CSVs](ressources/donnees/economie/A4NE/) · [ROM tables](docs/economie.md) · [Shop conditions](docs/economie-boutiques.md) |
-| Farming, cooking, and fishing | 39 field plot types with growth, regrowth, and weather tables. The cooking exports cover 117 recipe definitions, ingredient and utensil lists, and failed cooking outcomes. Fishing tables cover 59 catch entries, with zones, sizes, and seasonal and rod requirements. | [Activity CSVs](ressources/donnees/activites/A4NE/) · [Table formats and rules](docs/activites.md) |
-| Character schedules | 32 character descriptors, 254 variant slots (222 with schedules), 1,122 steps, and 430 routes. A separate set of CSVs records 38,400 calls to the ROM’s schedule selectors across the 120 days of Year 1, five weather codes, and two mGBA states at 06:00. Those calls returned 122 distinct variant slots. | [Schedules and routes](ressources/donnees/horaires/A4NE/) · [Selector results](ressources/donnees/selecteurs/A4NE/) · [Selector method and findings](docs/selection-horaires.md) |
-| mGBA tests | European gameplay and graphics captures cover shipping, crop planting, gift-giving, and saving and reloading. US captures include normal play and Karen’s pregnancy announcement, reproduced by playing from a prepared state. Video reports record background and sprite palettes, OAM entries, and enabled layers. | [mGBA 0.10.5 guide](docs/mgba/) · [European test report](ressources/mgba/A4NP/Rapport.md) · [US test procedure](docs/mgba/usa-a4ne.md) · [Video measurements](docs/mgba/preuves-video.csv) |
-| More Friends of Mineral Town | 1,415 BFGE script slots and 31 family-scene references indexed from published symbols and documentation. The catalogs include pointer-table offsets and identify scenes involving pregnancy, birth, and the child’s development. | [BFGE catalogs and source notes](ressources/evenements/BFGE/) |
-| French localization archives | Two European-ROM prototypes with BPS patches, build scripts, text manifests, and screenshots. Version 0.2 includes revisions to the player, farm, and dog naming screens and the **Fini** button. | [Prototype 0.1](ressources/localisation/A4NP/0.1/) · [Prototype 0.2](ressources/localisation/A4NP/0.2/) |
+| Maps | 66 base maps, 84 renders including night variants, 31 tilesets, and 47 palettes. | `gMapData` at `0x105EDC` · [Map index](docs/graphismes/cartes/Cartes.csv) |
+| Portraits and sprites | 184 portraits, 3,009 sprite images, and 2,551 animation selectors. | Archives at `0x52D984` and `0x58BA28` · [Sheets](ressources/graphismes/A4NE/personnages/Planches/) |
+| Icons and OBJ groups | 347 inventory icons and 52 additional OBJ archives, including 939 assembled graphics groups. | Shared archive at `0x6678A0` · [OBJ archives](docs/graphismes/archives-obj/Archives-OBJ.csv) |
+| Interface | Title screen, menus, fonts, backgrounds, and intro screens. | [ROM ranges in the interface index](docs/graphismes/interface/Interface.csv) |
 
-![Preview of extracted US maps, portraits, items, and scenes](ressources/graphismes/A4NE/Apercu.png)
+The maps show static scenery. Characters, weather, crops, and animations are added according to the game state. The **six mGBA 0.10.5 measurements** document background (BG) and sprite (OBJ) palettes, OAM entries, and active layers. Four came from normal play and two from the prepared Karen test. The measurements describe the loaded data and objects in the frame before the final image is composed. [Video measurements](docs/mgba/preuves-video.csv) · [mGBA diagnostic views](docs/mgba/graphismes.md)
 
-`ressources/` holds the exports and captures. `docs/` holds the technical indexes, formats, and verification notes. `outils/` holds the Python scripts that identify ROMs, index text and events, export data, check graphics indexes, and inspect mGBA states. Most technical notes are in French. On GitHub, use **Raw** or **Download raw file** for large CSV or TXT files. [Resource inventory](ressources/README.md) · [Original ZIP archive checksums](docs/archives-de-travail.md) · [Python tools](outils/)
+The European tests also document shipping, planting, gift-giving, and saving and reloading. [European test report](ressources/mgba/A4NP/Rapport.md) · [European screenshots](ressources/mgba/A4NP/captures/)
 
-## ROM versions and offsets
+## Terrain and interactions
 
-| Code | Game and region | Reference SHA-1 |
-| --- | --- | --- |
-| `A4NE` | *Friends of Mineral Town*, USA, revision 0 | `a2fc3574f0a65a4fcf7682fb274b9d7eebdef963` |
-| `A4NP` | *Friends of Mineral Town*, Europe, revision 0 | `7ba1ec1e46ce424e3c6fd72e4e8d5e9eb5ede247` |
-| `BFGE` | *More Friends of Mineral Town*, USA | `3aa4d46cbbf152e440942acd5f5d37ddc7b05e1d` |
+The terrain export covers **155 descriptors**, including 66 base maps, and **214,667 cells** read from the ROM. The grids refer to **722 attribute words** that retain the two bits used for collision checks and the script IDs. An index locates the **9,383 cells with interactions** by map or overlay and local coordinates. [Terrain data](ressources/donnees/terrain/A4NE/) · [Format and scope](docs/terrain.md)
 
-The two FoMT reference ROMs are 8,388,608 bytes each. The game code is at file offset `0xAC` and the revision byte is at `0xBC`. Add `0x08000000` to a file offset to obtain its GBA ROM address. The A4NE script pointer table, for example, is at file offset `0x0F89D4` and at address `0x080F89D4` in GBA memory. [ROM headers and regional comparison](docs/versions.md)
+## Items and economy
 
-## Reproduce the exports
+The A4NE economy CSVs cover **347 item records**, base stamina and fatigue effects for **171 foods**, prices for **103 shippable products**, and **12 shop catalogs**. The tables retain IDs and ROM offsets. The catalogs distinguish stored prices from conditions applied by the game. [Economy files](ressources/donnees/economie/A4NE/) · [Documentation](docs/economie.md) · [Shop conditions](docs/economie-boutiques.md)
 
-Use Python 3.10 or later and a local copy of the reference ROM. Keep ROM files, game saves, and mGBA save states in your local workspace. The ROM identifier also accepts a ZIP containing a single ROM. Extraction and audit commands use the `.gba` file directly.
+## Farming, cooking, and fishing
+
+The A4NE exports cover **39 field plot types** with growth, regrowth, and weather tables. The cooking data includes **117 recipe definitions**, ingredient and utensil lists, and failed cooking outcomes. The fishing tables list **59 catches** with sizes, areas, seasons, and rod levels. [Activity files](ressources/donnees/activites/A4NE/) · [Formats and conditions](docs/activites.md)
+
+## Character schedules and routes
+
+The A4NE tables cover **32 characters**, **254 variant slots**, including 222 with schedules, **1,122 steps**, and **430 routes**. A separate survey records **38,400 calls** to the native selectors across the 120 days of Year 1, with five weather codes and two mGBA states, at 06:00. Those calls returned **122 distinct variant slots**. [Schedules and routes](ressources/donnees/horaires/A4NE/) · [Selector results](ressources/donnees/selecteurs/A4NE/) · [Method and findings](docs/selection-horaires.md)
+
+## Reproduce the checks
+
+The examples use **Python 3.10 or later** and local copies of the original ROMs. After cloning the repository, place the copies at `roms/A4NE.gba` and, for comparison, `roms/A4NP.gba`. Keep ROMs, game saves, and mGBA states in the local test environment.
 
 ```sh
 git clone https://github.com/geekandgamer0202-alt/harvest-moon-fomt-disassembly.git
@@ -43,7 +94,7 @@ cd harvest-moon-fomt-disassembly
 mkdir -p roms exports
 ```
 
-Place your US ROM at `roms/A4NE.gba`, then run the tools for the data you need. The event and text commands write CSV to standard output. The terrain, economy, activity, and schedule exporters each create a new output directory.
+Check the game code and checksum first. The ROM identifier also accepts a ZIP containing a single ROM. The script and text indexers use the `.gba` file and write their CSVs to standard output.
 
 ```sh
 python3 outils/identifier_rom.py roms/A4NE.gba
@@ -57,19 +108,26 @@ python3 outils/jeu/exporter_activites.py roms/A4NE.gba exports/activites-a4ne
 python3 outils/jeu/exporter_horaires.py roms/A4NE.gba exports/horaires-a4ne
 ```
 
-For regional comparison, add your European ROM as `roms/A4NP.gba`. For the emulator example, record a state while the farmhouse bed dialogue is open and save it as `exports/mgba/sommeil-a4ne.state`. [mGBA setup and state inspection](docs/mgba/) · [US test procedure](docs/mgba/usa-a4ne.md)
+Use the following commands to repeat the regional comparison or look up script references. `auditer_terrain.py` also takes decimal script IDs to locate specific scripts.
 
 ```sh
 python3 outils/evenements/indexer_scripts.py roms/A4NE.gba --comparer roms/A4NP.gba
 python3 outils/evenements/indexer_scripts.py roms/A4NE.gba --audit-quatorze
 python3 outils/evenements/auditer_terrain.py roms/A4NE.gba 0342
+```
+
+To inspect a scene’s script and video memory, use the guide to record an mGBA 0.10.5 state. For this example, save `exports/mgba/sommeil-a4ne.state` while the farmhouse bed dialogue is open. [mGBA guide](docs/mgba/) · [US walkthrough](docs/mgba/usa-a4ne.md) · [European walkthrough](docs/mgba/europe-a4np.md)
+
+```sh
 python3 outils/mgba/inspecter_etat.py --rom roms/A4NE.gba exports/mgba/sommeil-a4ne.state
 ```
 
-The schedule selector procedure runs the ROM routines in isolation with Unicorn. It varies the date and weather while holding the other state fields fixed. [Schedule selector procedure](docs/selection-horaires.md#refaire-le-relevé)
+The schedule selector survey uses Unicorn to run the ROM routines in isolation. It varies the date and weather and keeps the other state fields fixed. [Survey procedure](docs/selection-horaires.md#refaire-le-relevé)
 
-## Coverage still in progress
+To add a reproducible result, specify the release, the ID or offset, the in-game situation, and the tool used. The reports distinguish normal gameplay observations, tests using prepared states, and static ROM analysis.
 
-Open work includes native US text outside event scripts, unresolved triggers and schedule conditions, map transitions and overlay placement, remaining interfaces and minigames, livestock data, and the on-cartridge save format. The M4A song table at `0x13ABF0` has 211 entries. Sequence, instrument bank, sample, and loop extraction is pending. The coverage notes also track the planned inventory of ROM byte ranges. [Detailed coverage and open areas](docs/couverture-a4ne.md)
+## Data still to document
 
-[Wokann FoMT disassembly](https://github.com/Wokann/fomt) · [StanHash’s event script format notes](https://github.com/StanHash/FOMT-DOC/blob/master/EventScripts.txt) · [mGBA 0.10.5](https://github.com/mgba-emu/mgba/releases/tag/0.10.5)
+Work in progress covers native A4NE text outside event scripts, unresolved triggers and schedule conditions, map transitions and overlay placement, the remaining interfaces and minigames, livestock data, and the cartridge save format. The M4A audio table at `0x13ABF0` contains 211 entries. Sequences, instrument banks, samples, and loops still need to be extracted, and the ROM byte ranges still need to be inventoried. [Detailed coverage status](docs/couverture-a4ne.md)
+
+[Wokann’s FoMT disassembly](https://github.com/Wokann/fomt) · [Event script format](https://github.com/StanHash/FOMT-DOC/blob/master/EventScripts.txt) · [mGBA 0.10.5](https://github.com/mgba-emu/mgba/releases/tag/0.10.5)

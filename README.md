@@ -8,7 +8,7 @@ Le projet vise à inventorier, extraire et documenter toutes les données de *Ha
 
 | Pour trouver… | Fichiers à ouvrir |
 | --- | --- |
-| Une réplique et son emplacement | [Dialogues USA en CSV](ressources/textes/A4NE/Dialogues-A4NE.csv) · [Dialogues USA en TXT](ressources/textes/A4NE/Dialogues-A4NE.txt) · [Catalogues Europe](ressources/textes/A4NP/) |
+| Une réplique et son emplacement | [Dialogues USA en CSV](ressources/textes/A4NE/Dialogues-A4NE.csv) · [Dialogues USA en TXT](ressources/textes/A4NE/Dialogues-A4NE.txt) · [Catalogue Europe en français](ressources/textes/A4NP/fr/) · [Catalogue Europe en anglais](ressources/textes/A4NP/en/) |
 | Un personnage ou un objet | [Noms des personnages](docs/textes/Personnages.csv) · [Objets et descriptions](docs/textes/Libelles-objets-A4NE.csv) · [Icônes nommées](docs/graphismes/objets/Index-icones-objets-A4NE.csv) |
 | Un prix, un aliment ou une offre de boutique | [Données économiques A4NE](ressources/donnees/economie/A4NE/) · [Structures et conditions](docs/economie.md) |
 | Une culture, une recette ou une prise de pêche | [Données d’activités A4NE](ressources/donnees/activites/A4NE/) · [Tables et conditions](docs/activites.md) |
@@ -19,7 +19,7 @@ Le projet vise à inventorier, extraire et documenter toutes les données de *Ha
 | Une procédure ou une capture mGBA | [Guide mGBA 0.10.5](docs/mgba/) · [Captures Europe](ressources/mgba/A4NP/captures/) · [Captures USA](ressources/graphismes/A4NE/mgba/) |
 | Les premiers essais de traduction | [Prototype 0.1](ressources/localisation/A4NP/0.1/LISEZMOI.md) · [Prototype 0.2](ressources/localisation/A4NP/0.2/LISEZMOI.md) |
 
-`ressources/` contient les textes, images, fichiers graphiques natifs et rapports. `docs/` contient les index techniques et les résultats de vérification. `outils/` contient les scripts Python. Pour consulter un gros CSV ou TXT sur GitHub, utiliser **Raw** ou **Download raw file**. [Inventaire des ressources](ressources/README.md) · [Empreintes des ZIP d’origine](docs/archives-de-travail.md)
+`ressources/` contient les textes, images, fichiers graphiques natifs et rapports. `docs/` contient les index techniques et les résultats de vérification, rédigés pour la plupart en français. `outils/` contient les scripts Python. Pour consulter un gros CSV ou TXT sur GitHub, utiliser **Raw** ou **Download raw file**. [Inventaire des ressources](ressources/README.md) · [Empreintes des ZIP d’origine](docs/archives-de-travail.md) · [Outils Python](outils/)
 
 ## Éditions et adresses de référence
 
@@ -41,7 +41,7 @@ Un identifiant comme `0162.00` désigne la première chaîne du script `0162`. I
 
 Les **52 entrées de personnages** couvrent les noms affichés, les rôles et les noms issus de la sauvegarde. Les tables d’inventaire comptent **347 objets** répartis en 81 outils, 171 aliments et 95 articles. Leurs noms et descriptions ont été comparés dans les deux éditions. [Catalogue des personnages](docs/textes/Personnages.csv) · [Libellés A4NE](docs/textes/Libelles-objets-A4NE.csv) · [Libellés A4NP](docs/textes/Libelles-objets-A4NP.csv)
 
-Les essais historiques A4NP ont documenté les champs de saisie du joueur, de la ferme et du chien, la largeur des libellés et les pointeurs utilisés par le moteur. Le prototype **0.2** et ses captures conservent le résultat de ces tests. [Essai 0.2](ressources/localisation/A4NP/0.2/LISEZMOI.md) · [Offsets de l’interface](docs/textes/README.md#saisie-du-joueur-de-la-ferme-et-du-chien)
+Les essais historiques A4NP ont documenté les champs de saisie du joueur, de la ferme et du chien, la largeur des libellés et les pointeurs utilisés par le moteur. Les deux prototypes regroupent les patchs BPS, les scripts de construction, les manifestes de texte et les captures. La version **0.2** inclut le bouton **Fini**. [Essai 0.1](ressources/localisation/A4NP/0.1/LISEZMOI.md) · [Essai 0.2](ressources/localisation/A4NP/0.2/LISEZMOI.md) · [Offsets de l’interface](docs/textes/README.md#saisie-du-joueur-de-la-ferme-et-du-chien)
 
 ## Événements et déclencheurs
 
@@ -66,17 +66,27 @@ L’extraction graphique A4NE compte **4 577 PNG** et conserve les index, les 
 
 Les cartes représentent les décors statiques. Les personnages, la météo, les cultures et les animations s’ajoutent selon l’état du jeu. Les **six relevés mGBA 0.10.5** documentent les palettes de décor (BG), les palettes de sprites (OBJ), les entrées OAM et les couches actives. Quatre proviennent d’une partie normale et deux du test préparé de Karen. Les mesures décrivent les données chargées et les objets dans le cadre avant la composition de l’image finale. [Relevés vidéo](docs/mgba/preuves-video.csv) · [Vues de diagnostic mGBA](docs/mgba/graphismes.md)
 
+Les essais Europe documentent aussi l’expédition, les semis, les cadeaux et la sauvegarde suivie d’un rechargement. [Rapport Europe](ressources/mgba/A4NP/Rapport.md) · [Captures Europe](ressources/mgba/A4NP/captures/)
+
 ## Terrain et interactions
 
 L’export de terrain couvre **155 descripteurs**, dont 66 plans de base, et **214 667 cellules** lues dans la ROM. Les grilles renvoient à **722 mots d’attribut** qui conservent les deux bits utilisés par les tests de collision et les identifiants de scripts. Un index situe les **9 383 cellules avec interaction** par plan ou retouche et par coordonnées locales. [Données de terrain](ressources/donnees/terrain/A4NE/) · [Format et limites du relevé](docs/terrain.md)
 
 ## Objets et économie
 
-Les CSV économiques A4NE couvrent **347 fiches d’objet**, les effets de base de **171 aliments**, les prix de **103 produits expédiables** et **12 catalogues de boutiques**. Les tables conservent les identifiants et offsets ROM. Les catalogues distinguent les prix stockés des conditions appliquées par le jeu. [Fichiers économiques](ressources/donnees/economie/A4NE/) · [Documentation](docs/economie.md)
+Les CSV économiques A4NE couvrent **347 fiches d’objet**, les effets de base de **171 aliments** sur l’endurance et la fatigue, les prix de **103 produits expédiables** et **12 catalogues de boutiques**. Les tables conservent les identifiants et offsets ROM. Les catalogues distinguent les prix stockés des conditions appliquées par le jeu. [Fichiers économiques](ressources/donnees/economie/A4NE/) · [Documentation](docs/economie.md) · [Conditions des boutiques](docs/economie-boutiques.md)
+
+## Ferme, cuisine et pêche
+
+Les exports A4NE couvrent **39 types de parcelles** avec les tables de croissance, de repousse et de météo. La cuisine comprend **117 définitions de recettes**, les listes d’ingrédients et d’ustensiles et les résultats d’échec. Les tables de pêche recensent **59 prises**, avec leurs tailles, zones, saisons et niveaux de canne. [Fichiers d’activités](ressources/donnees/activites/A4NE/) · [Formats et conditions](docs/activites.md)
+
+## Horaires et trajets des personnages
+
+Les tables A4NE couvrent **32 personnages**, **254 cases de variante** dont 222 avec un horaire, **1 122 étapes** et **430 trajets**. Un relevé distinct compte **38 400 appels** aux sélecteurs natifs sur les 120 jours de l’an 1, pour cinq codes météo et deux états mGBA, à 06:00. Ces appels ont renvoyé **122 cases de variante distinctes**. [Horaires et trajets](ressources/donnees/horaires/A4NE/) · [Résultats des sélecteurs](ressources/donnees/selecteurs/A4NE/) · [Méthode et résultats](docs/selection-horaires.md)
 
 ## Reproduire les vérifications
 
-Les exemples utilisent **Python 3.10 ou ultérieur** et des copies locales des ROM d’origine. Après avoir cloné le dépôt avec ton compte GitHub, placer les copies sous `roms/A4NE.gba` et, pour la comparaison, `roms/A4NP.gba`. Les ROM, sauvegardes et états mGBA restent dans l’environnement de test.
+Les exemples utilisent **Python 3.10 ou ultérieur** et des copies locales des ROM d’origine. Après avoir cloné le dépôt, placer les copies sous `roms/A4NE.gba` et, pour la comparaison, `roms/A4NP.gba`. Les ROM, sauvegardes et états mGBA restent dans l’environnement de test.
 
 ```sh
 git clone https://github.com/geekandgamer0202-alt/harvest-moon-fomt-disassembly.git
@@ -106,10 +116,18 @@ python3 outils/evenements/indexer_scripts.py roms/A4NE.gba --audit-quatorze
 python3 outils/evenements/auditer_terrain.py roms/A4NE.gba 0342
 ```
 
-Pour examiner le script et la mémoire vidéo d’une scène, enregistrer un état mGBA 0.10.5 à l’aide du guide. L’exemple lit l’état pris pendant le dialogue du lit à la ferme. [Guide mGBA](docs/mgba/) · [Parcours USA](docs/mgba/usa-a4ne.md) · [Parcours Europe](docs/mgba/europe-a4np.md)
+Pour examiner le script et la mémoire vidéo d’une scène, enregistrer un état mGBA 0.10.5 à l’aide du guide. Pour l’exemple, enregistrer `exports/mgba/sommeil-a4ne.state` pendant le dialogue du lit à la ferme. [Guide mGBA](docs/mgba/) · [Parcours USA](docs/mgba/usa-a4ne.md) · [Parcours Europe](docs/mgba/europe-a4np.md)
 
 ```sh
 python3 outils/mgba/inspecter_etat.py --rom roms/A4NE.gba exports/mgba/sommeil-a4ne.state
 ```
 
-Pour ajouter un relevé reproductible, préciser l’édition, l’ID ou l’offset, la situation en jeu et l’outil utilisé. Les rapports distinguent les observations en partie normale, les essais sur un état préparé et la lecture statique de la ROM. [Désassemblage FoMT de Wokann](https://github.com/Wokann/fomt) · [Format des scripts d’événement](https://github.com/StanHash/FOMT-DOC/blob/master/EventScripts.txt) · [mGBA 0.10.5](https://github.com/mgba-emu/mgba/releases/tag/0.10.5)
+Le relevé des sélecteurs d’horaires utilise Unicorn pour exécuter les routines ROM isolément. Il fait varier la date et la météo et garde les autres champs de l’état fixes. [Procédure de relevé](docs/selection-horaires.md#refaire-le-relevé)
+
+Pour ajouter un relevé reproductible, préciser l’édition, l’ID ou l’offset, la situation en jeu et l’outil utilisé. Les rapports distinguent les observations en partie normale, les essais sur un état préparé et la lecture statique de la ROM.
+
+## Données à documenter
+
+Les travaux en cours couvrent les textes natifs A4NE hors scripts d’événement, les déclencheurs et conditions d’horaires encore inconnus, les transitions entre cartes et le placement des retouches, les interfaces et mini-jeux restants, les données d’élevage et le format des sauvegardes sur cartouche. La table audio M4A à `0x13ABF0` compte 211 entrées. L’extraction des séquences, banques d’instruments, échantillons et boucles reste à faire, ainsi que l’inventaire des plages d’octets de la ROM. [État détaillé de la couverture](docs/couverture-a4ne.md)
+
+[Désassemblage FoMT de Wokann](https://github.com/Wokann/fomt) · [Format des scripts d’événement](https://github.com/StanHash/FOMT-DOC/blob/master/EventScripts.txt) · [mGBA 0.10.5](https://github.com/mgba-emu/mgba/releases/tag/0.10.5)
