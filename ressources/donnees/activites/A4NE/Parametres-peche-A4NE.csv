@@ -1,0 +1,8 @@
+zone,delais_rom,delai_06_08_s,delai_09_16_s,delai_17_19_s,delai_autres_s,poids_rom,poids_sans_prise,poids_message_bouteille,poids_dechets,poids_poissons,poids_prises_rares
+0,0x104E74,4,6,3,5,0x104EAC,8,0,5,84,3
+1,0x104E7C,4,6,3,5,0x104EB1,10,0,10,80,0
+2,0x104E84,3,5,3,4,0x104EB6,10,0,10,80,0
+3,0x104E8C,3,5,3,4,0x104EBB,8,0,15,74,3
+4,0x104E94,2,4,2,4,0x104EC0,7,10,20,60,3
+5,0x104E9C,6,6,6,6,0x104EC5,8,0,5,84,3
+6,0x104EA4,10,10,10,10,0x104ECA,97,0,0,0,3

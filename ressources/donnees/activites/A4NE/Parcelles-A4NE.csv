@@ -1,0 +1,40 @@
+type_parcelle,offset_rom,rendu_offset_rom,variante_stade_2,variante_stade_3,variante_stade_4,variante_stade_5,variante_stade_6,octet_reserve,resultat_brut,famille_recolte,id_recolte,nom_recolte,id_semence,nom_semence,saison_croissance,compteur_maturite,stade_repousse,compteur_repousse
+0,0x0E93F8,0x69B394,0,255,255,1,2,0,0x00,aliment,0x00,Turnip,0x32,Turnip Seeds,printemps,4,,
+1,0x0E9404,0x698DA8,0,255,255,1,2,0,0x01,aliment,0x01,Potato,0x33,Potato Seeds,printemps,7,,
+2,0x0E9410,0x698C04,0,1,255,2,3,0,0x02,aliment,0x02,Cucumber,0x34,Cucumber Seeds,printemps,9,2,4
+3,0x0E941C,0x69A074,0,1,255,2,3,0,0x03,aliment,0x03,Strawberry,0x35,Strawberry Seeds,printemps,8,3,6
+4,0x0E9428,0x698B80,0,1,255,2,3,0,0x04,aliment,0x04,Cabbage,0x36,Cabbage Seeds,printemps,14,,
+5,0x0E9434,0x69B31C,0,1,2,3,4,0,0x05,aliment,0x05,Tomato,0x37,Tomato Seeds,été,9,4,6
+6,0x0E9440,0x698BC8,0,1,2,3,4,0,0x06,aliment,0x06,Corn,0x38,Corn Seeds,été,14,4,11
+7,0x0E944C,0x698D18,0,255,255,1,2,0,0x07,aliment,0x07,Onion,0x39,Onion Seeds,été,7,,
+8,0x0E9458,0x698DCC,0,1,255,2,3,0,0x08,aliment,0x08,Pumpkin,0x3A,Pumpkin Seeds,été,14,,
+9,0x0E9464,0x698D3C,0,1,2,3,4,0,0x09,aliment,0x09,Pineapple,0x3B,Pineapple Seeds,été,20,4,15
+10,0x0E9470,0x698C34,0,1,255,2,255,0,0x0A,aliment,0x0A,Eggplant,0x3C,Eggplant Seeds,automne,9,3,6
+11,0x0E947C,0x698BB0,0,255,255,1,255,0,0x0B,aliment,0x0B,Carrot,0x3D,Carrot Seeds,automne,7,,
+12,0x0E9488,0x69B304,0,255,255,1,255,0,0x0C,aliment,0x0C,Sweet Potato,0x3E,Sweet Potato Seeds,automne,5,2,3
+13,0x0E9494,0x698DFC,0,255,255,1,255,0,0x0D,aliment,0x0D,Spinach,0x3F,Spinach Seeds,automne,5,,
+14,0x0E94A0,0x698C58,0,1,2,3,255,0,0x0E,aliment,0x0E,Green Pepper,0x40,Green Pepper Seeds,automne,7,4,5
+15,0x0E94AC,0x698CE8,0,1,255,2,3,0,0x00,article,0x00,Moon Drop Grass,0x42,Moon Drop Seeds,printemps,6,,
+16,0x0E94B8,0x698D78,0,1,255,2,3,0,0x01,article,0x01,Pink Cat Grass,0x43,Pink Cat Seeds,été,6,,
+17,0x0E94C4,0x698C88,0,1,2,3,255,0,0x02,article,0x02,Blue Magic Grass,0x44,Magic Seeds,automne,10,,
+18,0x0E94D0,0x698CB8,0,1,2,3,255,0,0x03,article,0x03,Red Magic Grass,0x44,Magic Seeds,automne,10,,
+19,0x0E94DC,0x69B358,0,1,2,3,4,0,0x04,article,0x04,Toy Flower,0x45,Toy Flower Seeds,printemps,12,,
+20,0x0E94E8,0x6D647C,255,255,255,255,255,0,0xFF,,,,0x41,Grass Seeds,hors hiver,11,,
+21,0x0E94F4,0x6D668C,0,255,255,255,255,0,0x30,article,0x30,Weeds,,,,,,
+22,0x0E9500,0x6D6614,0,255,255,255,255,0,0x31,article,0x31,Stones,,,,,,
+23,0x0E950C,0x6D6428,0,255,255,255,255,0,0x32,article,0x32,Branches,,,,,,
+24,0x0E9518,0x6D6530,0,255,255,255,255,0,0x59,article,0x59,Lumber,,,,,,
+25,0x0E9524,0x6D6440,0,255,255,255,255,0,0xFF,,,,,,,,,
+26,0x0E9530,0x6D6464,0,255,255,255,255,0,0x5A,article,0x5A,Golden Lumber,,,,,,
+27,0x0E953C,0x6D6644,0,255,255,255,255,0,0xFF,,,,,,,,,
+28,0x0E9548,0x6D6674,0,255,255,255,255,0,0xFF,,,,,,,,,
+29,0x0E9554,0x6D662C,0,255,255,255,255,0,0xFF,,,,,,,,,
+30,0x0E9560,0x6D665C,0,255,255,255,255,0,0xFF,,,,,,,,,
+31,0x0E956C,0x6D63E0,0,255,255,255,255,0,0xFF,,,,,,,,,
+32,0x0E9578,0x6D6410,0,255,255,255,255,0,0xFF,,,,,,,,,
+33,0x0E9584,0x6D63C8,0,255,255,255,255,0,0xFF,,,,,,,,,
+34,0x0E9590,0x6D63F8,0,255,255,255,255,0,0xFF,,,,,,,,,
+35,0x0E959C,0x6D65C0,0,255,255,255,255,0,0xFF,,,,,,,,,
+36,0x0E95A8,0x6D65F0,0,255,255,255,255,0,0xFF,,,,,,,,,
+37,0x0E95B4,0x6D65A8,0,255,255,255,255,0,0xFF,,,,,,,,,
+38,0x0E95C0,0x6D65D8,0,255,255,255,255,0,0xFF,,,,,,,,,

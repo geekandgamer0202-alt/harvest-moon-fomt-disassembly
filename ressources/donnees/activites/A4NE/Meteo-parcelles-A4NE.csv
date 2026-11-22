@@ -1,0 +1,11 @@
+ligne,offset_rom,saison,code_meteo,octet_0,octet_1,octet_2,octet_3,octet_4,octet_5,octet_6,octet_7
+0,0x0E8CC4,printemps,autres codes ordinaires,2,2,1,0,2,0,0,0
+1,0x0E8CCC,printemps,0,12,2,2,0,3,0,0,0
+2,0x0E8CD4,été,autres codes ordinaires,2,1,2,0,3,0,0,0
+3,0x0E8CDC,été,0,16,2,3,0,5,0,0,0
+4,0x0E8CE4,automne,autres codes ordinaires,2,2,1,0,2,0,0,0
+5,0x0E8CEC,automne,0,12,2,2,0,5,0,0,0
+6,0x0E8CF4,hiver,autres codes ordinaires,4,0,0,0,0,0,0,0
+7,0x0E8CFC,hiver,0,16,0,0,0,0,0,0,0
+8,0x0E8D04,,3,25,4,3,2,10,3,2,10
+9,0x0E8D0C,,4,25,0,0,0,0,3,2,0
