@@ -1,0 +1,114 @@
+boutique,catalogue,symbole,index,offset_rom,taille_octets,espace_identifiant,identifiant_local,famille_objet,id_objet,nom_objet,operation,prix_or_rom,bois_rom,conditions_verifiees,libelle_rom,offset_libelle_rom,offset_detail_rom,mode_rom,drapeau_description_rom,endurance_rom,champ_14_rom,champ_18_rom,octets_rom
+Supermarché,semences,gSupermarketCropSeedCatalog,0,0x0FDDD8,8,item_outil,0x32,outil,0x32,Turnip Seeds,achat,120,,Printemps,,,,,,,,,3200000078000000
+Supermarché,semences,gSupermarketCropSeedCatalog,1,0x0FDDE0,8,item_outil,0x33,outil,0x33,Potato Seeds,achat,150,,Printemps,,,,,,,,,3300000096000000
+Supermarché,semences,gSupermarketCropSeedCatalog,2,0x0FDDE8,8,item_outil,0x34,outil,0x34,Cucumber Seeds,achat,200,,Printemps,,,,,,,,,34000000C8000000
+Supermarché,semences,gSupermarketCropSeedCatalog,3,0x0FDDF0,8,item_outil,0x35,outil,0x35,Strawberry Seeds,achat,150,,"Printemps. Expédier au moins 100 navets, 100 pommes de terre et 100 concombres.",,,,,,,,,3500000096000000
+Supermarché,semences,gSupermarketCropSeedCatalog,4,0x0FDDF8,8,item_outil,0x37,outil,0x37,Tomato Seeds,achat,200,,Été,,,,,,,,,37000000C8000000
+Supermarché,semences,gSupermarketCropSeedCatalog,5,0x0FDE00,8,item_outil,0x38,outil,0x38,Corn Seeds,achat,300,,Été,,,,,,,,,380000002C010000
+Supermarché,semences,gSupermarketCropSeedCatalog,6,0x0FDE08,8,item_outil,0x39,outil,0x39,Onion Seeds,achat,150,,Été,,,,,,,,,3900000096000000
+Supermarché,semences,gSupermarketCropSeedCatalog,7,0x0FDE10,8,item_outil,0x3A,outil,0x3A,Pumpkin Seeds,achat,500,,"Été. Expédier au moins 100 tomates, 100 maïs et 100 oignons.",,,,,,,,,3A000000F4010000
+Supermarché,semences,gSupermarketCropSeedCatalog,8,0x0FDE18,8,item_outil,0x3C,outil,0x3C,Eggplant Seeds,achat,120,,Automne,,,,,,,,,3C00000078000000
+Supermarché,semences,gSupermarketCropSeedCatalog,9,0x0FDE20,8,item_outil,0x3D,outil,0x3D,Carrot Seeds,achat,300,,Automne,,,,,,,,,3D0000002C010000
+Supermarché,semences,gSupermarketCropSeedCatalog,10,0x0FDE28,8,item_outil,0x3E,outil,0x3E,Sweet Potato Seeds,achat,300,,Automne,,,,,,,,,3E0000002C010000
+Supermarché,semences,gSupermarketCropSeedCatalog,11,0x0FDE30,8,item_outil,0x3F,outil,0x3F,Spinach Seeds,achat,200,,"Automne. Expédier au moins 100 aubergines, 100 carottes et 100 patates douces.",,,,,,,,,3F000000C8000000
+Supermarché,semences,gSupermarketCropSeedCatalog,12,0x0FDE38,8,item_outil,0x41,outil,0x41,Grass Seeds,achat,500,,"Printemps, été et automne",,,,,,,,,41000000F4010000
+Supermarché,epicerie,gSupermarketFoodCatalog,0,0x0FDFA4,8,item_aliment,0x3F,aliment,0x3F,Rice Ball,achat,100,,,,,,,,,,,3F00000064000000
+Supermarché,epicerie,gSupermarketFoodCatalog,1,0x0FDFAC,8,item_aliment,0x40,aliment,0x40,Bread,achat,100,,,,,,,,,,,4000000064000000
+Supermarché,epicerie,gSupermarketFoodCatalog,2,0x0FDFB4,8,item_aliment,0x41,aliment,0x41,Oil,achat,50,,,,,,,,,,,4100000032000000
+Supermarché,epicerie,gSupermarketFoodCatalog,3,0x0FDFBC,8,item_aliment,0x42,aliment,0x42,Flower,achat,50,,,,,,,,,,,4200000032000000
+Supermarché,epicerie,gSupermarketFoodCatalog,4,0x0FDFC4,8,item_aliment,0x43,aliment,0x43,Curry Powder,achat,50,,,,,,,,,,,4300000032000000
+Supermarché,epicerie,gSupermarketFoodCatalog,5,0x0FDFCC,8,item_aliment,0x44,aliment,0x44,Muffin Mix,achat,100,,,,,,,,,,,4400000064000000
+Supermarché,epicerie,gSupermarketFoodCatalog,6,0x0FDFD4,8,item_aliment,0x45,aliment,0x45,Chocolate,achat,100,,,,,,,,,,,4500000064000000
+Supermarché,epicerie,gSupermarketFoodCatalog,7,0x0FDFDC,8,sentinelle_catalogue,0x00,,,,sentinelle,0,,,,,,,,,,,0000000000000000
+Clinique,medicaments,gClinicCatalog,0,0x0FE050,8,item_aliment,0x39,aliment,0x39,Bodigizer,achat,500,,,,,,,,,,,39000000F4010000
+Clinique,medicaments,gClinicCatalog,1,0x0FE058,8,item_aliment,0x3A,aliment,0x3A,Bodigizer XL,achat,1000,,,,,,,,,,,3A000000E8030000
+Clinique,medicaments,gClinicCatalog,2,0x0FE060,8,item_aliment,0x3B,aliment,0x3B,Turbojolt,achat,1000,,,,,,,,,,,3B000000E8030000
+Clinique,medicaments,gClinicCatalog,3,0x0FE068,8,item_aliment,0x3C,aliment,0x3C,Turbojolt XL,achat,2000,,,,,,,,,,,3C000000D0070000
+Won,etale,gWonShopCatalog,0,0x0FE484,8,item_article,0x35,article,0x35,Ball,achat,100,,,,,,,,,,,3500000064000000
+Won,etale,gWonShopCatalog,1,0x0FE48C,8,item_article,0x5E,article,0x5E,Frisbee,achat,5000,,,,,,,,,,,5E00000088130000
+Won,etale,gWonShopCatalog,2,0x0FE494,8,item_article,0x27,article,0x27,Jewel of Truth,achat,50000,,,,,,,,,,,2700000050C30000
+Won,etale,gWonShopCatalog,3,0x0FE49C,8,item_outil,0x36,outil,0x36,Cabbage Seeds,achat,500,,,,,,,,,,,36000000F4010000
+Won,etale,gWonShopCatalog,4,0x0FE4A4,8,item_outil,0x3B,outil,0x3B,Pineapple Seeds,achat,1000,,,,,,,,,,,3B000000E8030000
+Won,etale,gWonShopCatalog,5,0x0FE4AC,8,item_outil,0x40,outil,0x40,Green Pepper Seeds,achat,150,,,,,,,,,,,4000000096000000
+Won,etale,gWonShopCatalog,6,0x0FE4B4,8,item_outil,0x42,outil,0x42,Moon Drop Seeds,achat,500,,,,,,,,,,,42000000F4010000
+Won,etale,gWonShopCatalog,7,0x0FE4BC,8,item_outil,0x43,outil,0x43,Pink Cat Seeds,achat,300,,,,,,,,,,,430000002C010000
+Won,etale,gWonShopCatalog,8,0x0FE4C4,8,item_outil,0x44,outil,0x44,Magic Seeds,achat,600,,,,,,,,,,,4400000058020000
+Won,etale,gWonShopCatalog,9,0x0FE4CC,8,item_outil,0x45,outil,0x45,Toy Flower Seeds,achat,400,,,,,,,,,,,4500000090010000
+Domaine viticole Aja,vins,gWineryShopCatalog,0,0x0FE740,8,item_aliment,0x3D,aliment,0x3D,Wine,achat,300,,,,,,,,,,,3D0000002C010000
+Domaine viticole Aja,vins,gWineryShopCatalog,1,0x0FE748,8,item_aliment,0x3E,aliment,0x3E,Grape Juice,achat,200,,,,,,,,,,,3E000000C8000000
+Van,marchand_special,gSpecialMerchantShopCatalog,0,0x0FE8FC,8,item_article,0x40,article,0x40,Album 1,achat,500,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,40000000F4010000
+Van,marchand_special,gSpecialMerchantShopCatalog,1,0x0FE904,8,item_article,0x41,article,0x41,Album 2,achat,600,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,4100000058020000
+Van,marchand_special,gSpecialMerchantShopCatalog,2,0x0FE90C,8,item_article,0x42,article,0x42,Album 3,achat,700,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,42000000BC020000
+Van,marchand_special,gSpecialMerchantShopCatalog,3,0x0FE914,8,item_article,0x43,article,0x43,Album 4,achat,800,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,4300000020030000
+Van,marchand_special,gSpecialMerchantShopCatalog,4,0x0FE91C,8,item_article,0x44,article,0x44,Album 5,achat,900,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,4400000084030000
+Van,marchand_special,gSpecialMerchantShopCatalog,5,0x0FE924,8,item_article,0x45,article,0x45,Album 6,achat,1000,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,45000000E8030000
+Van,marchand_special,gSpecialMerchantShopCatalog,6,0x0FE92C,8,item_article,0x46,article,0x46,Album 7,achat,1100,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,460000004C040000
+Van,marchand_special,gSpecialMerchantShopCatalog,7,0x0FE934,8,item_article,0x47,article,0x47,Album 8,achat,1200,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,47000000B0040000
+Van,marchand_special,gSpecialMerchantShopCatalog,8,0x0FE93C,8,item_article,0x48,article,0x48,Album 9,achat,1300,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,4800000014050000
+Van,marchand_special,gSpecialMerchantShopCatalog,9,0x0FE944,8,item_article,0x49,article,0x49,Album 10,achat,1400,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,4900000078050000
+Van,marchand_special,gSpecialMerchantShopCatalog,10,0x0FE94C,8,code_marchand_special,0x0A,,,,achat_tourne_disque,2000,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,0A000000D0070000
+Van,marchand_special,gSpecialMerchantShopCatalog,11,0x0FE954,8,item_article,0x12,article,0x12,Copper,achat,150,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,1200000096000000
+Van,marchand_special,gSpecialMerchantShopCatalog,12,0x0FE95C,8,item_article,0x13,article,0x13,Silver,achat,200,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,13000000C8000000
+Van,marchand_special,gSpecialMerchantShopCatalog,13,0x0FE964,8,item_article,0x14,article,0x14,Gold,achat,250,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,14000000FA000000
+Van,marchand_special,gSpecialMerchantShopCatalog,14,0x0FE96C,8,item_article,0x15,article,0x15,Mystrile,achat,400,,Van à l’étage de l’auberge et joueur face à droite au comptoir. Certaines scènes en cours bloquent l’interaction.,,,,,,,,,1500000090010000
+Ferme avicole,volailles,gPoultryShopCatalog,0,0x0FD988,20,code_volailles,0x5C,article,0x5C,Chicken Feed,achat,10,,,,0x0FD964,0x0FD964,0,,,,,5C00000064D90F080A00000064D90F0800000000
+Ferme avicole,volailles,gPoultryShopCatalog,1,0x0FD99C,20,code_volailles,0x4A,outil,0x4A,Animal Medicine,achat,1000,,,,0x0FD964,0x0FD964,1,,,,,4A00000064D90F08E803000064D90F0801000000
+Ferme avicole,volailles,gPoultryShopCatalog,2,0x0FD9B0,20,code_volailles,0x02,,,,achat_animal,1500,,,Buy Chicken ,0x0FD968,0x0FD968,2,,,,,0200000068D90F08DC05000068D90F0802000000
+Ferme avicole,volailles,gPoultryShopCatalog,3,0x0FD9C4,20,code_volailles,0x03,,,,vente_animal_prix_variable,0,,,Sell Chicken,0x0FD978,0x0FD978,3,,,,,0300000078D90F080000000078D90F0803000000
+Ferme avicole,volailles,gPoultryShopCatalog,4,0x0FD9D8,20,code_volailles,0x04,,,,fiche_animal,0,,,,0x0FD964,0x0FD964,4,,,,,0400000064D90F080000000064D90F0804000000
+Auberge,menu_auberge,gInnShopMenu,0,0x0FE2D8,28,food_ui_id,0x1CD,,,,consommation,0,,,,,0x0FE264,,1,1,0,1,CD0100000000000064E20F0801000000010000000000000001000000
+Auberge,menu_auberge,gInnShopMenu,1,0x0FE2F4,28,food_ui_id,0x191,,,,consommation,500,,Le libellé du jeu indique une vente l’après-midi.,,,0x0FE284,,1,100,-20,0,91010000F401000084E20F080100000064000000ECFFFFFF00000000
+Auberge,menu_auberge,gInnShopMenu,2,0x0FE310,28,food_ui_id,0x4C,,,,consommation,300,,,,,0x0FE2BC,,0,20,-30,0,4C0000002C010000BCE20F080000000014000000E2FFFFFF00000000
+Auberge,menu_auberge,gInnShopMenu,3,0x0FE32C,28,food_ui_id,0x73,,,,consommation,300,,,,,0x0FE2BC,,0,50,-3,0,730000002C010000BCE20F080000000032000000FDFFFFFF00000000
+Auberge,menu_auberge,gInnShopMenu,4,0x0FE348,28,food_ui_id,0x71,,,,consommation,250,,,,,0x0FE2BC,,0,40,-3,0,71000000FA000000BCE20F080000000028000000FDFFFFFF00000000
+Auberge,menu_auberge,gInnShopMenu,5,0x0FE364,28,food_ui_id,0x8B,,,,consommation,200,,,,,0x0FE2BC,,0,20,-3,0,8B000000C8000000BCE20F080000000014000000FDFFFFFF00000000
+Auberge,menu_auberge,gInnShopMenu,6,0x0FE380,28,food_ui_id,0x4B,,,,consommation,500,,,,,0x0FE2BC,,0,1,-40,0,4B000000F4010000BCE20F080000000001000000D8FFFFFF00000000
+Auberge,menu_auberge,gInnShopMenu,7,0x0FE39C,28,food_ui_id,0x64,,,,consommation,300,,,,,0x0FE2BC,,0,3,-30,0,640000002C010000BCE20F080000000003000000E2FFFFFF00000000
+Auberge,menu_auberge,gInnShopMenu,8,0x0FE3B8,28,food_ui_id,0x122,,,,consommation,200,,,,,0x0FE2C0,,1,3,-20,1,22010000C8000000C0E20F080100000003000000ECFFFFFF01000000
+Café de la plage,menu_cafe,gBeachCafeShopMenu,0,0x0FEB60,28,food_ui_id,0x1CD,,,,consommation,0,,,,,0x0FEAF4,,1,1,0,1,CD01000000000000F4EA0F0801000000010000000000000001000000
+Café de la plage,menu_cafe,gBeachCafeShopMenu,1,0x0FEB7C,28,food_ui_id,0x63,,,,consommation,250,,,,,0x0FEB14,,0,20,-3,0,63000000FA00000014EB0F080000000014000000FDFFFFFF00000000
+Café de la plage,menu_cafe,gBeachCafeShopMenu,2,0x0FEB98,28,food_ui_id,0x1A6,,,,consommation,300,,,,,0x0FEB18,,1,40,-5,0,A60100002C01000018EB0F080100000028000000FBFFFFFF00000000
+Café de la plage,menu_cafe,gBeachCafeShopMenu,3,0x0FEBB4,28,food_ui_id,0x82,,,,consommation,200,,,,,0x0FEB14,,0,30,-3,0,82000000C800000014EB0F08000000001E000000FDFFFFFF00000000
+Café de la plage,menu_cafe,gBeachCafeShopMenu,4,0x0FEBD0,28,food_ui_id,0xF7,,,,consommation,300,,,,,0x0FEB3C,,1,1,-20,0,F70000002C0100003CEB0F080100000001000000ECFFFFFF00000000
+Forge,forge,gBlacksmithCatalog,0,0x0FED8C,20,selection_forge,0x00,,,,sous_menu_amelioration,0,,,            Upgrading ,0x0FEC7C,0x0FEC94,0,,,,,000000007CEC0F08000000000000000094EC0F08
+Forge,forge,gBlacksmithCatalog,1,0x0FEDA0,20,selection_forge,0x46,outil,0x46,Brush,achat,800,,,,0x0FECA4,0x0FECA4,1,,,,,46000000A4EC0F082003000001000000A4EC0F08
+Forge,forge,gBlacksmithCatalog,2,0x0FEDB4,20,selection_forge,0x47,outil,0x47,Milker,achat,2000,,,,0x0FECA4,0x0FECA4,1,,,,,47000000A4EC0F08D007000001000000A4EC0F08
+Forge,forge,gBlacksmithCatalog,3,0x0FEDC8,20,selection_forge,0x48,outil,0x48,Clipper,achat,1800,,,,0x0FECA4,0x0FECA4,1,,,,,48000000A4EC0F080807000001000000A4EC0F08
+Forge,forge,gBlacksmithCatalog,4,0x0FEDDC,20,selection_forge,0x04,,,,commande_machine,20000,,Requiert de l’Adamantite.,Make Mayonnaise Maker,0x0FECA8,0x0FECC0,3,,,,,04000000A8EC0F08204E000003000000C0EC0F08
+Forge,forge,gBlacksmithCatalog,5,0x0FEDF0,20,selection_forge,0x05,,,,commande_machine,20000,,Requiert de l’Adamantite.,Make Cheese Maker,0x0FECF8,0x0FECC0,3,,,,,05000000F8EC0F08204E000003000000C0EC0F08
+Forge,forge,gBlacksmithCatalog,6,0x0FEE04,20,selection_forge,0x06,,,,commande_machine,20000,,Requiert de l’Adamantite.,Make Yarn Maker,0x0FED0C,0x0FECC0,3,,,,,060000000CED0F08204E000003000000C0EC0F08
+Forge,forge,gBlacksmithCatalog,7,0x0FEE18,20,selection_forge,0x2D,article,0x2D,Necklace,commande_bijou,1000,,Requiert de l’Orichalc.,Make Necklace,0x0FED1C,0x0FED2C,2,,,,,2D0000001CED0F08E8030000020000002CED0F08
+Forge,forge,gBlacksmithCatalog,8,0x0FEE2C,20,selection_forge,0x2E,article,0x2E,Earrings,commande_bijou,1000,,Requiert de l’Orichalc.,Make Earrings,0x0FED60,0x0FED2C,2,,,,,2E00000060ED0F08E8030000020000002CED0F08
+Forge,forge,gBlacksmithCatalog,9,0x0FEE40,20,selection_forge,0x2C,article,0x2C,Bracelet,commande_bijou,1000,,Requiert de l’Orichalc.,Make Bracelet,0x0FED70,0x0FED2C,2,,,,,2C00000070ED0F08E8030000020000002CED0F08
+Forge,forge,gBlacksmithCatalog,10,0x0FEE54,20,selection_forge,0x2F,article,0x2F,Broach,commande_bijou,1000,,Requiert de l’Orichalc.,Make Broach,0x0FED80,0x0FED2C,2,,,,,2F00000080ED0F08E8030000020000002CED0F08
+Charpentier,charpente,gCarpenterCatalog,0,0x0FF6A8,20,option_charpentier,0x00,,,,achat_bois,50,0,,Lumber,0x0FF35C,,,,,,,5CF30F0832000000000000000000000000000000
+Charpentier,charpente,gCarpenterCatalog,1,0x0FF6BC,20,option_charpentier,0x00,,,,achat_bois,100000,0,,Golden Lumber,0x0FF364,,,,,,,64F30F08A0860100000000000000000000000000
+Charpentier,charpente,gCarpenterCatalog,2,0x0FF6D0,20,option_charpentier,0x01,,,,travaux,3000,200,,House Extension,0x0FF374,0x0FF384,,,,,,74F30F08B80B0000C80000000100000084F30F08
+Charpentier,charpente,gCarpenterCatalog,3,0x0FF6E4,20,option_charpentier,0x01,,,,travaux,10000,700,,House Extension,0x0FF374,0x0FF3CC,,,,,,74F30F0810270000BC02000001000000CCF30F08
+Charpentier,charpente,gCarpenterCatalog,4,0x0FF6F8,20,option_charpentier,0x01,,,,travaux,30000,580,,Add a Bathtub,0x0FF410,0x0FF420,,,,,,10F40F0830750000440200000100000020F40F08
+Charpentier,charpente,gCarpenterCatalog,5,0x0FF70C,20,option_charpentier,0x02,,,,travaux,5000,420,,Chicken Coop,0x0FF464,0x0FF474,,,,,,64F40F0888130000A40100000200000074F40F08
+Charpentier,charpente,gCarpenterCatalog,6,0x0FF720,20,option_charpentier,0x03,,,,travaux,6800,500,,Remodel Barn,0x0FF4C0,0x0FF4D0,,,,,,C0F40F08901A0000F401000003000000D0F40F08
+Charpentier,charpente,gCarpenterCatalog,7,0x0FF734,20,option_charpentier,0x04,,,,travaux,100000000,999,,Vacation House,0x0FF510,0x0FF520,,,,,,10F50F0800E1F505E70300000400000020F50F08
+Charpentier,charpente,gCarpenterCatalog,8,0x0FF748,20,option_charpentier,0x00,,,,sous_menu,0,0,,Remodel Window,0x0FF568,0x0FF578,,,,,,68F50F0800000000000000000000000078F50F08
+Charpentier,charpente,gCarpenterCatalog,9,0x0FF75C,20,option_charpentier,0x00,,,,sous_menu,0,0,,Remodel Doghouse,0x0FF584,0x0FF578,,,,,,84F50F0800000000000000000000000078F50F08
+Charpentier,charpente,gCarpenterCatalog,10,0x0FF770,20,option_charpentier,0x00,,,,sous_menu,0,0,,New Mailbox,0x0FF598,0x0FF578,,,,,,98F50F0800000000000000000000000078F50F08
+Charpentier,charpente,gCarpenterCatalog,11,0x0FF784,20,option_charpentier,0x05,,,,travaux,25000,300,,Sq. Window w/ Scr,0x0FF5A4,0x0FF5B8,,,,,,A4F50F08A86100002C01000005000000B8F50F08
+Charpentier,charpente,gCarpenterCatalog,12,0x0FF798,20,option_charpentier,0x06,,,,travaux,25000,300,,Sq. Window w/o Scr,0x0FF5DC,0x0FF5B8,,,,,,DCF50F08A86100002C01000006000000B8F50F08
+Charpentier,charpente,gCarpenterCatalog,13,0x0FF7AC,20,option_charpentier,0x07,,,,travaux,25000,300,,Round Window,0x0FF5F0,0x0FF5B8,,,,,,F0F50F08A86100002C01000007000000B8F50F08
+Charpentier,charpente,gCarpenterCatalog,14,0x0FF7C0,20,option_charpentier,0x0B,,,,travaux,20000,500,,Red Doghouse,0x0FF600,0x0FF610,,,,,,00F60F08204E0000F40100000B00000010F60F08
+Charpentier,charpente,gCarpenterCatalog,15,0x0FF7D4,20,option_charpentier,0x0C,,,,travaux,20000,500,,Blue Doghouse,0x0FF634,0x0FF610,,,,,,34F60F08204E0000F40100000C00000010F60F08
+Charpentier,charpente,gCarpenterCatalog,16,0x0FF7E8,20,option_charpentier,0x0D,,,,travaux,20000,500,,Strange Doghouse,0x0FF644,0x0FF610,,,,,,44F60F08204E0000F40100000D00000010F60F08
+Charpentier,charpente,gCarpenterCatalog,17,0x0FF7FC,20,option_charpentier,0x08,,,,travaux,10000,200,,Red Mailbox,0x0FF658,0x0FF664,,,,,,58F60F0810270000C80000000800000064F60F08
+Charpentier,charpente,gCarpenterCatalog,18,0x0FF810,20,option_charpentier,0x09,,,,travaux,10000,200,,Blue Mailbox,0x0FF688,0x0FF664,,,,,,88F60F0810270000C80000000900000064F60F08
+Charpentier,charpente,gCarpenterCatalog,19,0x0FF824,20,option_charpentier,0x0A,,,,travaux,10000,200,,Strange Mailbox,0x0FF698,0x0FF664,,,,,,98F60F0810270000C80000000A00000064F60F08
+Ranch Yodel,betail,gLivestockShopCatalog,0,0x0FFB90,20,code_betail,0x5B,article,0x5B,Animal Fodder,achat,20,,,,0x0FFB60,0x0FFB60,0,,,,,5B00000060FB0F081400000060FB0F0800000000
+Ranch Yodel,betail,gLivestockShopCatalog,1,0x0FFBA4,20,code_betail,0x01,,,,achat_animal,5000,,,Buy Cow,0x0FFB64,0x0FFB64,1,,,,,0100000064FB0F088813000064FB0F0801000000
+Ranch Yodel,betail,gLivestockShopCatalog,2,0x0FFBB8,20,code_betail,0x02,,,,achat_animal,4000,,,Buy Sheep,0x0FFB6C,0x0FFB6C,1,,,,,020000006CFB0F08A00F00006CFB0F0801000000
+Ranch Yodel,betail,gLivestockShopCatalog,3,0x0FFBCC,20,code_betail,0x30,outil,0x30,Cow Miracle Potion,achat,3000,,,,0x0FFB60,0x0FFB60,2,,,,,3000000060FB0F08B80B000060FB0F0802000000
+Ranch Yodel,betail,gLivestockShopCatalog,4,0x0FFBE0,20,code_betail,0x31,outil,0x31,Sheep Miracle Potion,achat,3000,,,,0x0FFB60,0x0FFB60,2,,,,,3100000060FB0F08B80B000060FB0F0802000000
+Ranch Yodel,betail,gLivestockShopCatalog,5,0x0FFBF4,20,code_betail,0x4A,outil,0x4A,Animal Medicine,achat,1000,,,,0x0FFB60,0x0FFB60,2,,,,,4A00000060FB0F08E803000060FB0F0802000000
+Ranch Yodel,betail,gLivestockShopCatalog,6,0x0FFC08,20,code_betail,0x49,outil,0x49,Bell,achat,500,,,,0x0FFB60,0x0FFB60,2,,,,,4900000060FB0F08F401000060FB0F0802000000
+Ranch Yodel,betail,gLivestockShopCatalog,7,0x0FFC1C,20,code_betail,0x07,,,,vente_animal_prix_variable,0,,,Sell Cow,0x0FFB78,0x0FFB78,3,,,,,0700000078FB0F080000000078FB0F0803000000
+Ranch Yodel,betail,gLivestockShopCatalog,8,0x0FFC30,20,code_betail,0x08,,,,vente_animal_prix_variable,0,,,Sell Sheep,0x0FFB84,0x0FFB84,3,,,,,0800000084FB0F080000000084FB0F0803000000
+Ranch Yodel,betail,gLivestockShopCatalog,9,0x0FFC44,20,code_betail,0x09,,,,fiche_animal,0,,,,0x0FFB60,0x0FFB60,4,,,,,0900000060FB0F080000000060FB0F0804000000
+Ranch Yodel,betail,gLivestockShopCatalog,10,0x0FFC58,20,code_betail,0x0A,,,,fiche_animal,0,,,,0x0FFB60,0x0FFB60,4,,,,,0A00000060FB0F080000000060FB0F0804000000

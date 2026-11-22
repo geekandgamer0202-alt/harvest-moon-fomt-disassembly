@@ -8,6 +8,7 @@ Le projet vise à inventorier, extraire et documenter toutes les données de *Ha
 | --- | --- |
 | Une réplique et son emplacement | [Dialogues USA en CSV](ressources/textes/A4NE/Dialogues-A4NE.csv) · [Dialogues USA en TXT](ressources/textes/A4NE/Dialogues-A4NE.txt) · [Catalogues Europe](ressources/textes/A4NP/) |
 | Un personnage ou un objet | [Noms des personnages](docs/textes/Personnages.csv) · [Objets et descriptions](docs/textes/Libelles-objets-A4NE.csv) · [Icônes nommées](docs/graphismes/objets/Index-icones-objets-A4NE.csv) |
+| Un prix, un aliment ou une offre de boutique | [Données économiques A4NE](ressources/donnees/economie/A4NE/) · [Structures et conditions](docs/economie.md) |
 | Le déclencheur d’une scène | [Événements et appels](docs/evenements/) · [Vie de famille](docs/evenements/vie-de-famille.md) · [Audit des 14 déclencheurs](docs/evenements/declencheurs-14.md) |
 | Une carte, un portrait ou un sprite | [Dossier des graphismes](ressources/graphismes/A4NE/) · [Aperçu](ressources/graphismes/A4NE/Apercu.png) · [Index et offsets graphiques](docs/graphismes/) |
 | Les attributs et scripts d’une case | [Grilles de terrain](ressources/donnees/terrain/A4NE/) · [Index des interactions](ressources/donnees/terrain/A4NE/Interactions-A4NE.csv) · [Format des données](docs/terrain.md) |
@@ -65,6 +66,10 @@ Les cartes représentent les décors statiques. Les personnages, la météo, les
 
 L’export de terrain couvre **155 descripteurs**, dont 66 plans de base, et **214 667 cellules** lues dans la ROM. Les grilles renvoient à **722 mots d’attribut** qui conservent les deux bits utilisés par les tests de collision et les identifiants de scripts. Un index situe les **9 383 cellules avec interaction** par plan ou retouche et par coordonnées locales. [Données de terrain](ressources/donnees/terrain/A4NE/) · [Format et limites du relevé](docs/terrain.md)
 
+## Objets et économie
+
+Les CSV économiques A4NE couvrent **347 fiches d’objet**, les effets de base de **171 aliments**, les prix de **103 produits expédiables** et **12 catalogues de boutiques**. Les tables conservent les identifiants et offsets ROM. Les catalogues distinguent les prix stockés des conditions appliquées par le jeu. [Fichiers économiques](ressources/donnees/economie/A4NE/) · [Documentation](docs/economie.md)
+
 ## Reproduire les vérifications
 
 Les exemples utilisent **Python 3.10 ou ultérieur** et des copies locales des ROM d’origine. Après avoir cloné le dépôt avec ton compte GitHub, placer les copies sous `roms/A4NE.gba` et, pour la comparaison, `roms/A4NP.gba`. Les ROM, sauvegardes et états mGBA restent dans l’environnement de test.
@@ -84,6 +89,7 @@ python3 outils/evenements/indexer_scripts.py roms/A4NE.gba --appels > exports/ap
 python3 outils/textes/indexer_textes.py roms/A4NE.gba > exports/index-textes-a4ne.csv
 python3 outils/graphismes/verifier_index_a4ne.py roms/A4NE.gba
 python3 outils/evenements/exporter_terrain.py roms/A4NE.gba exports/terrain-a4ne
+python3 outils/economie/exporter_economie.py roms/A4NE.gba exports/economie-a4ne
 ```
 
 Pour refaire la comparaison régionale ou les recherches de références, utiliser les commandes suivantes. `auditer_terrain.py` accepte aussi des identifiants décimaux en arguments pour localiser un script précis.
