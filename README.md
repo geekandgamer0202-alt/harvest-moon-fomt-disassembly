@@ -1,5 +1,7 @@
 # Désassemblage de Harvest Moon: Friends of Mineral Town
 
+**Français** · [English](README.en.md)
+
 Le projet vise à inventorier, extraire et documenter toutes les données de *Harvest Moon: Friends of Mineral Town* sur Game Boy Advance. L’édition américaine **A4NE** sert de référence. L’édition européenne **A4NP** sert à la comparaison. Les essais français d’origine font partie des archives du projet. [Couverture de la ROM et lots d’extraction](docs/couverture-a4ne.md)
 
 ## Accès rapide
