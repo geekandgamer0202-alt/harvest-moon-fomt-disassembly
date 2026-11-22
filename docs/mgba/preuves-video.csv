@@ -1,0 +1,7 @@
+rom,scene,origine,sha256_etat,mode_video,dispcnt,bldcnt,couches_bg,couleurs_bg_distinctes,couleurs_obj_distinctes,objets_oam_avant_occlusion
+A4NP,ferme-interieur,partie normale,392d35d85adc1dd09b39ebe4aa6c66b9b360a253ec77968978f4940b325ea6c1,0,0x3F40,0x00FF,4,104,166,11
+A4NP,ferme-exterieur-miel,partie normale,36e33530ce30c7b2f381ac5f958266722bc9ae136cd18e7a407d3730e6154cbc,0,0x3F40,0x00FF,4,187,194,12
+A4NE,ferme-sommeil,partie normale,a3cdaa1b65c25d0d72962c0fb586617c805ce928b3b8c5fdabfbe20240af5ebc,0,0x7F40,0x00FF,4,104,166,29
+A4NE,ferme-reveil,partie normale,46d37b641a16ac8d087705191512d74b7ce100a13ce6cbc8beddde9e31574e80,0,0x3F40,0x00FF,4,104,166,11
+A4NE,ferme-karen,état de test préparé en RAM,3b41a8b930968660db394c2f18995f09061c30448a982cc769d8ce886ca543dd,0,0x7F40,0x00FF,4,149,182,46
+A4NE,clinique-annonce,état de test préparé en RAM,8f1c0b0614560438685c0950d52ada762fdb855661dff3ae7562eba0394572eb,0,0x7F40,0x00FF,4,154,178,48

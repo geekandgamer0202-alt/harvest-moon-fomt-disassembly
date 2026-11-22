@@ -1,0 +1,48 @@
+offset_rom,adresse_gba,export_local_png,couleurs,premiere_banque_bg,derniere_banque_bg,plans_et_periodes
+0x67EC24,0x0867EC24,exports/graphismes-a4ne/cartes/palettes/67EC24.png,240,1,15,14:jour
+0x681E54,0x08681E54,exports/graphismes-a4ne/cartes/palettes/681E54.png,240,1,15,14:nuit
+0x686F2C,0x08686F2C,exports/graphismes-a4ne/cartes/palettes/686F2C.png,240,1,15,15:jour
+0x68A17C,0x0868A17C,exports/graphismes-a4ne/cartes/palettes/68A17C.png,240,1,15,15:nuit
+0x68D70C,0x0868D70C,exports/graphismes-a4ne/cartes/palettes/68D70C.png,240,1,15,08:jour
+0x68E1E4,0x0868E1E4,exports/graphismes-a4ne/cartes/palettes/68E1E4.png,240,1,15,08:nuit
+0x69089C,0x0869089C,exports/graphismes-a4ne/cartes/palettes/69089C.png,240,1,15,09:jour
+0x691308,0x08691308,exports/graphismes-a4ne/cartes/palettes/691308.png,240,1,15,09:nuit
+0x692C8C,0x08692C8C,exports/graphismes-a4ne/cartes/palettes/692C8C.png,240,1,15,36:jour 36:nuit 37:jour 37:nuit 38:jour 38:nuit 39:jour 39:nuit 40:jour 40:nuit 64:jour 64:nuit 65:jour 65:nuit
+0x695BA8,0x08695BA8,exports/graphismes-a4ne/cartes/palettes/695BA8.png,240,1,15,44:jour 44:nuit 45:jour 45:nuit
+0x6977C8,0x086977C8,exports/graphismes-a4ne/cartes/palettes/6977C8.png,240,1,15,53:jour 53:nuit 54:jour 54:nuit 55:jour 55:nuit
+0x69F2E0,0x0869F2E0,exports/graphismes-a4ne/cartes/palettes/69F2E0.png,240,1,15,00:jour 62:jour 62:nuit 63:jour 63:nuit
+0x6A0098,0x086A0098,exports/graphismes-a4ne/cartes/palettes/6A0098.png,240,1,15,00:nuit
+0x6A3F48,0x086A3F48,exports/graphismes-a4ne/cartes/palettes/6A3F48.png,240,1,15,01:jour
+0x6A4E98,0x086A4E98,exports/graphismes-a4ne/cartes/palettes/6A4E98.png,240,1,15,01:nuit
+0x6A88E8,0x086A88E8,exports/graphismes-a4ne/cartes/palettes/6A88E8.png,240,1,15,10:jour 12:jour
+0x6AA074,0x086AA074,exports/graphismes-a4ne/cartes/palettes/6AA074.png,240,1,15,10:nuit 12:nuit
+0x6ADA88,0x086ADA88,exports/graphismes-a4ne/cartes/palettes/6ADA88.png,240,1,15,11:jour 13:jour
+0x6AF274,0x086AF274,exports/graphismes-a4ne/cartes/palettes/6AF274.png,240,1,15,11:nuit 13:nuit
+0x6B1314,0x086B1314,exports/graphismes-a4ne/cartes/palettes/6B1314.png,240,1,15,25:jour 25:nuit
+0x6B697C,0x086B697C,exports/graphismes-a4ne/cartes/palettes/6B697C.png,240,1,15,29:jour 29:nuit 30:jour 30:nuit 31:jour 31:nuit
+0x6BB440,0x086BB440,exports/graphismes-a4ne/cartes/palettes/6BB440.png,240,1,15,22:jour 22:nuit 23:jour 23:nuit 24:jour 24:nuit
+0x6BCFFC,0x086BCFFC,exports/graphismes-a4ne/cartes/palettes/6BCFFC.png,240,1,15,50:jour 50:nuit 51:jour 51:nuit
+0x6C0ADC,0x086C0ADC,exports/graphismes-a4ne/cartes/palettes/6C0ADC.png,240,1,15,32:jour 32:nuit 33:jour 33:nuit 34:jour 34:nuit 35:jour 35:nuit
+0x6C1D44,0x086C1D44,exports/graphismes-a4ne/cartes/palettes/6C1D44.png,240,1,15,52:jour 52:nuit
+0x6C4D68,0x086C4D68,exports/graphismes-a4ne/cartes/palettes/6C4D68.png,240,1,15,41:jour 41:nuit 42:jour 42:nuit 43:jour 43:nuit
+0x6CB62C,0x086CB62C,exports/graphismes-a4ne/cartes/palettes/6CB62C.png,240,1,15,04:jour
+0x6CDEB8,0x086CDEB8,exports/graphismes-a4ne/cartes/palettes/6CDEB8.png,240,1,15,04:nuit
+0x6D2E98,0x086D2E98,exports/graphismes-a4ne/cartes/palettes/6D2E98.png,240,1,15,05:jour
+0x6D5428,0x086D5428,exports/graphismes-a4ne/cartes/palettes/6D5428.png,240,1,15,05:nuit
+0x6DAEA8,0x086DAEA8,exports/graphismes-a4ne/cartes/palettes/6DAEA8.png,240,1,15,18:jour 18:nuit 19:jour 19:nuit 20:jour 20:nuit 21:jour 21:nuit
+0x6DBD84,0x086DBD84,exports/graphismes-a4ne/cartes/palettes/6DBD84.png,240,1,15,56:jour 56:nuit 57:jour 57:nuit 58:jour 58:nuit 59:jour 59:nuit 60:jour 60:nuit 61:jour 61:nuit
+0x6FD19C,0x086FD19C,exports/graphismes-a4ne/cartes/palettes/6FD19C.png,240,1,15,02:jour
+0x6FDA8C,0x086FDA8C,exports/graphismes-a4ne/cartes/palettes/6FDA8C.png,240,1,15,02:nuit
+0x6FFA84,0x086FFA84,exports/graphismes-a4ne/cartes/palettes/6FFA84.png,240,1,15,03:jour
+0x700374,0x08700374,exports/graphismes-a4ne/cartes/palettes/700374.png,240,1,15,03:nuit
+0x7038D4,0x087038D4,exports/graphismes-a4ne/cartes/palettes/7038D4.png,240,1,15,26:jour 26:nuit 27:jour 27:nuit 28:jour 28:nuit
+0x709BA8,0x08709BA8,exports/graphismes-a4ne/cartes/palettes/709BA8.png,240,1,15,06:jour
+0x70B6A8,0x0870B6A8,exports/graphismes-a4ne/cartes/palettes/70B6A8.png,240,1,15,06:nuit
+0x7104B4,0x087104B4,exports/graphismes-a4ne/cartes/palettes/7104B4.png,240,1,15,07:jour
+0x711C90,0x08711C90,exports/graphismes-a4ne/cartes/palettes/711C90.png,240,1,15,07:nuit
+0x714580,0x08714580,exports/graphismes-a4ne/cartes/palettes/714580.png,240,1,15,16:jour
+0x714AD0,0x08714AD0,exports/graphismes-a4ne/cartes/palettes/714AD0.png,240,1,15,16:nuit
+0x716B38,0x08716B38,exports/graphismes-a4ne/cartes/palettes/716B38.png,240,1,15,17:jour
+0x717018,0x08717018,exports/graphismes-a4ne/cartes/palettes/717018.png,240,1,15,17:nuit
+0x71AAD8,0x0871AAD8,exports/graphismes-a4ne/cartes/palettes/71AAD8.png,240,1,15,48:jour 48:nuit 49:jour 49:nuit
+0x71D3F4,0x0871D3F4,exports/graphismes-a4ne/cartes/palettes/71D3F4.png,240,1,15,46:jour 46:nuit 47:jour 47:nuit

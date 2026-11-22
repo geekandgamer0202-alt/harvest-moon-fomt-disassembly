@@ -1,0 +1,53 @@
+id_personnage,nom_affiche,type,offset_a4ne,offset_a4np,case_a4ne,case_a4np,identifiant_interne,symbole_ou_script,contexte,preuve_a4np
+1,Lillia,nom affiché,0x104128,0x104180,0x104260,0x1042B8,CHARACTER_LILLIA,gText_CharacterName_Lillia,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+2,Rick,nom affiché,0x104130,0x104188,0x104268,0x1042C0,CHARACTER_RICK,gText_CharacterName_Rick,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+3,Popuri,nom affiché,0x104138,0x104190,0x104270,0x1042C8,CHARACTER_POPURI,gText_CharacterName_Popuri,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+4,Barley,nom affiché,0x104140,0x104198,0x104278,0x1042D0,CHARACTER_BARLEY,gText_CharacterName_Barley,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+5,May,nom affiché,0x104148,0x1041A0,0x104280,0x1042D8,CHARACTER_MAY,gText_CharacterName_May,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+6,Saibara,nom affiché,0x10414C,0x1041A4,0x104288,0x1042E0,CHARACTER_SAIBARA,gText_CharacterName_Saibara,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+7,Gray,nom affiché,0x104154,0x1041AC,0x104290,0x1042E8,CHARACTER_GRAY,gText_CharacterName_Gray,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+8,Duke,nom affiché,0x10415C,0x1041B4,0x104298,0x1042F0,CHARACTER_DUKE,gText_CharacterName_Duke,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+9,Manna,nom affiché,0x104164,0x1041BC,0x1042A0,0x1042F8,CHARACTER_MANNA,gText_CharacterName_Manna,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+10,Basil,nom affiché,0x10416C,0x1041C4,0x1042A8,0x104300,CHARACTER_BASIL,gText_CharacterName_Basil,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+11,Anna,nom affiché,0x104174,0x1041CC,0x1042B0,0x104308,CHARACTER_ANNA,gText_CharacterName_Anna,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+12,Mary,nom affiché,0x10417C,0x1041D4,0x1042B8,0x104310,CHARACTER_MARY,gText_CharacterName_Mary,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+13,Thomas,nom affiché,0x104184,0x1041DC,0x1042C0,0x104318,CHARACTER_THOMAS,gText_CharacterName_Thomas,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+14,Harris,nom affiché,0x10418C,0x1041E4,0x1042C8,0x104320,CHARACTER_HARRIS,gText_CharacterName_Harris,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+15,Ellen,nom affiché,0x104194,0x1041EC,0x1042D0,0x104328,CHARACTER_ELLEN,gText_CharacterName_Ellen,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+16,Stu,nom affiché,0x10419C,0x1041F4,0x1042D8,0x104330,CHARACTER_STU,gText_CharacterName_Stu,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+17,Jeff,nom affiché,0x1041A0,0x1041F8,0x1042E0,0x104338,CHARACTER_JEFF,gText_CharacterName_Jeff,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+18,Sasha,nom affiché,0x1041A8,0x104200,0x1042E8,0x104340,CHARACTER_SASHA,gText_CharacterName_Sasha,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+19,Karen,nom affiché,0x1041B0,0x104208,0x1042F0,0x104348,CHARACTER_KAREN,gText_CharacterName_Karen,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+20,Doctor,titre affiché,0x1041B8,0x104210,0x1042F8,0x104350,CHARACTER_DOCTOR,gText_CharacterName_Doctor,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+21,Elli,nom affiché,0x1041C0,0x104218,0x104300,0x104358,CHARACTER_ELLI,gText_CharacterName_Elli,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+22,Carter,nom affiché,0x1041C8,0x104220,0x104308,0x104360,CHARACTER_CARTER,gText_CharacterName_Carter,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+23,Cliff,nom affiché,0x1041D0,0x104228,0x104310,0x104368,CHARACTER_CLIFF,gText_CharacterName_Cliff,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+24,Doug,nom affiché,0x1041D8,0x104230,0x104318,0x104370,CHARACTER_DOUG,gText_CharacterName_Doug,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+25,Ann,nom affiché,0x1041E0,0x104238,0x104320,0x104378,CHARACTER_ANN,gText_CharacterName_Ann,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+26,Kai,nom affiché,0x1041E4,0x10423C,0x104328,0x104380,CHARACTER_KAI,gText_CharacterName_Kai,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+27,Gotz,nom affiché,0x1041E8,0x104240,0x104330,0x104388,CHARACTER_GOTZ,gText_CharacterName_Gotz,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+28,Zack,nom affiché,0x1041F0,0x104248,0x104338,0x104390,CHARACTER_ZACK,gText_CharacterName_Zack,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+29,Won,nom affiché,0x1041F8,0x104250,0x104340,0x104398,CHARACTER_WON,gText_CharacterName_Won,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+30,Gourmet,titre affiché,0x1041FC,0x104254,0x104348,0x1043A0,CHARACTER_GOURMET,gText_CharacterName_Gourmet,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+31,H. Goddess,titre affiché,0x104204,0x10425C,0x104350,0x1043A8,CHARACTER_HARVEST_GODDESS,gText_CharacterName_HarvestGoddess,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+32,Kappa,nom affiché,0x104210,0x104268,0x104358,0x1043B0,CHARACTER_KAPPA,gText_CharacterName_Kappa,Nom recherché dans la table des personnages.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+33,Lou,nom affiché,0x104218,0x104270,0x104360,0x1043B8,CHARACTER_VAN,gText_CharacterName_Van,Plaque de nom du marchand de passage dans A4NP. Il se présente comme Van.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+34,Lu,nom affiché,0x10421C,0x104274,0x104368,0x1043C0,CHARACTER_LOU_OR_RUBY,gText_CharacterName_LouOrRuby,Plaque de nom de la visiteuse dans A4NP. Elle se présente comme Lou.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+35,,nom saisi en jeu,,,0x104370,0x1043C8,CHARACTER_CHILD,Child::GetName,Nom de l’enfant conservé dans la sauvegarde. La table contient une entrée vide.,src/npc_collection.cc et src/child.cc
+36,Staid,nom affiché,0x104220,0x104278,0x104378,0x1043D0,CHARACTER_STAID,gText_CharacterName_Staid,Nom affiché d’un lutin de la récolte.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+37,Nappy,nom affiché,0x104228,0x104280,0x104380,0x1043D8,CHARACTER_NAPPY,gText_CharacterName_Nappy,Nom affiché d’un lutin de la récolte.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+38,Bold,nom affiché,0x104230,0x104288,0x104388,0x1043E0,CHARACTER_BOLD,gText_CharacterName_Bold,Nom affiché d’un lutin de la récolte.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+39,Chef,nom affiché,0x104238,0x104290,0x104390,0x1043E8,CHARACTER_CHEF,gText_CharacterName_Chef,Nom affiché d’un lutin de la récolte.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+40,Aqua,nom affiché,0x104240,0x104298,0x104398,0x1043F0,CHARACTER_AQUA,gText_CharacterName_Aqua,Nom affiché d’un lutin de la récolte.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+41,Hoggy,nom affiché,0x104248,0x1042A0,0x1043A0,0x1043F8,CHARACTER_HOGGY,gText_CharacterName_Hoggy,Nom affiché d’un lutin de la récolte.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+42,Timid,nom affiché,0x104250,0x1042A8,0x1043A8,0x104400,CHARACTER_TIMID,gText_CharacterName_Timid,Nom affiché d’un lutin de la récolte.,src/npc_collection.cc et data/text/eu/npc_collection.cc
+,Mother,rôle du prologue,0x0FB234,0x0FB280,,,,gText_IntroScene_MotherName,Rôle de la mère durant le souvenir.,src/intro_story_scene.cc · UpdateIntroStoryUi · lecture 0x05F776
+,Father,rôle du prologue,0x0FB27C,0x0FB2C8,,,,gText_IntroScene_FatherName,Rôle du père durant le souvenir.,src/intro_story_scene.cc · UpdateIntroStoryUi · lecture 0x05F7B2
+,Old Man,rôle du prologue,0x0FB300,0x0FB34C,,,,gText_IntroScene_OldManName,Rôle du vieil homme durant le souvenir.,src/intro_story_scene.cc · UpdateIntroStoryUi · lecture 0x05F842
+,???,plaque provisoire,0x0FB51C,0x0FB568,,,,gText_IntroScene_UnknownName,Un interlocuteur appelle le joueur avant d’être identifié à l’écran.,src/intro_story_scene.cc · UpdateIntroStoryUi · lecture 0x05F99A
+,Girl,rôle du prologue,0x0FB53C,0x0FB588,,,,gText_IntroScene_GirlName,Rôle de la fillette durant le souvenir.,src/intro_story_scene.cc · UpdateIntroStoryUi · lecture 0x05F9E2
+33,Van,nom dit en dialogue,0x3705E7,0x37063F,,,CHARACTER_VAN,0813.00,Le marchand se présente dans son événement d’introduction.,STR 0813.00 · début de la chaîne 0x370604
+34,Lou,nom dit en dialogue,0x3707BA,0x370812,,,CHARACTER_LOU_OR_RUBY,0814.00,La visiteuse se présente dans son événement d’introduction.,STR 0814.00 · début de la chaîne 0x3707FC
+,,nom saisi en jeu,,,,,ENTITY_PLAYER,Farmer::GetName,Le joueur saisit son nom au début de la partie.,src/farmer.cc et src/scene_text_variables.cc
+,Moneybags ,surnom de substitution,0x0F1974,0x0F19C0,,,ENTITY_PLAYER,gText_Moneybags,Le bois doré était présent sur la ferme au début de la journée et s’y trouve encore.,src/scene_text_variables.cc · lecture 0x03B564
+35,Unnamed setting,texte de remplacement,0x0F1984,0x0F19D0,,,CHARACTER_CHILD,gText_UnnamedSetting,Une réplique demande le nom de l’enfant alors que la sauvegarde ne contient pas d’enfant.,src/scene_text_variables.cc · lecture 0x03B60C

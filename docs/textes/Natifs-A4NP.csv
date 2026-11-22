@@ -1,0 +1,284 @@
+id,offset_rom,octets,symbole,definition,lectures_thumb,contexte
+N0E8738,0x0E8738,3,gText_NewGameMenu_Yes,data/text/eu/new_game_menu_1.cc:31,0x004834>0x00484C|0x004894>0x0048AC,Journal — Option affirmative de la question affichée
+N0E873C,0x0E873C,2,gText_NewGameMenu_No,data/text/eu/new_game_menu_1.cc:34,0x004836>0x004850|0x004896>0x0048B0,Journal — Option négative de la question affichée
+N0E87D8,0x0E87D8,23,gText_NewGameStatus_NoSavedData,data/text/eu/new_game_menu_2.cc:25,0x003F6E>0x003F74|0x004858>0x004874,Journal — Sélection d’un emplacement de sauvegarde vide
+N0E8914,0x0E8914,13,gText_NewGameSave_SaveFailed,data/text/eu/new_game_menu_2.cc:47,0x004082>0x0040B0,Journal — Échec de l’écriture de la sauvegarde
+N0E8924,0x0E8924,48,gText_NewGameSave_LoadFailed,data/text/eu/new_game_menu_2.cc:50,0x0041BC>0x0041EC,Journal — Échec du chargement de la sauvegarde
+N0E8958,0x0E8958,5,gText_NewGameSave_LoadPrompt,data/text/eu/new_game_menu_2.cc:55,0x004832>0x004848,Journal — Validation d’un emplacement occupé pour reprendre
+N0E8960,0x0E8960,10,gText_NewGameSave_OverwritePrompt,data/text/eu/new_game_menu_2.cc:58,0x004892>0x0048A8,Journal — Demande d’écraser un emplacement déjà occupé
+N0E89E4,0x0E89E4,11,gText_NewGameIdentity_Confirm,data/text/eu/new_game_identity.cc:13,0x0058FE>0x005918,Nouvelle partie — Validation récapitulative de l’identité du personnage
+N0E89F0,0x0E89F0,3,gText_NewGameIdentity_Yes,data/text/eu/new_game_identity.cc:16,0x005900>0x00591C,Nouvelle partie — Option affirmative de la question affichée
+N0E89F4,0x0E89F4,2,gText_NewGameIdentity_No,data/text/eu/new_game_identity.cc:19,0x005902>0x005920,Nouvelle partie — Option négative de la question affichée
+N0E8C78,0x0E8C78,21,gText_NewGameNameEntry_Confirm,data/text/eu/new_game_name_input.cc:42,0x007020>0x00703C,Saisie du nom — Validation du nom saisi
+N0E8C90,0x0E8C90,3,gText_NewGameNameEntry_Yes,data/text/eu/new_game_name_input.cc:45,0x007022>0x007040,Saisie du nom — Option affirmative de la question affichée
+N0E8C94,0x0E8C94,2,gText_NewGameNameEntry_No,data/text/eu/new_game_name_input.cc:48,0x007024>0x007044,Saisie du nom — Option négative de la question affichée
+N0FA404,0x0FA404,3,gText_Frisbee_Yes,data/text/eu/frisbee_core.cc:6,0x0538BA>0x0538D8|0x053904>0x053924,Option pour accepter la répétition des règles ou une nouvelle partie — Frisbee
+N0FA408,0x0FA408,2,gText_Frisbee_No,data/text/eu/frisbee_core.cc:9,0x0538B8>0x0538D4|0x053906>0x053928,Option pour passer les règles ou refuser une nouvelle partie — Frisbee
+N0FA40C,0x0FA40C,149,gText_Frisbee_ExplanationCursorTiming,data/text/eu/frisbee_core.cc:12,0x05383A>0x053844,Tutoriel sur le moment du lancer et le curseur — Frisbee
+N0FA4A4,0x0FA4A4,65,gText_Frisbee_ExplanationGreenZone,data/text/eu/frisbee_core.cc:21,0x05384A>0x053854,Tutoriel sur la zone verte de la jauge de lancer — Frisbee
+N0FA4E8,0x0FA4E8,115,gText_Frisbee_ExplanationRedZone,data/text/eu/frisbee_core.cc:27,0x05385A>0x053864,Tutoriel sur la zone rouge de la jauge de lancer — Frisbee
+N0FA55C,0x0FA55C,257,gText_Frisbee_ExplanationPractice,data/text/eu/frisbee_core.cc:36,0x05386A>0x053880,Explication de l’entraînement avec le chien — Frisbee
+N0FA660,0x0FA660,75,gText_Frisbee_ExplanationTournament,data/text/eu/frisbee_core.cc:50,0x05388E>0x0538A8,Explication du déroulement du concours — Frisbee
+N0FA6AC,0x0FA6AC,14,gText_Frisbee_ExplainAgain,data/text/eu/frisbee_core.cc:56,0x0538B6>0x0538D0,Question de répétition à la fin des règles — Frisbee
+N0FA6BC,0x0FA6BC,18,gText_Frisbee_ThrowAgain,data/text/eu/frisbee_core.cc:59,0x0538E2>0x0538EC,Invitation à relancer au cours de la partie — Frisbee
+N0FA6D0,0x0FA6D0,25,gText_Frisbee_TournamentFinished,data/text/eu/frisbee_core.cc:63,0x0538F2>0x0538FC,Fin du concours de frisbee — Frisbee
+N0FA6EC,0x0FA6EC,11,gText_Frisbee_PlayAgain,data/text/eu/frisbee_core.cc:67,0x053902>0x053920,Question pour jouer une nouvelle partie — Frisbee
+N0FA6F8,0x0FA6F8,49,gText_Frisbee_DogNoLongerWantsToPlay,data/text/eu/frisbee_core.cc:70,0x053932>0x05393C,Arrêt de la partie lorsque le chien ne veut plus jouer — Frisbee
+N0FA72C,0x0FA72C,17,gText_Frisbee_FoundItem,data/text/eu/frisbee_core.cc:75,0x053942>0x053950,Affichage du résultat lorsque le chien trouve un objet — Frisbee
+N0FA740,0x0FA740,27,gText_Frisbee_FoundNothing,data/text/eu/frisbee_core.cc:80,0x05395A>0x053970,Affichage du résultat de la recherche du chien sans objet trouvé — Frisbee
+N0FAB48,0x0FAB48,149,gText_HorseRace_ExplanationBasics,data/text/eu/horse_race_2.cc:35,0x059B32>0x059B4C,Présentation des commandes et du principe de la course — Course hippique
+N0FABE0,0x0FABE0,73,gText_HorseRace_ExplanationGreenStamina,data/text/eu/horse_race_2.cc:44,0x059B5A>0x059B74,Tutoriel sur la zone verte de la jauge d’endurance — Course hippique
+N0FAC2C,0x0FAC2C,66,gText_HorseRace_ExplanationYellowStamina,data/text/eu/horse_race_2.cc:50,0x059B82>0x059BA0,Tutoriel sur la zone jaune de la jauge d’endurance — Course hippique
+N0FAC70,0x0FAC70,103,gText_HorseRace_ExplanationRedStamina,data/text/eu/horse_race_2.cc:56,0x059BAE>0x059BD0,Tutoriel sur la zone rouge de la jauge d’endurance — Course hippique
+N0FACD8,0x0FACD8,121,gText_HorseRace_ExplanationStaminaRecovery,data/text/eu/horse_race_2.cc:63,0x059BDE>0x059C04,Tutoriel sur la récupération de l’endurance du cheval — Course hippique
+N0FAD54,0x0FAD54,22,gText_HorseRace_ExplanationUnderstoodQuestion,data/text/eu/horse_race_2.cc:71,0x059C16>0x059C38,Question à la fin des règles de la course — Course hippique
+N0FAD6C,0x0FAD6C,7,gText_HorseRace_ExplanationUnderstood,data/text/eu/horse_race_2.cc:74,0x059C18>0x059C3C,Option pour confirmer la compréhension des règles — Course hippique
+N0FAD74,0x0FAD74,11,gText_HorseRace_ExplanationRepeat,data/text/eu/horse_race_2.cc:77,0x059C1A>0x059C40,Option pour relire les règles — Course hippique
+N0FAE4C,0x0FAE4C,105,gText_HorseRace_MedalExchangeExplanation,data/text/eu/horse_race_2.cc:107,0x059C8A>0x059CA4,Présentation du fonctionnement de l’échange de médailles — Course hippique
+N0FB154,0x0FB154,21,gText_HorseRace_PrizeExchangePrompt,data/text/eu/horse_race_medal_exchange_2.cc:3,0x05D90A>0x05D928,Demande de confirmation après sélection d’un prix à échanger — Course hippique
+N0FB16C,0x0FB16C,3,gText_HorseRace_PrizeExchangeYes,data/text/eu/horse_race_medal_exchange_2.cc:6,0x05D90C>0x05D92C|0x05D964>0x05D988,Option affirmative dans le dialogue d’échange de prix — Course hippique
+N0FB170,0x0FB170,2,gText_HorseRace_PrizeExchangeNo,data/text/eu/horse_race_medal_exchange_2.cc:9,0x05D90E>0x05D930|0x05D966>0x05D98C,Option négative dans le dialogue d’échange de prix — Course hippique
+N0FB18C,0x0FB18C,21,gText_HorseRace_PrizeExchangeTakeYourTime,data/text/eu/horse_race_medal_exchange_2.cc:16,0x05D94A>0x05D958,Réponse invitant à poursuivre le choix d’un prix — Course hippique
+N0FB1B0,0x0FB1B0,23,gText_HorseRace_PrizeExchangeLeaveConfirmation,data/text/eu/horse_race_medal_exchange_2.cc:23,0x05D99A>0x05D9A8,Message de sortie du comptoir d’échange des médailles — Course hippique
+N0FB1C8,0x0FB1C8,41,gText_HorseRace_PrizeExchangeInsufficientMedals,data/text/eu/horse_race_medal_exchange_2.cc:27,0x05D9B2>0x05D9CC,Refus de l’échange lorsque le joueur manque de médailles — Course hippique
+N0FB288,0x0FB288,60,gText_IntroScene_MotherTravelGreeting,data/text/eu/intro_story_scene.cc:6,0x05F77E>0x05F7A0,Souvenir du prologue — La mère prend la parole pendant le voyage
+N0FB2D0,0x0FB2D0,75,gText_IntroScene_FatherFishingInvitation,data/text/eu/intro_story_scene.cc:15,0x05F7BA>0x05F7DC,Souvenir du prologue — Le père propose d’aller pêcher
+N0FB31C,0x0FB31C,33,gText_IntroScene_MotherCannotFindPlayer,data/text/eu/intro_story_scene.cc:21,0x05F7F6>0x05F818,Souvenir du prologue — La mère constate que l’enfant a disparu
+N0FB3E4,0x0FB3E4,50,gText_IntroScene_MotherThanksOldMan,data/text/eu/intro_story_scene.cc:44,0x05F862>0x05F880,Souvenir du prologue — La mère remercie le vieil homme d’avoir aidé l’enfant
+N0FB418,0x0FB418,80,gText_IntroScene_FatherExplainsVacation,data/text/eu/intro_story_scene.cc:49,0x05F89A>0x05F8BC,Souvenir du prologue — Le père explique la raison du séjour
+N0FB46C,0x0FB46C,74,gText_IntroScene_OldManOffersStay,data/text/eu/intro_story_scene.cc:55,0x05F8D6>0x05F8F8,Souvenir du prologue — Le vieil homme propose d’héberger la famille
+N0FB4B8,0x0FB4B8,21,gText_IntroScene_FatherAsksAboutStay,data/text/eu/intro_story_scene.cc:63,0x05F912>0x05F934,Souvenir du prologue — Le père demande si la famille peut rester
+N0FB4D0,0x0FB4D0,77,gText_IntroScene_OldManWelcomesFamily,data/text/eu/intro_story_scene.cc:67,0x05F94E>0x05F970,Souvenir du prologue — Le vieil homme accueille la famille
+N0FB56C,0x0FB56C,19,gText_IntroScene_UnknownCallsPlayer,data/text/eu/intro_story_scene.cc:83,0x05F9A2>0x05F9C4,Souvenir du prologue — Une voix appelle le personnage dans le souvenir
+N0FB590,0x0FB590,50,gText_IntroScene_GirlThinksPlayerDead,data/text/eu/intro_story_scene.cc:98,0x05F9EA>0x05FA0C,Souvenir du prologue — La fillette s’inquiète de l’état de l’enfant qui ne répond pas
+N0FB5C4,0x0FB5C4,88,gText_IntroScene_GirlInvitesPlayerToPlay,data/text/eu/intro_story_scene.cc:103,0x05FA26>0x05FA48,Souvenir du prologue — La fillette propose de jouer ensemble
+N0FB680,0x0FB680,139,gText_IntroScene_OldManFarewell,data/text/eu/intro_story_scene.cc:118,0x05FA7A>0x05FA9C,Souvenir du prologue — Le vieil homme fait ses adieux
+N0FB70C,0x0FB70C,78,gText_IntroScene_OldManRequestsLetter,data/text/eu/intro_story_scene.cc:129,0x05FAB6>0x05FAD8,Souvenir du prologue — Le vieil homme demande des nouvelles par lettre
+N0FB784,0x0FB784,25,gText_IntroScene_GirlSaysGoodbye,data/text/eu/intro_story_scene.cc:140,0x05FB0A>0x05FB2C,Souvenir du prologue — La fillette dit au revoir au départ
+N0FB7A0,0x0FB7A0,75,gText_IntroScene_GirlAsksPlayerToReturn,data/text/eu/intro_story_scene.cc:144,0x05FB46>0x05FB68,Souvenir du prologue — La fillette demande si le personnage reviendra
+N0FB7EC,0x0FB7EC,79,gText_IntroScene_OldManNotesFriend,data/text/eu/intro_story_scene.cc:151,0x05FB82>0x05FB94,Souvenir du prologue — Le vieil homme évoque l’amie rencontrée pendant le séjour
+N0FB83C,0x0FB83C,38,gText_IntroScene_OldManWaitsForLetter,data/text/eu/intro_story_scene.cc:157,0x05FBA6>0x05FBC4,Souvenir du prologue — Le vieil homme dit qu’il attendra la lettre
+N0FBA28,0x0FBA28,3,gText_AnimalContest_Yes,data/text/eu/animal_festival_selection.cc:41,0x06C91E>0x06C928|0x06C938>0x06C950|0x06C960>0x06C97C|0x06CBD2>0x06CBEC|0x06CC00>0x06CC1C|0x06CC30>0x06CC4C,Option affirmative dans la confirmation du choix ou du refus d’inscription — Inscription au concours d’animaux
+N0FBA2C,0x0FBA2C,2,gText_AnimalContest_No,data/text/eu/animal_festival_selection.cc:44,0x06C920>0x06C92C|0x06C93A>0x06C954|0x06C962>0x06C980|0x06CBD4>0x06CBF0|0x06CC02>0x06CC20|0x06CC32>0x06CC50,Option négative dans la confirmation du choix ou du refus d’inscription — Inscription au concours d’animaux
+N0FBA30,0x0FBA30,15,gText_AnimalContest_CowConfirmation,data/text/eu/animal_festival_selection.cc:47,0x06C936>0x06C94C,Demande de confirmation de la vache choisie — Inscription au concours d’animaux
+N0FBA40,0x0FBA40,17,gText_AnimalContest_SheepConfirmation,data/text/eu/animal_festival_selection.cc:50,0x06C95E>0x06C978,Demande de confirmation du mouton choisi — Inscription au concours d’animaux
+N0FBA54,0x0FBA54,48,gText_AnimalContest_BabyChickIneligible,data/text/eu/animal_festival_selection.cc:53,0x06C9A4>0x06C9AC,Sélection d’un poussin trop jeune pour concourir — Inscription au concours d’animaux
+N0FBA88,0x0FBA88,51,gText_AnimalContest_AdultCowIneligible,data/text/eu/animal_festival_selection.cc:57,0x06C9B6>0x06C9C0,Sélection d’une vache trop jeune pour concourir — Inscription au concours d’animaux
+N0FBABC,0x0FBABC,53,gText_AnimalContest_AdultSheepIneligible,data/text/eu/animal_festival_selection.cc:61,0x06C9CA>0x06C9D8,Sélection d’un mouton trop jeune pour concourir — Inscription au concours d’animaux
+N0FBAF4,0x0FBAF4,55,gText_AnimalContest_SickChickenIneligible,data/text/eu/animal_festival_selection.cc:65,0x06C9FC>0x06CA04,Sélection d’une poule malade — Inscription au concours d’animaux
+N0FBB2C,0x0FBB2C,51,gText_AnimalContest_SickCowIneligible,data/text/eu/animal_festival_selection.cc:69,0x06CA0E>0x06CA18,Sélection d’une vache malade — Inscription au concours d’animaux
+N0FBB60,0x0FBB60,53,gText_AnimalContest_SickSheepIneligible,data/text/eu/animal_festival_selection.cc:73,0x06CA22>0x06CA30,Sélection d’un mouton malade — Inscription au concours d’animaux
+N0FBB98,0x0FBB98,51,gText_AnimalContest_PregnantCowIneligible,data/text/eu/animal_festival_selection.cc:77,0x06CA4A>0x06CA54,Sélection d’une vache gestante — Inscription au concours d’animaux
+N0FBBCC,0x0FBBCC,52,gText_AnimalContest_PregnantSheepIneligible,data/text/eu/animal_festival_selection.cc:81,0x06CA5E>0x06CA6C,Sélection d’un mouton en gestation — Inscription au concours d’animaux
+N0FBC04,0x0FBC04,49,gText_AnimalContest_ShornSheepIneligible,data/text/eu/animal_festival_selection.cc:85,0x06CA7A>0x06CA88,Sélection d’un mouton tondu — Inscription au concours d’animaux
+N0FBC38,0x0FBC38,42,gText_AnimalContest_EntryAccepted,data/text/eu/animal_festival_selection.cc:89,0x06CAEC>0x06CAFC|0x06CB32>0x06CB44|0x06CB7A>0x06CB8C,Confirmation de l’inscription de l’animal retenu — Inscription au concours d’animaux
+N0FBC64,0x0FBC64,45,gText_AnimalContest_ChickenSelectionPrompt,data/text/eu/animal_festival_selection.cc:99,0x06CB04>0x06CB14|0x06CCA4>0x06CCB4,Ouverture ou reprise de la sélection de la poule — Inscription au concours d’animaux
+N0FBC94,0x0FBC94,39,gText_AnimalContest_CowSelectionPrompt,data/text/eu/animal_festival_selection.cc:103,0x06CB4C>0x06CB5C|0x06CCEC>0x06CCFC,Ouverture ou reprise de la sélection de la vache — Inscription au concours d’animaux
+N0FBCBC,0x0FBCBC,41,gText_AnimalContest_SheepSelectionPrompt,data/text/eu/animal_festival_selection.cc:107,0x06CB94>0x06CBA4|0x06CD34>0x06CD44,Ouverture ou reprise de la sélection du mouton — Inscription au concours d’animaux
+N0FBCE8,0x0FBCE8,27,gText_AnimalContest_EntryDeclinedQuestion,data/text/eu/animal_festival_selection.cc:111,0x06CBD0>0x06CBE8|0x06CBFE>0x06CC18|0x06CC2E>0x06CC48,Confirmation après abandon de la sélection d’un animal — Inscription au concours d’animaux
+N0FBD04,0x0FBD04,36,gText_AnimalContest_ChickenEntryDeclinedResponse,data/text/eu/animal_festival_selection.cc:114,0x06CC8C>0x06CC9C,Réponse après confirmation du refus d’inscrire une poule — Inscription au concours d’animaux
+N0FBD2C,0x0FBD2C,43,gText_AnimalContest_LivestockEntryDeclinedResponse,data/text/eu/animal_festival_selection.cc:118,0x06CCD2>0x06CCE4|0x06CD1A>0x06CD2C,Réponse après confirmation du refus d’inscrire une vache ou un mouton — Inscription au concours d’animaux
+N0FBD64,0x0FBD64,13,gText_NewGameBirthdayInput_Confirmation,data/text/eu/new_game_birthday_input.cc:3,0x06DEA4>0x06DEC8,Choix de l’anniversaire — Validation de la date de naissance choisie
+N0FBD74,0x0FBD74,3,gText_NewGameBirthdayInput_Yes,data/text/eu/new_game_birthday_input.cc:6,0x06DEA6>0x06DECC,Choix de l’anniversaire — Option affirmative de la question affichée
+N0FBD78,0x0FBD78,2,gText_NewGameBirthdayInput_No,data/text/eu/new_game_birthday_input.cc:9,0x06DEA8>0x06DED0,Choix de l’anniversaire — Option négative de la question affichée
+N0FDAC8,0x0FDAC8,42,gText_PoultryShop_InsufficientGold,data/text/eu/scene_poultry_farm_shop_2.cc:41,0x07C2C8>0x07C2E8|0x07C4AE>0x07C4D0|0x07C766>0x07C788,Magasin de la ferme avicole — Fonds insuffisants au moment de la commande
+N0FDAF4,0x0FDAF4,42,gText_PoultryShop_FeedBinFull,data/text/eu/scene_poultry_farm_shop_2.cc:45,0x07C300>0x07C314,Magasin de la ferme avicole — Capacité du bac à nourriture atteinte au moment de l’achat
+N0FDB28,0x0FDB28,45,gText_PoultryShop_InventoryFull,data/text/eu/scene_poultry_farm_shop_2.cc:53,0x07C54E>0x07C570,Magasin de la ferme avicole — Place insuffisante pour l’article sélectionné
+N0FDB58,0x0FDB58,43,gText_PoultryShop_CoopFull,data/text/eu/scene_poultry_farm_shop_2.cc:57,0x07C7DC>0x07C7E8,Magasin de la ferme avicole — Achat d’une poule alors que le poulailler est plein
+N0FDB84,0x0FDB84,50,gText_PoultryShop_NameChickenPrompt,data/text/eu/scene_poultry_farm_shop_2.cc:61,0x07C7EC>0x07C80C,Magasin de la ferme avicole — Saisie du nom de la poule achetée
+N0FDBB8,0x0FDBB8,46,gText_PoultryShop_NoChickensToSell,data/text/eu/scene_poultry_farm_shop_2.cc:65,0x07C884>0x07C890,Magasin de la ferme avicole — Demande de vendre une poule quand aucune n’est disponible
+N0FDBE8,0x0FDBE8,37,gText_PoultryShop_NotInterested,data/text/eu/scene_poultry_farm_shop_2.cc:69,0x07C9A0>0x07C9B8,Magasin de la ferme avicole — Fin de la transaction après absence de sélection
+N0FDC10,0x0FDC10,32,gText_PoultryShop_PurchaseDeclined,data/text/eu/scene_poultry_farm_shop_2.cc:73,0x07C9BC>0x07C9DC,Magasin de la ferme avicole — Refus de la confirmation d’achat
+N0FDC44,0x0FDC44,3,gText_PoultryShop_Yes,data/text/eu/scene_poultry_farm_shop_2.cc:80,0x07CAE0>0x07CB18,Magasin de la ferme avicole — Option affirmative de la question affichée
+N0FDC48,0x0FDC48,2,gText_PoultryShop_No,data/text/eu/scene_poultry_farm_shop_2.cc:83,0x07CAE2>0x07CB1C,Magasin de la ferme avicole — Option négative de la question affichée
+N0FDC4C,0x0FDC4C,86,gText_PoultryShop_FeedPurchaseComplete,data/text/eu/scene_poultry_farm_shop_2.cc:86,0x07CBFE>0x07CC14,Magasin de la ferme avicole — Achat de nourriture pour animaux terminé
+N0FDD08,0x0FDD08,70,gText_PoultryShop_MedicinePurchaseComplete,data/text/eu/scene_poultry_farm_shop_2.cc:98,0x07CCE8>0x07CCF4,Magasin de la ferme avicole — Achat de remède pour animaux terminé
+N0FDD50,0x0FDD50,20,gText_PoultryShop_PurchaseComplete,data/text/eu/scene_poultry_farm_shop_2.cc:103,0x07CCF8>0x07CD1C,Magasin de la ferme avicole — Achat validé et finalisé
+N0FDD68,0x0FDD68,72,gText_PoultryShop_ChickenPurchaseComplete,data/text/eu/scene_poultry_farm_shop_2.cc:106,0x07CE5C>0x07CE84,Magasin de la ferme avicole — Achat de la poule finalisé
+N0FDDB4,0x0FDDB4,27,gText_PoultryShop_PurchaseMorePrompt,data/text/eu/scene_poultry_farm_shop_2.cc:111,0x07CE9A>0x07CEB4|0x07CF32>0x07CF50,Magasin de la ferme avicole — Proposition de poursuivre les achats
+N0FDDD0,0x0FDDD0,71,gText_PoultryShop_ChickenSold,data/text/eu/scene_poultry_farm_shop_2.cc:114,0x07CFB0>0x07CFDC,Magasin de la ferme avicole — Vente d’une poule finalisée
+N0FDE8C,0x0FDE8C,45,gText_Supermarket_EquipmentCapacityFull,data/text/eu/scene_supermarket_1.cc:3,0x07D89A>0x07D8B8,Supermarché — Achat d’un équipement alors que la capacité correspondante est atteinte
+N0FDEC4,0x0FDEC4,51,gText_Supermarket_InsufficientGold,data/text/eu/scene_supermarket_1.cc:11,0x07DA20>0x07DA40,Supermarché — Fonds insuffisants au moment de la commande
+N0FDEF8,0x0FDEF8,21,gText_Supermarket_ThankYou,data/text/eu/scene_supermarket_1.cc:15,0x07DA5C>0x07DA78|0x07DC6C>0x07DC94|0x07E316>0x07E348,Supermarché — Remerciement affiché après la transaction
+N0FDF10,0x0FDF10,23,gText_Supermarket_PurchaseConfirmation,data/text/eu/scene_supermarket_1.cc:18,0x07DA7C>0x07DAB0,Supermarché — Demande de confirmation avant de valider l’achat sélectionné
+N0FDF28,0x0FDF28,27,gText_Supermarket_PurchaseMorePrompt,data/text/eu/scene_supermarket_1.cc:22,0x07DAC2>0x07DAE4,Supermarché — Proposition de poursuivre les achats
+N0FDF9C,0x0FDF9C,80,gText_Supermarket_DeliveryPartial,data/text/eu/scene_supermarket_1.cc:31,0x07DC5C>0x07DC68|0x07E368>0x07E370,Supermarché — Livraison du reste de l’achat faute de place
+N0FE030,0x0FE030,77,gText_Supermarket_FoodDelivery,data/text/eu/scene_supermarket_2.cc:3,0x07E376>0x07E394,Supermarché — Livraison de l’aliment acheté
+N0FE080,0x0FE080,14,gText_Supermarket_FoodPurchaseConfirmation,data/text/eu/scene_supermarket_2.cc:9,0x07E3AC>0x07E3C8,Supermarché — Demande de confirmation avant de valider l’achat d’un aliment
+N0FE0BC,0x0FE0BC,73,gText_Clinic_InventoryFull,data/text/eu/scene_clinic_shop.cc:3,0x07E9B4>0x07E9E8,Clinique — Place insuffisante pour l’article sélectionné
+N0FE110,0x0FE110,69,gText_Clinic_InsufficientGold,data/text/eu/scene_clinic_shop.cc:12,0x07EB4C>0x07EB6C,Clinique — Fonds insuffisants au moment de la commande
+N0FE158,0x0FE158,36,gText_Clinic_NoAdditionalPurchase,data/text/eu/scene_clinic_shop.cc:17,0x07EB88>0x07EB98,Clinique — Réponse à la fin des achats sans autre article sélectionné
+N0FE180,0x0FE180,75,gText_Clinic_NoPurchaseRestAdvice,data/text/eu/scene_clinic_shop.cc:21,0x07EB9C>0x07EBD0,"Clinique — Sortie sans achat, avec un conseil de repos"
+N0FE1CC,0x0FE1CC,27,gText_Clinic_PurchaseMorePrompt,data/text/eu/scene_clinic_shop.cc:26,0x07EBE2>0x07EC04,Clinique — Proposition de poursuivre les achats
+N0FE1E8,0x0FE1E8,72,gText_Clinic_Delivery,data/text/eu/scene_clinic_shop.cc:29,0x07ECFE>0x07ED1C,Clinique — Livraison de l’achat
+N0FE234,0x0FE234,77,gText_Clinic_DeliveryPartial,data/text/eu/scene_clinic_shop.cc:34,0x07ED20>0x07ED38,Clinique — Livraison du reste de l’achat faute de place
+N0FE284,0x0FE284,30,gText_Clinic_PurchaseComplete,data/text/eu/scene_clinic_shop.cc:39,0x07ED3C>0x07ED64,Clinique — Achat validé et finalisé
+N0FE420,0x0FE420,46,gText_InnShop_InsufficientGold,data/text/eu/scene_inn_shop_2.cc:3,0x07F426>0x07F440,Auberge — Fonds insuffisants au moment de la commande
+N0FE450,0x0FE450,64,gText_InnShop_NoOrder,data/text/eu/scene_inn_shop_2.cc:7,0x07F454>0x07F47C,Auberge — Fin de la commande sans plat validé
+N0FE494,0x0FE494,47,gText_InnShop_OrderComplete,data/text/eu/scene_inn_shop_2.cc:12,0x07F50A>0x07F530,Auberge — Commande du plat validée
+N0FE520,0x0FE520,52,gText_WonShop_ToolCapacityFull,data/text/eu/scene_won_shop.cc:3,0x07FD10>0x07FDA0,Boutique de Won — Capacité en outils atteinte lors de l’achat
+N0FE558,0x0FE558,50,gText_WonShop_ItemCapacityFull,data/text/eu/scene_won_shop.cc:7,0x07FDF0>0x07FFA0,Boutique de Won — Capacité en objets atteinte lors de l’achat
+N0FE614,0x0FE614,113,gText_WonShop_DeliveryMultiple,data/text/eu/scene_won_shop.cc:22,0x080054>0x080060|0x08037C>0x080388,Boutique de Won — Livraison des articles achetés
+N0FE688,0x0FE688,45,gText_WonShop_PurchaseComplete,data/text/eu/scene_won_shop.cc:29,0x080064>0x080138|0x08038C>0x0803B4,Boutique de Won — Achat validé et finalisé
+N0FE6B8,0x0FE6B8,66,gText_WonShop_InsufficientGold,data/text/eu/scene_won_shop.cc:33,0x080150>0x080170,Boutique de Won — Fonds insuffisants au moment de la commande
+N0FE6FC,0x0FE6FC,51,gText_WonShop_PurchaseMorePrompt,data/text/eu/scene_won_shop.cc:38,0x08018C>0x0801A8,Boutique de Won — Proposition de poursuivre les achats
+N0FE730,0x0FE730,35,gText_WonShop_NoPurchase,data/text/eu/scene_won_shop.cc:42,0x0801AC>0x0801E0,Boutique de Won — Fermeture du catalogue sans achat
+N0FE754,0x0FE754,43,gText_WonShop_NoAdditionalPurchase,data/text/eu/scene_won_shop.cc:46,0x0801F2>0x080214,Boutique de Won — Réponse à la fin des achats sans autre article sélectionné
+N0FE79C,0x0FE79C,76,gText_WineryShop_InventoryFull,data/text/eu/scene_winery_shop.cc:3,0x0808E2>0x080914,Domaine viticole — Place insuffisante pour l’article sélectionné
+N0FE7F4,0x0FE7F4,52,gText_WineryShop_InsufficientGold,data/text/eu/scene_winery_shop.cc:12,0x080B00>0x080B1C,Domaine viticole — Fonds insuffisants au moment de la commande
+N0FE82C,0x0FE82C,31,gText_WineryShop_ReturnCustomer,data/text/eu/scene_winery_shop.cc:16,0x080B3E>0x080B48,Domaine viticole — Message d’accueil d’un client de retour
+N0FE84C,0x0FE84C,40,gText_WineryShop_NoPurchase,data/text/eu/scene_winery_shop.cc:20,0x080B4C>0x080B7C,Domaine viticole — Fermeture du catalogue sans achat
+N0FE878,0x0FE878,124,gText_WineryShop_Delivery,data/text/eu/scene_winery_shop.cc:24,0x080C72>0x080C90,Domaine viticole — Livraison de l’achat
+N0FE8F8,0x0FE8F8,19,gText_WineryShop_PurchaseComplete,data/text/eu/scene_winery_shop.cc:31,0x080C94>0x080CBC,Domaine viticole — Achat validé et finalisé
+N0FE90C,0x0FE90C,44,gText_WineryShop_PurchaseMorePrompt,data/text/eu/scene_winery_shop.cc:34,0x080D14>0x080D34,Domaine viticole — Proposition de poursuivre les achats
+N0FE9C0,0x0FE9C0,16,gText_SpecialMerchantShop_RecordPlayerDescription,data/text/eu/scene_special_merchant_shop.cc:4,0x08114C>0x08115C,Marchand spécial — Description affichée lors de la sélection du tourne-disque
+N0FE9D4,0x0FE9D4,29,gText_SpecialMerchantShop_InsufficientGold,data/text/eu/scene_special_merchant_shop.cc:7,0x081392>0x0813BC,Marchand spécial — Fonds insuffisants au moment de la commande
+N0FE9F4,0x0FE9F4,35,gText_SpecialMerchantShop_InventoryFull,data/text/eu/scene_special_merchant_shop.cc:10,0x081434>0x081458|0x081688>0x0816AC,Marchand spécial — Place insuffisante pour l’article sélectionné
+N0FEA20,0x0FEA20,40,gText_SpecialMerchantShop_PurchaseComplete,data/text/eu/scene_special_merchant_shop.cc:18,0x0816DA>0x0816E4|0x0816E8>0x081718,Marchand spécial — Achat validé et finalisé
+N0FEA4C,0x0FEA4C,74,gText_SpecialMerchantShop_RecordPlayerDelivery,data/text/eu/scene_special_merchant_shop.cc:22,0x081762>0x0817B0,Marchand spécial — Achat et livraison du tourne-disque
+N0FEA98,0x0FEA98,14,gText_SpecialMerchantShop_PurchaseCompleteShort,data/text/eu/scene_special_merchant_shop.cc:27,0x081804>0x081814|0x08197C>0x0819A4,Marchand spécial — Remerciement court après la finalisation de l’achat
+N0FEAA8,0x0FEAA8,96,gText_SpecialMerchantShop_ArticleDelivery,data/text/eu/scene_special_merchant_shop.cc:30,0x08183C>0x08185C|0x08195A>0x081978,Marchand spécial — Livraison de l’article faute de place pour le porter
+N0FEB0C,0x0FEB0C,37,gText_SpecialMerchantShop_PurchaseMorePrompt,data/text/eu/scene_special_merchant_shop.cc:36,0x081872>0x081884,Marchand spécial — Proposition de poursuivre les achats
+N0FEC38,0x0FEC38,36,gText_BeachCafeShop_InsufficientGold,data/text/eu/scene_beach_cafe_shop_2.cc:2,0x081FD2>0x081FEC,Café de la plage — Fonds insuffisants au moment de la commande
+N0FEC60,0x0FEC60,47,gText_BeachCafeShop_NoOrder,data/text/eu/scene_beach_cafe_shop_2.cc:5,0x082000>0x082028,Café de la plage — Fin de la commande sans plat validé
+N0FEC90,0x0FEC90,43,gText_BeachCafeShop_OrderComplete,data/text/eu/scene_beach_cafe_shop_2.cc:8,0x0820A2>0x0820C4,Café de la plage — Commande du plat validée
+N0FEEB4,0x0FEEB4,109,gText_Blacksmith_InsufficientGoldAdamantite,data/text/eu/scene_blacksmith_shop_2.cc:3,0x082B34>0x082B4C,Forge — Fonds insuffisants sur la branche de fabrication avec adamantite
+N0FEF24,0x0FEF24,106,gText_Blacksmith_InsufficientGoldOrichalc,data/text/eu/scene_blacksmith_shop_2.cc:10,0x082B50>0x082B6C,Forge — Fonds insuffisants sur la branche de fabrication avec orichalque
+N0FEF90,0x0FEF90,50,gText_Blacksmith_MakerFiveDays,data/text/eu/scene_blacksmith_shop_2.cc:17,0x082B8C>0x082BA4,Forge — Annonce d’un délai de cinq jours pour la fabrication
+N0FEFC4,0x0FEFC4,48,gText_Blacksmith_MakerOneDay,data/text/eu/scene_blacksmith_shop_2.cc:21,0x082BB6>0x082BDC,Forge — Annonce d’un délai d’un jour pour la fabrication
+N0FEFF8,0x0FEFF8,145,gText_Blacksmith_InsufficientOreAdamantite,data/text/eu/scene_blacksmith_shop_2.cc:25,0x082BE8>0x082BF4,Forge — Adamantite nécessaire à la fabrication indisponible
+N0FF08C,0x0FF08C,142,gText_Blacksmith_InsufficientOreOrichalc,data/text/eu/scene_blacksmith_shop_2.cc:33,0x082BF8>0x082C20,Forge — Orichalque nécessaire à la fabrication indisponible
+N0FF11C,0x0FF11C,58,gText_Blacksmith_SelectToolAndOre,data/text/eu/scene_blacksmith_shop_2.cc:41,0x083084>0x0830A0,Forge — Ouverture du choix de l’outil et du minerai pour une amélioration
+N0FF158,0x0FF158,40,gText_Blacksmith_InsufficientGold,data/text/eu/scene_blacksmith_shop_2.cc:46,0x0830BE>0x0830E0,Forge — Fonds insuffisants au moment de la commande
+N0FF184,0x0FF184,33,gText_Blacksmith_EquipmentFull,data/text/eu/scene_blacksmith_shop_2.cc:50,0x083128>0x083140,Forge — Achat d’équipement alors que la capacité est atteinte
+N0FF1A8,0x0FF1A8,27,gText_Blacksmith_NeedAnythingElse,data/text/eu/scene_blacksmith_shop_2.cc:54,0x083186>0x083190,Forge — Question sur la poursuite de la commande
+N0FF1C4,0x0FF1C4,38,gText_Blacksmith_NothingElse,data/text/eu/scene_blacksmith_shop_2.cc:57,0x083194>0x0831C8,Forge — Fin de la commande sans achat supplémentaire
+N0FF1EC,0x0FF1EC,14,gText_Blacksmith_PurchaseComplete,data/text/eu/scene_blacksmith_shop_2.cc:61,0x083266>0x083274,Forge — Achat validé et finalisé
+N0FF1FC,0x0FF1FC,84,gText_Blacksmith_Delivery,data/text/eu/scene_blacksmith_shop_2.cc:64,0x083288>0x0832F4,Forge — Livraison de l’achat
+N0FF254,0x0FF254,37,gText_Blacksmith_PurchaseMore,data/text/eu/scene_blacksmith_shop_2.cc:69,0x08330A>0x083324|0x08333A>0x083348,Forge — Proposition d’un nouvel achat après une transaction
+N0FF294,0x0FF294,47,gText_Blacksmith_StartWork,data/text/eu/scene_blacksmith_shop_2.cc:79,0x0833EA>0x08341C|0x0839C2>0x0839F8,Forge — Démarrage annoncé des travaux après validation de la commande
+N0FF2C4,0x0FF2C4,42,gText_Blacksmith_CannotChangeMind,data/text/eu/scene_blacksmith_shop_2.cc:83,0x08351C>0x083534,Forge — Avertissement avant de confirmer une commande irrévocable
+N0FF2F0,0x0FF2F0,77,gText_Blacksmith_NoToolToUpgrade,data/text/eu/scene_blacksmith_shop_2.cc:87,0x0835D4>0x0835F4,Forge — Aucun outil disponible pour l’amélioration
+N0FF340,0x0FF340,99,gText_Blacksmith_NoOreToUpgrade,data/text/eu/scene_blacksmith_shop_2.cc:92,0x083760>0x083784,Forge — Aucun minerai disponible pour l’amélioration
+N0FF8AC,0x0FF8AC,28,gText_Carpenter_InsufficientGold,data/text/eu/scene_carpenter_shop_2.cc:11,0x0845EE>0x084610|0x0846D4>0x0846DC|0x08493C>0x08495C|0x084E68>0x084E90,Atelier du charpentier — Fonds insuffisants au moment de la commande
+N0FF8CC,0x0FF8CC,42,gText_Carpenter_LumberBinFull,data/text/eu/scene_carpenter_shop_2.cc:14,0x084622>0x084630,Atelier du charpentier — Stock de bois plein lors de l’achat
+N0FF904,0x0FF904,41,gText_Carpenter_EquipmentFull,data/text/eu/scene_carpenter_shop_2.cc:22,0x084732>0x084758,Atelier du charpentier — Achat d’équipement alors que la capacité est atteinte
+N0FF944,0x0FF944,80,gText_Carpenter_CannotAcceptAnotherJob,data/text/eu/scene_carpenter_shop_2.cc:30,0x0848FE>0x084920|0x0849C8>0x0849E8|0x084ABC>0x084ADC|0x084BB0>0x084BD8,Atelier du charpentier — Une commande de travaux est déjà en cours
+N0FF998,0x0FF998,32,gText_Carpenter_InsufficientLumber,data/text/eu/scene_carpenter_shop_2.cc:35,0x084970>0x08498C|0x084EA2>0x084EC4,Atelier du charpentier — Le stock de bois ne couvre pas la commande de travaux
+N0FF9BC,0x0FF9BC,46,gText_Carpenter_ThreeDayConfirmation,data/text/eu/scene_carpenter_shop_2.cc:39,0x084990>0x0849B4|0x084EC8>0x084EE8,Atelier du charpentier — Demande de confirmation de travaux annoncés sur trois jours
+N0FF9EC,0x0FF9EC,31,gText_Carpenter_NeedAnythingElse,data/text/eu/scene_carpenter_shop_2.cc:43,0x084CBC>0x084CCC,Atelier du charpentier — Question sur la poursuite de la commande
+N0FFA0C,0x0FFA0C,18,gText_Carpenter_AreYouSureNow,data/text/eu/scene_carpenter_shop_2.cc:47,0x084CD0>0x084CF4,Atelier du charpentier — Nouvelle demande de confirmation avant la commande
+N0FFA20,0x0FFA20,39,gText_Carpenter_SameCurrentShape,data/text/eu/scene_carpenter_shop_2.cc:50,0x084E0E>0x084E2C,Atelier du charpentier — La forme sélectionnée est déjà installée
+N0FFAC4,0x0FFAC4,75,gText_Carpenter_DeliverySome,data/text/eu/scene_carpenter_shop_2.cc:63,0x085040>0x08504C,Atelier du charpentier — Une partie de la commande est livrée
+N0FFB10,0x0FFB10,14,gText_Carpenter_PurchaseComplete,data/text/eu/scene_carpenter_shop_2.cc:68,0x085050>0x08509C,Atelier du charpentier — Achat validé et finalisé
+N0FFB4C,0x0FFB4C,50,gText_Carpenter_StartUpgradeTomorrow,data/text/eu/scene_carpenter_shop_2.cc:83,0x0852E6>0x08531C|0x085406>0x085440,"Atelier du charpentier — Travaux confirmés, avec début annoncé le lendemain"
+N0FFB80,0x0FFB80,14,gText_Carpenter_ConfirmUpgrade,data/text/eu/scene_carpenter_shop_2.cc:87,0x085324>0x085340|0x085448>0x085464,Atelier du charpentier — Confirmation de l’amélioration du bâtiment
+N0FFB90,0x0FFB90,20,gText_Carpenter_NeedAnythingMore,data/text/eu/scene_carpenter_shop_2.cc:90,0x085474>0x085494,Atelier du charpentier — Proposition d’une commande supplémentaire
+N0FFD90,0x0FFD90,28,gText_LivestockShop_InsufficientGold,data/text/eu/scene_yodel_ranch_shop_2.cc:49,0x086F44>0x086F64|0x0870CA>0x0870EC|0x0873AE>0x0873D0,Ranch Yodel — Fonds insuffisants au moment de la commande
+N0FFDB0,0x0FFDB0,49,gText_LivestockShop_FeedBinFull,data/text/eu/scene_yodel_ranch_shop_2.cc:52,0x086F7C>0x086F90,Ranch Yodel — Capacité du bac à nourriture atteinte au moment de l’achat
+N0FFDEC,0x0FFDEC,33,gText_LivestockShop_InventoryFull,data/text/eu/scene_yodel_ranch_shop_2.cc:60,0x087188>0x0871A8|0x087BB6>0x087BD0,Ranch Yodel — Place insuffisante pour l’article sélectionné
+N0FFE10,0x0FFE10,21,gText_LivestockShop_BarnFull,data/text/eu/scene_yodel_ranch_shop_2.cc:64,0x0873FA>0x08740C,Ranch Yodel — Achat d’un animal alors que la grange est pleine
+N0FFE28,0x0FFE28,32,gText_LivestockShop_NameAnimalPrompt,data/text/eu/scene_yodel_ranch_shop_2.cc:67,0x087414>0x087434,Ranch Yodel — Saisie du nom de l’animal acheté
+N0FFE4C,0x0FFE4C,41,gText_LivestockShop_NoCowsToSell,data/text/eu/scene_yodel_ranch_shop_2.cc:71,0x0874BE>0x0874D0,Ranch Yodel — Demande de vente sans vache disponible
+N0FFE78,0x0FFE78,42,gText_LivestockShop_NoSheepToSell,data/text/eu/scene_yodel_ranch_shop_2.cc:75,0x0875F8>0x087608,Ranch Yodel — Demande de vente sans mouton disponible
+N0FFEA4,0x0FFEA4,52,gText_LivestockShop_ComeAgain,data/text/eu/scene_yodel_ranch_shop_2.cc:79,0x087742>0x08774C,Ranch Yodel — Fin de l’échange avec invitation à revenir
+N0FFEDC,0x0FFEDC,17,gText_LivestockShop_PurchaseConfirmation,data/text/eu/scene_yodel_ranch_shop_2.cc:83,0x087750>0x087770,Ranch Yodel — Demande de confirmation avant de valider l’achat sélectionné
+N0FFF00,0x0FFF00,3,gText_LivestockShop_Yes,data/text/eu/scene_yodel_ranch_shop_2.cc:92,0x087874>0x0878B0,Ranch Yodel — Option affirmative de la question affichée
+N0FFF04,0x0FFF04,2,gText_LivestockShop_No,data/text/eu/scene_yodel_ranch_shop_2.cc:95,0x087876>0x0878B4,Ranch Yodel — Option négative de la question affichée
+N0FFF8C,0x0FFF8C,75,gText_LivestockShop_PurchaseDeliveryAll,data/text/eu/scene_yodel_ranch_shop_2.cc:114,0x087A98>0x087AA4|0x087BE8>0x087CB8,Ranch Yodel — Livraison de l’intégralité des achats
+N0FFFD8,0x0FFFD8,15,gText_LivestockShop_PurchaseComplete,data/text/eu/scene_yodel_ranch_shop_2.cc:120,0x087AA8>0x087AC8|0x087B90>0x087BA0,Ranch Yodel — Achat validé et finalisé
+N0FFFE8,0x0FFFE8,44,gText_LivestockShop_AnimalPurchaseComplete,data/text/eu/scene_yodel_ranch_shop_2.cc:123,0x087E74>0x087E9C,Ranch Yodel — Achat d’un animal finalisé
+N100018,0x100018,34,gText_LivestockShop_PurchaseMorePrompt,data/text/eu/scene_yodel_ranch_shop_2.cc:127,0x087EB2>0x087ECC|0x087F4A>0x087F68,Ranch Yodel — Proposition de poursuivre les achats
+N100088,0x100088,79,gText_Fridge_WrappedGiftWarning,data/text/eu/scene_refrigerator.cc:6,0x088AC6>0x088AE0|0x088B7C>0x088B98|0x088CEE>0x088D08|0x088DAE>0x088DC4|0x0890F8>0x08910C|0x089224>0x089238|0x08932C>0x089348|0x08951E>0x089534|0x08966C>0x089688,Réfrigérateur — Sélection d’un cadeau emballé pour le ranger
+N1000D8,0x1000D8,3,gText_Fridge_Yes,data/text/eu/scene_refrigerator.cc:11,0x08A33E>0x08A350|0x08A37A>0x08A38C|0x08A43C>0x08A44C|0x08A45C>0x08A46C|0x08A4A8>0x08A4CC|0x08AA76>0x08AA94,Réfrigérateur — Option affirmative de la question affichée
+N1000DC,0x1000DC,2,gText_Fridge_No,data/text/eu/scene_refrigerator.cc:14,0x08A340>0x08A354|0x08A37C>0x08A390|0x08A43E>0x08A450|0x08A45E>0x08A470|0x08A4AA>0x08A4D0|0x08AA78>0x08AA98,Réfrigérateur — Option négative de la question affichée
+N1000FC,0x1000FC,3,gText_HomeStorage_ConfirmationYes,data/text/eu/scene_rucksack.cc:3,0x08BB08>0x08BB24|0x08BBD0>0x08BBEC|0x08BBFC>0x08BC20,Rangement de la maison — Option affirmative à la confirmation du rangement
+N100100,0x100100,2,gText_HomeStorage_ConfirmationNo,data/text/eu/scene_rucksack.cc:6,0x08BB0A>0x08BB28|0x08BBD2>0x08BBF0|0x08BBFE>0x08BC24,Rangement de la maison — Option négative à la confirmation du rangement
+N100128,0x100128,72,gText_Shelf_WrappedGiftWarning,data/text/eu/scene_shelf.cc:6,0x08CDFE>0x08CE18|0x08CEA0>0x08CEBC|0x08CFFC>0x08D014|0x08D0B6>0x08D0D0|0x08D3E0>0x08D3F8|0x08D4E2>0x08D4F8|0x08D5C8>0x08D5E4|0x08D7A6>0x08D7BC|0x08D8EE>0x08D908,Étagère — Sélection d’un cadeau emballé pour le ranger
+N100174,0x100174,3,gText_Shelf_Yes,data/text/eu/scene_shelf.cc:11,0x08E48E>0x08E4A0|0x08E4CC>0x08E4DC|0x08E562>0x08E574|0x08E584>0x08E594|0x08E644>0x08E668|0x08EC16>0x08EC34,Étagère — Option affirmative de la question affichée
+N100178,0x100178,2,gText_Shelf_No,data/text/eu/scene_shelf.cc:14,0x08E490>0x08E4A4|0x08E4CE>0x08E4E0|0x08E564>0x08E578|0x08E586>0x08E598|0x08E646>0x08E66C|0x08EC18>0x08EC38,Étagère — Option négative de la question affichée
+N1001D0,0x1001D0,38,gText_BlacksmithUpgrade_SelectTool,data/text/eu/scene_blacksmith_upgrade.cc:12,0x09197A>0x0919A0,Amélioration d’outil à la forge — Demande de sélectionner l’outil à améliorer
+N1001F8,0x1001F8,45,gText_BlacksmithUpgrade_CursedTool,data/text/eu/scene_blacksmith_upgrade.cc:16,0x0919E8>0x091A0C|0x091B50>0x091B74,Amélioration d’outil à la forge — Sélection d’un outil maudit
+N100228,0x100228,48,gText_BlacksmithUpgrade_SelectOre,data/text/eu/scene_blacksmith_upgrade.cc:20,0x091A80>0x091AA4|0x091C1E>0x091C44,Amélioration d’outil à la forge — Demande de sélectionner le minerai
+N10025C,0x10025C,24,gText_BlacksmithUpgrade_CannotUpgradeTool,data/text/eu/scene_blacksmith_upgrade.cc:24,0x091AAC>0x091AD0|0x091C4C>0x091C70,Amélioration d’outil à la forge — L’outil sélectionné ne peut pas être amélioré
+N100278,0x100278,70,gText_BlacksmithUpgrade_InvalidUpgradeOre,data/text/eu/scene_blacksmith_upgrade.cc:27,0x091CD6>0x091CFC|0x091D7C>0x091DA0|0x091E72>0x091E98,Amélioration d’outil à la forge — Minerai incompatible avec l’amélioration prévue
+N1002C0,0x1002C0,47,gText_BlacksmithUpgrade_CannotChangeMind,data/text/eu/scene_blacksmith_upgrade.cc:32,0x091EEA>0x091F10|0x092468>0x092494,Amélioration d’outil à la forge — Avertissement avant de confirmer une commande irrévocable
+N1002F0,0x1002F0,57,gText_BlacksmithUpgrade_InsufficientExperience,data/text/eu/scene_blacksmith_upgrade.cc:36,0x091FD2>0x092000,Amélioration d’outil à la forge — Expérience de l’outil insuffisante pour l’amélioration
+N100368,0x100368,59,gText_BlacksmithUpgrade_DowngradeConfirmation,data/text/eu/scene_blacksmith_upgrade.cc:45,0x092038>0x09205C,Amélioration d’outil à la forge — Demande de confirmation d’un changement vers un niveau inférieur
+N100448,0x100448,43,gText_GiftWrap_CannotWrap,data/text/eu/scene_gift_wrapping.cc:6,0x092B38>0x092B54|0x092B9C>0x092BB8|0x092C96>0x092CC0,Emballage des cadeaux — L’objet sélectionné ne peut pas être emballé
+N100474,0x100474,12,gText_GiftWrap_Confirm,data/text/eu/scene_gift_wrapping.cc:10,0x092B5C>0x092B80|0x092BDC>0x092C00|0x092CC8>0x092CF4,Emballage des cadeaux — Demande de confirmation de l’emballage de l’objet
+N100484,0x100484,3,gText_GiftWrap_Yes,data/text/eu/scene_gift_wrapping.cc:13,0x092B5E>0x092B84|0x092BDE>0x092C04|0x092CCA>0x092CF8,Emballage des cadeaux — Option affirmative de la question affichée
+N100488,0x100488,2,gText_GiftWrap_No,data/text/eu/scene_gift_wrapping.cc:16,0x092B60>0x092B88|0x092BE0>0x092C08|0x092CCC>0x092CFC,Emballage des cadeaux — Option négative de la question affichée
+N10048C,0x10048C,21,gText_GiftWrap_DogWarning,data/text/eu/scene_gift_wrapping.cc:19,0x092C10>0x092C30,Emballage des cadeaux — Avertissement concernant le chien pendant la sélection à emballer
+N1004B4,0x1004B4,47,gText_GiftWrap_Recommendation,data/text/eu/scene_gift_wrapping.cc:28,0x0930B0>0x0930E4,Emballage des cadeaux — Conseil d’emballage dans le menu des cadeaux
+N1004E4,0x1004E4,42,gText_GiftWrap_Complete,data/text/eu/scene_gift_wrapping.cc:32,0x09310C>0x093134,Emballage des cadeaux — Emballage de l’objet sélectionné terminé
+N100510,0x100510,21,gText_GiftWrap_SelectItem,data/text/eu/scene_gift_wrapping.cc:36,0x09313A>0x093154,Emballage des cadeaux — Demande de choisir l’objet à emballer
+N100534,0x100534,67,gText_LinkCommunication_Waiting,data/text/eu/scene_gamecube_link.cc:3,0x093D9E>0x093DB8|0x0E363E>0x0E3658,Connexion GameCube — Attente pendant l’initialisation de la liaison
+N100578,0x100578,24,gText_LinkCommunication_SendingGameData,data/text/eu/scene_gamecube_link.cc:8,0x093D5E>0x093D78|0x0E367E>0x0E3698,Connexion GameCube — Envoi des données de partie par la liaison
+N100594,0x100594,21,gText_LinkCommunication_TestingConnection,data/text/eu/scene_gamecube_link.cc:11,0x093D36>0x093D50|0x0E36A6>0x0E36C0,Connexion GameCube — Test de la liaison en cours
+N1005AC,0x1005AC,47,gText_LinkCommunication_CannotResendPreviousData,data/text/eu/scene_gamecube_link.cc:14,0x093D0C>0x093D28|0x0E36E0>0x0E36FC,Connexion GameCube — Tentative de renvoyer des données précédemment transmises
+N1005DC,0x1005DC,3,gText_LinkCommunication_ProceedQuestion,data/text/eu/scene_gamecube_link.cc:18,0x093C9E>0x093CB4|0x0E372C>0x0E3740,Connexion GameCube — Demande de confirmer la poursuite de la liaison
+N1005E0,0x1005E0,3,gText_LinkCommunication_Yes,data/text/eu/scene_gamecube_link.cc:21,0x0936F0>0x093720|0x093B78>0x093B8C|0x093CA0>0x093CB8|0x0E372E>0x0E3744|0x0E3858>0x0E386C,Connexion GameCube — Option affirmative de la question affichée
+N1005E4,0x1005E4,2,gText_LinkCommunication_No,data/text/eu/scene_gamecube_link.cc:24,0x0936F2>0x093724|0x093B7A>0x093B90|0x093CA2>0x093CBC|0x0E3730>0x0E3748|0x0E385A>0x0E3870,Connexion GameCube — Option négative de la question affichée
+N1005E8,0x1005E8,65,gText_LinkCommunication_WaitingForOtherPlayer,data/text/eu/scene_gamecube_link.cc:27,0x093C4E>0x093C68|0x0E378A>0x0E37A4,Connexion GameCube — Le transfert attend la participation de l’autre joueur
+N10062C,0x10062C,17,gText_LinkCommunication_NowSendingData,data/text/eu/scene_gamecube_link.cc:32,0x093C12>0x093C28|0x0E37CA>0x0E37E0,Connexion GameCube — Transfert de données en cours
+N100640,0x100640,34,gText_LinkCommunication_DataExchangeFailed,data/text/eu/scene_gamecube_link.cc:35,0x093BE0>0x093C00|0x0E3804>0x0E3824,Connexion GameCube — Échec de l’échange des données
+N100664,0x100664,36,gText_LinkCommunication_QuitCommunication,data/text/eu/scene_gamecube_link.cc:39,0x09360E>0x093620|0x093992>0x0939C4|0x0939C8>0x0939F8,Connexion GameCube — Demande de quitter la liaison
+N10068C,0x10068C,62,gText_LinkCommunication_OtherPlayerCanceled,data/text/eu/scene_gamecube_link.cc:43,0x09362A>0x09363C,Connexion GameCube — L’autre joueur a interrompu la liaison
+N1006CC,0x1006CC,73,gText_LinkCommunication_IncompatibleGameData,data/text/eu/scene_gamecube_link.cc:48,0x093646>0x093670,Connexion GameCube — Les données de l’autre partie sont incompatibles
+N100718,0x100718,117,gText_LinkCommunication_ExchangeRestriction,data/text/eu/scene_gamecube_link.cc:54,0x0936A2>0x0936C4,Connexion GameCube — Avertissement sur une restriction de la liaison
+N100790,0x100790,28,gText_LinkCommunication_ActionQuestion,data/text/eu/scene_gamecube_link.cc:61,0x0936EE>0x09371C,Connexion GameCube — Demande de confirmation de l’action de liaison
+N1007B0,0x1007B0,55,gText_LinkCommunication_Declined,data/text/eu/scene_gamecube_link.cc:64,0x093762>0x093784,Connexion GameCube — L’action de liaison a été refusée
+N1007E8,0x1007E8,24,gText_LinkCommunication_Complete,data/text/eu/scene_gamecube_link.cc:69,0x09382E>0x093948,Connexion GameCube — Échange de données terminé
+N100EB4,0x100EB4,20,gText_Cooking_MakeAnotherRecipe,data/text/eu/scene_cooking_2.cc:52,0x097E94>0x097EB4|0x097EC4>0x097EDC,Cuisine — Choix de préparer une autre recette
+N100ECC,0x100ECC,25,gText_Cooking_NotEnoughIngredients,data/text/eu/scene_cooking_2.cc:55,0x097EC0>0x097ED4,Cuisine — Les ingrédients disponibles ne suffisent pas pour la recette
+N100EE8,0x100EE8,17,gText_Cooking_ImproviseAnyway,data/text/eu/scene_cooking_2.cc:58,0x097EC2>0x097ED8,Cuisine — Demande de confirmation pour improviser malgré les ingrédients manquants
+N104E34,0x104E34,13,gText_Calendar_Festival_NoPlans,data/text/eu/scene_calendar_core_2.cc:111,0x0A2BB2>0x0A2BD0,Calendrier — Sélection d’une date sans programme de festival
+N10762C,0x10762C,48,gText_HarvestSpriteMiniGame_AnimalHusbandry_Introduction,data/text/eu/scene_animal_care_minigame_2.cc:13,0x0B0FE8>0x0B0FF0,Introduction au tutoriel des esprits — Mini-jeu de soins aux animaux
+N107660,0x107660,189,gText_HarvestSpriteMiniGame_AnimalHusbandry_FeedingInstructions,data/text/eu/scene_animal_care_minigame_2.cc:18,0x0B0FFC>0x0B1004,Explication du nourrissage dans le tutoriel — Mini-jeu de soins aux animaux
+N107720,0x107720,218,gText_HarvestSpriteMiniGame_AnimalHusbandry_ChickenBehaviorInstructions,data/text/eu/scene_animal_care_minigame_2.cc:28,0x0B1010>0x0B1018,Explication du comportement des poules dans le tutoriel — Mini-jeu de soins aux animaux
+N1077FC,0x1077FC,62,gText_HarvestSpriteMiniGame_AnimalHusbandry_WatchInstructions,data/text/eu/scene_animal_care_minigame_2.cc:39,0x0B1024>0x0B102C,Conseils de surveillance des poules dans le tutoriel — Mini-jeu de soins aux animaux
+N10783C,0x10783C,18,gText_HarvestSpriteMiniGame_AnimalHusbandry_UnderstandQuestion,data/text/eu/scene_animal_care_minigame_2.cc:45,0x0B1038>0x0B104C,Vérification de la compréhension à la fin du tutoriel — Mini-jeu de soins aux animaux
+N107850,0x107850,13,gText_HarvestSpriteMiniGame_AnimalHusbandry_UnderstandYes,data/text/eu/scene_animal_care_minigame_2.cc:48,0x0B103A>0x0B1050,Option pour poursuivre après les explications — Mini-jeu de soins aux animaux
+N107860,0x107860,14,gText_HarvestSpriteMiniGame_AnimalHusbandry_UnderstandAgain,data/text/eu/scene_animal_care_minigame_2.cc:51,0x0B103C>0x0B1054,Option pour réécouter les explications — Mini-jeu de soins aux animaux
+N107870,0x107870,18,gText_HarvestSpriteMiniGame_AnimalHusbandry_Start,data/text/eu/scene_animal_care_minigame_2.cc:54,0x0B1060>0x0B1068,Annonce du début du mini-jeu — Mini-jeu de soins aux animaux
+N1078A8,0x1078A8,43,gText_HarvestSpriteMiniGame_AnimalHusbandry_ScoreSummary,data/text/eu/scene_animal_care_minigame_2.cc:69,0x0B2FEE>0x0B3018,Affichage du score de fin de partie — Mini-jeu de soins aux animaux
+N107A1C,0x107A1C,26,gText_HarvestSpriteMiniGame_ChickenFestival_SemiFinalsAnnouncement,data/text/eu/scene_chicken_festival_1.cc:33,0x0B4D2C>0x0B4D38,Annonce du passage aux demi-finales — Concours de poules
+N107A38,0x107A38,77,gText_HarvestSpriteMiniGame_ChickenFestival_FinalRoundAnnouncement,data/text/eu/scene_chicken_festival_1.cc:37,0x0B4D48>0x0B4D50,Annonce du passage à la finale — Concours de poules
+N107A88,0x107A88,27,gText_HarvestSpriteMiniGame_ChickenFestival_ExplanationQuestion,data/text/eu/scene_chicken_festival_1.cc:43,0x0B4D66>0x0B4D7C,Question proposant les explications du concours — Concours de poules
+N107AA4,0x107AA4,11,gText_HarvestSpriteMiniGame_ChickenFestival_ExplanationNo,data/text/eu/scene_chicken_festival_1.cc:46,0x0B4D68>0x0B4D80,Option pour passer les explications — Concours de poules
+N107AB0,0x107AB0,12,gText_HarvestSpriteMiniGame_ChickenFestival_ExplanationYes,data/text/eu/scene_chicken_festival_1.cc:49,0x0B4D6A>0x0B4D84,Option pour écouter les explications — Concours de poules
+N107AC0,0x107AC0,23,gText_HarvestSpriteMiniGame_ChickenFestival_RoundOneStart,data/text/eu/scene_chicken_festival_1.cc:52,0x0B4DC0>0x0B4DC8|0x0BA4B8>0x0BA4C0,Annonce du premier tour — Concours de poules
+N107AD8,0x107AD8,27,gText_HarvestSpriteMiniGame_ChickenFestival_SemiFinalsStart,data/text/eu/scene_chicken_festival_1.cc:56,0x0B4DCE>0x0B4DD8|0x0BA4C6>0x0BA4D0,Annonce du début des demi-finales — Concours de poules
+N107AF4,0x107AF4,22,gText_HarvestSpriteMiniGame_ChickenFestival_FinalsStart,data/text/eu/scene_chicken_festival_1.cc:60,0x0B4DDE>0x0B4DF8|0x0BA4D6>0x0BA4F0,Annonce du début de la finale — Concours de poules
+N107B0C,0x107B0C,5,gText_HarvestSpriteMiniGame_ChickenFestival_Start,data/text/eu/scene_chicken_festival_1.cc:64,0x0B4E30>0x0B4F88|0x0BA52E>0x0BA59C,Signal de départ de la manche — Concours de poules
+N107B14,0x107B14,7,gText_HarvestSpriteMiniGame_ChickenFestival_Stop,data/text/eu/scene_chicken_festival_1.cc:68,0x0B8BCE>0x0B8BDC,Signal de fin de la manche — Concours de poules
+N107B58,0x107B58,18,gText_HarvestSpriteMiniGame_ChickenFestival_UnderstandQuestion,data/text/eu/scene_chicken_festival_2.cc:4,0x0BA45C>0x0BA474,Vérification de la compréhension des règles — Concours de poules
+N107B6C,0x107B6C,7,gText_HarvestSpriteMiniGame_ChickenFestival_UnderstandYes,data/text/eu/scene_chicken_festival_2.cc:7,0x0BA45E>0x0BA478,Option pour poursuivre après les règles — Concours de poules
+N107B74,0x107B74,11,gText_HarvestSpriteMiniGame_ChickenFestival_UnderstandAgain,data/text/eu/scene_chicken_festival_2.cc:10,0x0BA460>0x0BA47C,Option pour réécouter les règles — Concours de poules
+N107B80,0x107B80,49,gText_HarvestSpriteMiniGame_ChickenFestival_Introduction,data/text/eu/scene_chicken_festival_2.cc:13,0x0BA5D8>0x0BA5E0,Présentation du concours dans le tutoriel — Concours de poules
+N107BB4,0x107BB4,184,gText_HarvestSpriteMiniGame_ChickenFestival_Rules,data/text/eu/scene_chicken_festival_2.cc:18,0x0BA5EC>0x0BA5F4,Explication des règles de la manche — Concours de poules
+N107C70,0x107C70,151,gText_HarvestSpriteMiniGame_ChickenFestival_Encouragement,data/text/eu/scene_chicken_festival_2.cc:29,0x0BA600>0x0BA608,Conseils pour encourager sa poule — Concours de poules
+N107D08,0x107D08,46,gText_HarvestSpriteMiniGame_ChickenFestival_CautionAtRingEdge,data/text/eu/scene_chicken_festival_2.cc:39,0x0BA614>0x0BA61C,Avertissement du tutoriel sur le bord de l’arène — Concours de poules
+N107D38,0x107D38,26,gText_HarvestSpriteMiniGame_ChickenFestival_CautionLeavingRing,data/text/eu/scene_chicken_festival_2.cc:44,0x0BA628>0x0BA634,Explication de la sortie du périmètre de l’arène — Concours de poules
+N107E30,0x107E30,24,gText_HarvestSpriteMiniGame_Harvest_ExplanationQuestion,data/text/eu/scene_harvesting_minigame_2.cc:4,0x0BED50>0x0BED64,Question proposant les explications des esprits — Mini-jeu de récolte
+N107E4C,0x107E4C,3,gText_HarvestSpriteMiniGame_Harvest_Yes,data/text/eu/scene_harvesting_minigame_2.cc:7,0x0BED52>0x0BED68,Option pour écouter les explications — Mini-jeu de récolte
+N107E50,0x107E50,2,gText_HarvestSpriteMiniGame_Harvest_No,data/text/eu/scene_harvesting_minigame_2.cc:10,0x0BED54>0x0BED6C,Option pour passer les explications — Mini-jeu de récolte
+N107E54,0x107E54,39,gText_HarvestSpriteMiniGame_Harvest_Introduction,data/text/eu/scene_harvesting_minigame_2.cc:13,0x0BED78>0x0BED88,Présentation du mini-jeu dans le tutoriel — Mini-jeu de récolte
+N107E7C,0x107E7C,50,gText_HarvestSpriteMiniGame_Harvest_Instructions,data/text/eu/scene_harvesting_minigame_2.cc:18,0x0BED94>0x0BEDA4,Explication des gestes de récolte — Mini-jeu de récolte
+N107EB0,0x107EB0,109,gText_HarvestSpriteMiniGame_Harvest_FatigueWarning,data/text/eu/scene_harvesting_minigame_2.cc:23,0x0BEDB0>0x0BEDC4,Avertissement du tutoriel sur la fatigue — Mini-jeu de récolte
+N107F20,0x107F20,79,gText_HarvestSpriteMiniGame_Harvest_RestInstructions,data/text/eu/scene_harvesting_minigame_2.cc:30,0x0BEDD0>0x0BEDF0,Explication du repos et de la récupération — Mini-jeu de récolte
+N107F70,0x107F70,18,gText_HarvestSpriteMiniGame_Harvest_UnderstandQuestion,data/text/eu/scene_harvesting_minigame_2.cc:36,0x0BEE00>0x0BEE38,Vérification de la compréhension des consignes — Mini-jeu de récolte
+N107F84,0x107F84,13,gText_HarvestSpriteMiniGame_Harvest_UnderstandYes,data/text/eu/scene_harvesting_minigame_2.cc:39,0x0BEE02>0x0BEE3C,Option pour poursuivre après les consignes — Mini-jeu de récolte
+N107F94,0x107F94,14,gText_HarvestSpriteMiniGame_Harvest_UnderstandAgain,data/text/eu/scene_harvesting_minigame_2.cc:42,0x0BEE04>0x0BEE40,Option pour réécouter les consignes — Mini-jeu de récolte
+N107FA4,0x107FA4,18,gText_HarvestSpriteMiniGame_Harvest_Start,data/text/eu/scene_harvesting_minigame_2.cc:45,0x0BEE58>0x0BEE6C,Annonce du début du mini-jeu — Mini-jeu de récolte
+N107FDC,0x107FDC,43,gText_HarvestSpriteMiniGame_Harvest_ScoreSummary,data/text/eu/scene_harvesting_minigame_2.cc:61,0x0C042A>0x0C0454,Affichage du score de fin de partie — Mini-jeu de récolte
+N10809C,0x10809C,40,gText_HarvestSpriteMiniGame_Watering_Introduction,data/text/eu/scene_watering_minigame_2.cc:13,0x0C405A>0x0C4068,Présentation du mini-jeu dans le tutoriel — Mini-jeu d’arrosage
+N1080C8,0x1080C8,123,gText_HarvestSpriteMiniGame_Watering_Instructions,data/text/eu/scene_watering_minigame_2.cc:18,0x0C4072>0x0C4080,Explication des commandes d’arrosage — Mini-jeu d’arrosage
+N108144,0x108144,122,gText_HarvestSpriteMiniGame_Watering_SuccessInstructions,data/text/eu/scene_watering_minigame_2.cc:26,0x0C408A>0x0C4098,Explication de l’arrosage réussi dans le tutoriel — Mini-jeu d’arrosage
+N1081C0,0x1081C0,111,gText_HarvestSpriteMiniGame_Watering_MistakeWarning,data/text/eu/scene_watering_minigame_2.cc:34,0x0C40A2>0x0C40B0,Avertissement du tutoriel sur les erreurs d’arrosage — Mini-jeu d’arrosage
+N108230,0x108230,11,gText_HarvestSpriteMiniGame_Watering_UnderstandQuestion,data/text/eu/scene_watering_minigame_2.cc:42,0x0C40BA>0x0C40D4,Vérification de la compréhension des consignes — Mini-jeu d’arrosage
+N10823C,0x10823C,13,gText_HarvestSpriteMiniGame_Watering_UnderstandYes,data/text/eu/scene_watering_minigame_2.cc:45,0x0C40BC>0x0C40D8,Option pour poursuivre après les consignes — Mini-jeu d’arrosage
+N10824C,0x10824C,14,gText_HarvestSpriteMiniGame_Watering_UnderstandAgain,data/text/eu/scene_watering_minigame_2.cc:48,0x0C40BE>0x0C40DC,Option pour réécouter les consignes — Mini-jeu d’arrosage
+N10825C,0x10825C,18,gText_HarvestSpriteMiniGame_Watering_Start,data/text/eu/scene_watering_minigame_2.cc:51,0x0C40E6>0x0C40F4,Annonce du début du mini-jeu — Mini-jeu d’arrosage
+N108294,0x108294,42,gText_HarvestSpriteMiniGame_Watering_ScoreSummary,data/text/eu/scene_watering_minigame_2.cc:67,0x0C71AE>0x0C71DC,Affichage du score de fin de partie — Mini-jeu d’arrosage

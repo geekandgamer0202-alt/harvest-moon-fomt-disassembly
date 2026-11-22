@@ -1,0 +1,146 @@
+{
+  "version": "A4NE",
+  "sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "scripts": {
+    "0003": {
+      "case_rom": "0x0F89E0",
+      "bloc_rom": "0x2AC1A8",
+      "code_rom": "0x2AC1C0",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F89E0"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0111": {
+      "case_rom": "0x0F8B90",
+      "bloc_rom": "0x2C7C50",
+      "code_rom": "0x2C7C68",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8B90"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0112": {
+      "case_rom": "0x0F8B94",
+      "bloc_rom": "0x2C7CC0",
+      "code_rom": "0x2C7CD8",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8B94"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0113": {
+      "case_rom": "0x0F8B98",
+      "bloc_rom": "0x2C7D30",
+      "code_rom": "0x2C7D48",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8B98"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0114": {
+      "case_rom": "0x0F8B9C",
+      "bloc_rom": "0x2C7DA0",
+      "code_rom": "0x2C7DB8",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8B9C"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0115": {
+      "case_rom": "0x0F8BA0",
+      "bloc_rom": "0x2C7E10",
+      "code_rom": "0x2C7E28",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8BA0"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0158": {
+      "case_rom": "0x0F8C4C",
+      "bloc_rom": "0x2CBF78",
+      "code_rom": "0x2CBF90",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8C4C"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0181": {
+      "case_rom": "0x0F8CA8",
+      "bloc_rom": "0x2CE7C4",
+      "code_rom": "0x2CE7DC",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8CA8"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0340": {
+      "case_rom": "0x0F8F24",
+      "bloc_rom": "0x2DA028",
+      "code_rom": "0x2DA040",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F8F24"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0544": {
+      "case_rom": "0x0F9254",
+      "bloc_rom": "0x32E744",
+      "code_rom": "0x32E75C",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F9254"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "0782": {
+      "case_rom": "0x0F960C",
+      "bloc_rom": "0x3698E0",
+      "code_rom": "0x3698F8",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F960C"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "1031": {
+      "case_rom": "0x0F99F0",
+      "bloc_rom": "0x40C9B4",
+      "code_rom": "0x40C9CC",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F99F0"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "1032": {
+      "case_rom": "0x0F99F4",
+      "bloc_rom": "0x410360",
+      "code_rom": "0x410378",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F99F4"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    },
+    "1300": {
+      "case_rom": "0x0F9E24",
+      "bloc_rom": "0x4F4324",
+      "code_rom": "0x4F433C",
+      "pointeurs_litteraux_vers_bloc": [
+        "0x0F9E24"
+      ],
+      "pointeurs_litteraux_vers_case": [],
+      "instructions_vm_entrantes": []
+    }
+  }
+}

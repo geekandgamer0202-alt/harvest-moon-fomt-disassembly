@@ -1,0 +1,52 @@
+{
+  "rom": "A4NE",
+  "sha1": "a2fc3574f0a65a4fcf7682fb274b9d7eebdef963",
+  "archive_commune_rom": "0x6678A0",
+  "fin_exclue": "0x67A0E8",
+  "sections": {
+    "index": {
+      "rom": "0x6678A4",
+      "quantite": 493,
+      "taille_en_octets": 4
+    },
+    "groupes": {
+      "rom": "0x66805C",
+      "quantite": 500,
+      "taille_en_octets": 16
+    },
+    "oam": {
+      "rom": "0x669FA0",
+      "quantite": 101,
+      "taille_en_octets": 8
+    },
+    "tiles": {
+      "rom": "0x66A2CC",
+      "quantite": 1624,
+      "taille_en_octets": 32
+    },
+    "palettes": {
+      "rom": "0x676DD0",
+      "quantite": 342,
+      "taille_en_octets": 32
+    },
+    "sixième": {
+      "rom": "0x679894",
+      "quantite": 0,
+      "taille_en_octets": 8
+    },
+    "entrées": {
+      "rom": "0x679898",
+      "quantite": 532,
+      "taille_en_octets": 4
+    }
+  },
+  "liaisons_descripteur_entree": 578,
+  "comptage_objets": {
+    "outil": 81,
+    "aliment": 171,
+    "article": 95
+  },
+  "comptage_palettes_references": 302,
+  "comptage_plages_tuiles_referencees": 232,
+  "provenance": "Wokann/fomt 9f2f03c, src/item.cc et include/item.hh pour les tables, src/scene_gift_wrapping.cc pour le lecteur UI, src/resource_archive.cc pour la structure."
+}
