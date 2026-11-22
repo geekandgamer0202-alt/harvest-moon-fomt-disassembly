@@ -1,0 +1,6 @@
+/roms/
+/exports/
+*.gba
+*.sav
+*.state
+*.ss[0-9]
