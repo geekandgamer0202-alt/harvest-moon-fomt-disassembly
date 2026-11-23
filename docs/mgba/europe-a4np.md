@@ -18,7 +18,7 @@ L’essai de culture s’arrête au semis. Pour contrôler les mesures d’or et
 
 ## Événement 0657 et musique
 
-Sur A4NP, le choix de dormir correspond à `0342` avec l’adresse `CODE` `0x082DA974` et le PC `0x50`. Les huit octets de préparation du test de Karen concordent avec ceux de la procédure USA. Le jeu sélectionne `0657` après le sommeil dans l’état préparé. Le test de musique part du dernier dialogue de la ferme à `0x083458DC`, PC `0xFE`. [Préparation du sommeil](usa-a4ne.md#test-ciblé-de-karen) · [Essais de musique dans les deux éditions](../evenements/registre-evenements.md)
+Sur A4NP, le choix de dormir correspond à `0342` avec l’adresse `CODE` `0x082DA974` et le PC `0x50`. Les huit octets de préparation du test de Karen concordent avec ceux de la procédure USA. Le jeu sélectionne `0657` après le sommeil dans l’état préparé. Les tests de musique et de priorité OBJ partent du dernier dialogue de la ferme à `0x083458DC`, PC `0xFE`. [Préparation du sommeil](usa-a4ne.md#test-ciblé-de-karen) · [Musique](../evenements/registre-evenements.md) · [Priorité OBJ](../evenements/romance.md#priorité-du-sprite-à-la-clinique)
 
 ## Prototype français externe
 

@@ -1,0 +1,9 @@
+edition,variante,etat_source,sha256_etat_source,marqueur_prepare,compteur_registre,premiere_case_registre,etat_malaise_prepare,retour_test_marqueur,instruction_ecriture_gba,acteur_gba,carte,priorite_gba,priorite_obj,script,pc_diagnostic
+A4NE,temoin,clinic-first.state,c912e13a30358206179df01f6eab2f551ceb75f37614b948cf83e19e0f2231f1,0xFFFF,1,198,0,0,0x08024BCE,0x02039044,0x0013,0x02039065,2,0657,0x1C0
+A4NE,marqueur,clinic-first.state,c912e13a30358206179df01f6eab2f551ceb75f37614b948cf83e19e0f2231f1,0x004A,1,198,0,1,0x08024BCE,0x02039044,0x0013,0x02039065,1,0657,0x1C0
+A4NE,registre,clinic-first.state,c912e13a30358206179df01f6eab2f551ceb75f37614b948cf83e19e0f2231f1,0xFFFF,1,74,0,0,0x08024BCE,0x02039044,0x0013,0x02039065,2,0657,0x1C0
+A4NE,malaise,clinic-first.state,c912e13a30358206179df01f6eab2f551ceb75f37614b948cf83e19e0f2231f1,0xFFFF,1,198,1,,0x08024BCE,0x02039044,0x0013,0x02039065,1,0657,0x1C0
+A4NP,temoin,clinic-first-a4np.state,3a2278b79a573e61b03723ff102c1d02e1143bc8adbc02db4cc54a2af2b5e4f2,0xFFFF,1,198,0,0,0x08024BE2,0x02039044,0x0013,0x02039065,2,0657,0x1C0
+A4NP,marqueur,clinic-first-a4np.state,3a2278b79a573e61b03723ff102c1d02e1143bc8adbc02db4cc54a2af2b5e4f2,0x004A,1,198,0,1,0x08024BE2,0x02039044,0x0013,0x02039065,1,0657,0x1C0
+A4NP,registre,clinic-first-a4np.state,3a2278b79a573e61b03723ff102c1d02e1143bc8adbc02db4cc54a2af2b5e4f2,0xFFFF,1,74,0,0,0x08024BE2,0x02039044,0x0013,0x02039065,2,0657,0x1C0
+A4NP,malaise,clinic-first-a4np.state,3a2278b79a573e61b03723ff102c1d02e1143bc8adbc02db4cc54a2af2b5e4f2,0xFFFF,1,198,1,,0x08024BE2,0x02039044,0x0013,0x02039065,1,0657,0x1C0

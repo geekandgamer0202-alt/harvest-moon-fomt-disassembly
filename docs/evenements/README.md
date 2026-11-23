@@ -12,6 +12,7 @@ Les dialogues et catalogues d’origine accompagnent les index d’analyse. [Fic
 - [Lectures de l’état du jeu](lectures-variables.md) situe les champs lus par les 590 ID `VarGet` et documente les 485 formules de lecture par masque testées.
 - [Écritures natives et notifications](ecritures-natives.md) décrit les octets changés par `VarSet`, le registre de trois événements actifs et le drapeau de marche de l’enfant.
 - [Registre des événements et musique de scène](registre-evenements.md) situe les appels qui consultent le registre et mesure son effet lors du passage de la ferme à la clinique.
+- [Progression romantique](romance.md) relie le marqueur aux 63 variables, à leurs compteurs et aux 230 écritures dans les scripts.
 - [Événements familiaux](vie-de-famille.md) décrit la chaîne du réveil, les conditions et les essais mGBA. Le [tableau des scènes](vie-de-famille-a4ne.csv) situe les 24 branches d’annonce, de naissance, de chute du lit et de premiers pas.
 - [Audit de quatorze déclencheurs](declencheurs-14.md) documente les références vérifiées, les interactions voisines et les essais précédemment réalisés sur l’édition européenne. Les résultats des recherches de pointeurs A4NE sont aussi disponibles [en JSON](references-14-a4ne.json).
 
