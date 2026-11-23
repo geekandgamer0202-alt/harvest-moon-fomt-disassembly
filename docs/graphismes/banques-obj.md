@@ -30,7 +30,7 @@ Le cache commence à `GameSceneWorld + 0x19C`. Les offsets ci-dessous se rapport
 
 L’extracteur exécute **68 opérations** dans Unicorn sur des copies de la RAM mGBA, soit 34 par édition. Le scénario de saturation demande les ressources `0` à `12`, puis demande deux fois la ressource `13`. Les deux tentatives renvoient `-1` et laissent le mémo à `15`, ce qui autorise une nouvelle tentative. La ressource `0` reste accessible. Au rendu suivant, la ressource `13` obtient la première case devenue disponible. [Contextes](../../ressources/donnees/banques-obj/Contextes-pool-OBJ-FoMT.csv) · [Étapes et octets avant et après](../../ressources/donnees/banques-obj/Cycle-pool-OBJ-FoMT.csv)
 
-Dans le scénario de réutilisation, un rendu demande `4`, `7`, `1` dans cet ordre et exécute le fragment qui valide chaque mise en file. Le rendu suivant demande `4`, `1`. La case 0 garde ses couleurs, la case 1 passe de la ressource `7` à la ressource `1` et doit être rechargée. En fin de rendu, la case 2 est libérée. Le test de saturation isole le code d’acquisition et les fragments de `Draw` qui gèrent le pool. Le rendu des sprites à saturation reste à observer dans une scène jouée. [Scénario de réutilisation](../../ressources/donnees/banques-obj/Cycle-pool-OBJ-FoMT.csv)
+Dans le scénario de réutilisation, un rendu demande `4`, `7`, `1` dans cet ordre et exécute le fragment qui valide chaque mise en file. Le rendu suivant demande `4`, `1`. La case 0 garde ses couleurs, la case 1 passe de la ressource `7` à la ressource `1` et doit être rechargée. En fin de rendu, la case 2 est libérée. Le test de saturation isole le code d’acquisition et les fragments de `Draw` qui gèrent le pool. [Scénario de réutilisation](../../ressources/donnees/banques-obj/Cycle-pool-OBJ-FoMT.csv)
 
 ## Copies observées dans mGBA
 
@@ -45,6 +45,20 @@ Dans l’église (`0x000C`), au PC `0x1F7` du script `0848`, le premier rendu re
 | 4 à 11 | 0 | 0 | 7 |
 
 Les deux éditions donnent le même relevé de 20 demandes et 7 acquisitions par image. Les huit dernières images réutilisent les sept banques sans transfert. Les ressources `6`, `7` et `8` des lutins arrivent aux banques `4`, `5` et `6` à `0x05000280`, `0x050002A0` et `0x050002C0`. [Banques par lutin](../../ressources/donnees/palettes-obj/Palettes-ceremonie-OBJ-FoMT.csv)
+
+## Rendu à la quatorzième demande
+
+**Hoggy reste visible avec les couleurs de la banque OBJ 15** si la résolution de sa palette renvoie `-1`. L’essai force la saturation dans l’église au PC `0x20B` de `0848`. Avant que Hoggy demande la ressource `8`, six ressources de la scène ont déjà obtenu une banque. Un point d’arrêt fait passer six ou sept ressources de test supplémentaires par `GetSpritePaletteBank`, puis laisse reprendre l’appel de Hoggy. Les demandes supplémentaires passent par le code du jeu. La ROM, l’OAM et les couleurs de la banque 15 sont conservées telles quelles au moment de l’intervention. [42 images comparées](../../ressources/donnees/banques-obj/Saturation-rendu-OBJ-FoMT.csv) · [Banque associée à la ressource de Hoggy](../../ressources/donnees/palettes-obj/Palettes-ceremonie-OBJ-FoMT.csv)
+
+| Demandes de test | Rang de la demande de Hoggy | Retour de `GetSpritePaletteBank` | `ATTR2` matériel après synchronisation | Pixels modifiés par rapport au témoin |
+| ---: | ---: | ---: | --- | ---: |
+| 0 | 7 | `6` | `0x68D8` | 0 |
+| 6 | 13 | `12` | `0xC8D8` | 0 |
+| 7 | 14 | `-1` | `0xF8D8` | 104 |
+
+Dans la routine ARM de soumission du sprite, le retour arrive dans `r0` à `0x030005FC`, puis passe dans `r12`. À `0x03000658`, `orr r1, r1, r12, lsl #12` ajoute la valeur aux bits de palette. Le champ `ATTR2` conserve les 16 bits de poids faible. Les quatre bits issus de `-1` valent donc `0xF`. Le seul attribut OAM qui change est `ATTR2` de l’entrée 6, à la position écran `(224, 51)`. La tuile `0x0D8`, les autres attributs et les données graphiques OBJ en VRAM restent identiques. Les 104 pixels changés occupent le rectangle inclusif `(228, 58)` à `(237, 75)`. La banque 15 garde la même empreinte pendant tout l’essai. [Soumission du sprite ARM](https://github.com/Wokann/fomt/blob/9f2f03c775d64270a95250b8c03e6742219fda21/src/scene_sprite.cc#L149-L192) · [Attributs et empreintes par image](../../ressources/donnees/banques-obj/Saturation-rendu-OBJ-FoMT.csv)
+
+L’image de la première demande à saturation contient encore l’`ATTR2` matériel du témoin. L’`ATTR2` préparé par le moteur apparaît dans l’OAM et les pixels à l’image suivante. À l’arrêt des réservations, le moteur renvoie de nouveau `6` et la vidéo retrouve l’empreinte du témoin une image plus tard. Le même résultat a été observé dans les deux éditions. L’essai établit l’effet d’une saturation provoquée dans cette scène. La fréquence du défaut en partie ordinaire reste à déterminer.
 
 ## Reproduire les essais
 
@@ -64,3 +78,18 @@ Pour suivre la cérémonie, préparer une copie de l’état de sommeil comme da
 | Appel au constructeur du descripteur de palette | `0x08019932` | `0x08019946` |
 | `GetSpritePaletteBank` | `0x0801FCB4` | `0x0801FCC8` |
 | `AcquirePaletteBank` | `0x080AC96C` | `0x080AC99C` |
+
+### Reproduire le rendu à saturation
+
+Compiler le cœur Libretro de mGBA 0.10.5 avec les points d’arrêt fournis, puis lancer le script depuis la racine du dépôt. Il prépare une copie de l’état de sommeil, avance jusqu’à `0848`, rejoue trois variantes depuis le même point et exporte les 21 images de l’édition choisie. Le script n’utilise que la bibliothèque standard de Python. Les lignes des deux éditions sont réunies dans le CSV du dépôt. [Sources de mGBA 0.10.5](https://github.com/mgba-emu/mgba/releases/tag/0.10.5) · [Points d’arrêt](../../outils/mgba/instrumentation/mgba-0.10.5-points-arret.diff) · [Script de mesure](../../outils/mgba/relever_saturation_obj.py)
+
+```sh
+patch -d mgba-0.10.5 -p1 -i "$PWD/outils/mgba/instrumentation/mgba-0.10.5-points-arret.diff"
+cmake -S mgba-0.10.5 -B mgba-build -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+  -DCMAKE_BUILD_TYPE=Release -DBUILD_LIBRETRO=ON -DBUILD_QT=OFF -DBUILD_SDL=OFF -DDISABLE_DEPS=ON
+cmake --build mgba-build --target mgba_libretro
+python3 outils/mgba/relever_saturation_obj.py mgba-build/mgba_libretro.so \
+  roms/A4NE.gba etats/sommeil-usa.state saturation-usa.csv
+python3 outils/mgba/relever_saturation_obj.py mgba-build/mgba_libretro.so \
+  roms/A4NP.gba etats/sommeil-europe.state saturation-europe.csv
+```

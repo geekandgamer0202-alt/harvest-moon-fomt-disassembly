@@ -64,7 +64,7 @@ Les tables des **1 328 scripts** commencent à `0x0F89D4` en A4NE et à `0x0F8
 
 L’allocation des palettes OBJ du monde a donné les mêmes résultats en USA et en Europe sur 39 176 sélections. Pendant le mariage de la Déesse, les sept lutins utilisent trois banques OBJ. [Allocation des palettes](docs/graphismes/allocation-palettes-obj.md) · [CSV](ressources/donnees/palettes-obj/)
 
-Le pool de 13 banques OBJ a été vérifié sur 68 opérations natives. Pendant le mariage, mGBA a enregistré huit copies de 32 octets par DMA 3 dans chaque édition, puis huit images qui réutilisent les banques sans copie. [Cycle des banques et transferts](docs/graphismes/banques-obj.md) · [CSV](ressources/donnees/banques-obj/)
+Le pool de 13 banques OBJ a été vérifié sur 68 opérations natives. Pendant le mariage, mGBA a enregistré huit copies de 32 octets par DMA 3 dans chaque édition, puis huit images qui réutilisent les banques sans copie. Un essai de saturation provoquée a confirmé que la 14ᵉ demande affiche Hoggy avec les couleurs de la banque 15. [Cycle des banques et transferts](docs/graphismes/banques-obj.md) · [CSV](ressources/donnees/banques-obj/)
 
 L’extraction graphique A4NE compte **4 577 PNG** et conserve les index, les palettes et les blocs graphiques natifs. [Guide des fichiers](ressources/graphismes/A4NE/Lire-moi.md) · [Manifeste SHA-256](ressources/graphismes/A4NE/Manifest-graphismes.csv)
 

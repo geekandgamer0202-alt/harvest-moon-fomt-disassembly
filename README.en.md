@@ -64,7 +64,7 @@ The tables for the **1,328 scripts** begin at `0x0F89D4` in A4NE and `0x0F8A20` 
 
 World OBJ palette allocation produced the same results in the US and European editions across 39,176 selections. During the Harvest Goddess wedding, the seven Harvest Sprites use three OBJ banks. [Palette allocation](docs/graphismes/allocation-palettes-obj.md) · [CSVs](ressources/donnees/palettes-obj/)
 
-The 13-bank OBJ pool was verified across 68 native operations. During the wedding, mGBA recorded eight 32-byte copies on DMA channel 3 in each edition, followed by eight frames that reused the banks without copying. [Bank lifecycle and transfers](docs/graphismes/banques-obj.md) · [CSVs](ressources/donnees/banques-obj/)
+The 13-bank OBJ pool was verified across 68 native operations. During the wedding, mGBA recorded eight 32-byte copies on DMA channel 3 in each edition, followed by eight frames that reused the banks without copying. A controlled saturation test confirmed that the 14th request displays Hoggy using the colors from bank 15. [Bank lifecycle and transfers](docs/graphismes/banques-obj.md) · [CSVs](ressources/donnees/banques-obj/)
 
 The A4NE graphics extraction includes **4,577 PNGs** and preserves indexes, palettes, and native graphics blocks. [File guide](ressources/graphismes/A4NE/Lire-moi.md) · [SHA-256 manifest](ressources/graphismes/A4NE/Manifest-graphismes.csv)
 

@@ -1,0 +1,43 @@
+--- a/src/arm/arm.c
++++ b/src/arm/arm.c
+@@ -199,0 +200,31 @@
++/* Optional observation of a few ARM/Thumb instructions in the FoMT lab. */
++typedef uint32_t (*FoMTBreakpoint)(uint32_t, struct ARMCore*, int32_t*, int32_t*);
++static FoMTBreakpoint fomtBreakpoint;
++static uint32_t fomtAddresses[8];
++static unsigned fomtCount;
++
++void fomt_breakpoints(FoMTBreakpoint hook, const uint32_t* addresses, unsigned count) {
++	fomtBreakpoint = hook;
++	fomtCount = count > 8 ? 8 : count;
++	for (unsigned i = 0; i < fomtCount; ++i) {
++		fomtAddresses[i] = addresses[i];
++	}
++}
++
++uint32_t fomt_read8(struct ARMCore* cpu, uint32_t address) {
++	return cpu->memory.load8(cpu, address, NULL);
++}
++
++static inline uint32_t fomtInstruction(struct ARMCore* cpu, unsigned width) {
++	if (!fomtBreakpoint) {
++		return 0;
++	}
++	uint32_t pc = cpu->gprs[ARM_PC] - width;
++	for (unsigned i = 0; i < fomtCount; ++i) {
++		if (fomtAddresses[i] == pc) {
++			return fomtBreakpoint(pc, cpu, cpu->gprs, &cpu->cpsr.packed);
++		}
++	}
++	return 0;
++}
++
+@@ -200,0 +232 @@
++	fomtInstruction(cpu, WORD_SIZE_ARM);
+@@ -219,0 +252,6 @@
++	uint32_t target = fomtInstruction(cpu, WORD_SIZE_THUMB);
++	if (target) {
++		cpu->gprs[ARM_PC] = target;
++		cpu->cycles += ThumbWritePC(cpu);
++		return;
++	}
