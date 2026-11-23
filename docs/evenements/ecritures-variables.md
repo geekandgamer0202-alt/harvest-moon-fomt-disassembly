@@ -37,6 +37,8 @@ Exemple structurel pour le tirage de la catégorie de cuisine dans `0982`.
 
 La décomposition remonte les instructions de pile dans une suite de prédécesseurs adjacents. Les positions des sauts ordinaires et des cas `JUMP` délimitent les chemins analysés. Pour les valeurs passées directement par une locale, la recherche remonte les dernières affectations possibles depuis le point de lecture. Les expressions décrivent les arguments de `VarSet`. Les transformations au stockage et les notifications s’effectuent ensuite dans le moteur natif. [Instructions de la VM](https://github.com/Wokann/fomt/blob/9f2f03c775d64270a95250b8c03e6742219fda21/src/script_vm.cc#L196-L590) · [Écriture et notification](routines-natives.md#variables-lues-écrites-et-notifiées)
 
+Les 911 couples ID–valeur littérale distincts font partie des 30 146 essais qui suivent l’écriture jusqu’aux octets modifiés et à la relecture native. [Écritures natives et notifications](ecritures-natives.md)
+
 ## Reproduire l’export
 
 L’outil vérifie les ROM et réutilise les signatures et ID déjà vérifiés dans les CSV des routines natives. Le dossier de destination reçoit deux CSV.

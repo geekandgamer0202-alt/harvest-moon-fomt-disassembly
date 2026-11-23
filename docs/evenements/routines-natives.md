@@ -33,6 +33,8 @@ L’index des variables recense **15 614 sites `VarGet`** et **1 850 sites `
 
 L’exécution des 590 lectures natives sur trois états mGBA relie les ID `VarGet` aux lectures en RAM et établit 485 formules d’extraction par masque. [Champs lus et résultats des essais](lectures-variables.md)
 
+Les 30 146 appels natifs à `VarSet` couvrent les 590 ID et situent les changements en RAM pendant l’écriture et la notification. [Octets écrits et registre des événements](ecritures-natives.md)
+
 Dans `0657`, l’annonce de grossesse de Karen, les appels à `0x3458F0` et `0x345BAC` en A4NE demandent respectivement les valeurs `1` et `2` pour `VAR_KAREN_PREGNANCY_EVENT_STATE` (`198`). L’ID `198` mène à la destination d’écriture `0x04AA84`, puis au traitement de notification. [Contexte de la scène](vie-de-famille.md) · [Relevé des accès aux variables](../../ressources/donnees/routines-natives/Acces-variables-FoMT.csv)
 
 ## Reproduire l’export
