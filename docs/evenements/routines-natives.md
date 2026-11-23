@@ -31,6 +31,8 @@ Le bloc après écriture relit la valeur. Il répartit les ID `70` à `465` dans
 
 L’index des variables recense **15 614 sites `VarGet`** et **1 850 sites `VarSet`**. Une lecture prend l’identifiant poussé juste avant l’appel. Une écriture à deux poussées littérales consécutives donne l’ID puis la valeur. Cette annotation locale couvre toutes les lectures et **1 636 écritures**. L’export de décomposition complète les **214 autres écritures** en retrouvant leur ID et leur expression. [Sites VarGet et VarSet](../../ressources/donnees/routines-natives/Acces-variables-FoMT.csv) · [Expressions de toutes les écritures](ecritures-variables.md)
 
+L’exécution des 590 lectures natives sur trois états mGBA relie les ID `VarGet` aux lectures en RAM et établit 485 formules d’extraction par masque. [Champs lus et résultats des essais](lectures-variables.md)
+
 Dans `0657`, l’annonce de grossesse de Karen, les appels à `0x3458F0` et `0x345BAC` en A4NE demandent respectivement les valeurs `1` et `2` pour `VAR_KAREN_PREGNANCY_EVENT_STATE` (`198`). L’ID `198` mène à la destination d’écriture `0x04AA84`, puis au traitement de notification. [Contexte de la scène](vie-de-famille.md) · [Relevé des accès aux variables](../../ressources/donnees/routines-natives/Acces-variables-FoMT.csv)
 
 ## Reproduire l’export

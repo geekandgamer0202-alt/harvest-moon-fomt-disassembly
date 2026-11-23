@@ -9,6 +9,7 @@ Les dialogues et catalogues d’origine accompagnent les index d’analyse. [Fic
 - [Sites d’appel A4NE](appels-a4ne.csv) donne l’adresse de chacune des 696 instructions `CallScript` et des 459 instructions `SetEntityEventScript`, ainsi que son script d’origine et sa cible. Une affectation fixe un dialogue pour un acteur. Elle peut prendre effet lors d’une interaction ultérieure.
 - [Routines natives et variables](routines-natives.md) relie les 75 522 instructions d’appel natif aux destinations Thumb USA et Europe. Les index incluent les tables de lecture, d’écriture et de notification des variables.
 - [Décomposition des écritures](ecritures-variables.md) donne l’ID de variable et l’expression transmise aux 1 850 appels `VarSet`.
+- [Lectures de l’état du jeu](lectures-variables.md) situe les champs lus par les 590 ID `VarGet` et documente les 485 formules de lecture par masque testées.
 - [Événements familiaux](vie-de-famille.md) décrit la chaîne du réveil, les conditions et les essais mGBA. Le [tableau des scènes](vie-de-famille-a4ne.csv) situe les 24 branches d’annonce, de naissance, de chute du lit et de premiers pas.
 - [Audit de quatorze déclencheurs](declencheurs-14.md) documente les références vérifiées, les interactions voisines et les essais précédemment réalisés sur l’édition européenne. Les résultats des recherches de pointeurs A4NE sont aussi disponibles [en JSON](references-14-a4ne.json).
 
