@@ -16,6 +16,10 @@ Le jeu a été vérifié en anglais dans mGBA Qt 0.10.5 sur [A4NP révision 0](R
 
 L’essai de culture s’arrête au semis. Pour contrôler les mesures d’or et d’inventaire, enregistrer un état local avant et après chaque action et les passer à `inspecter_etat.py`. L’or est à `0x02004080`, les quatre octets de la main à `0x02004204`, une partie du sac à `0x02004214` et l’octet d’affinité de Rick à `0x02004338`. Dans l’essai de collecte, la main est passée de `05 00 FF FF` à `00 00 29 00`, puis est revenue aux octets de départ après le rangement. [Cartographie mémoire A4NP](https://github.com/khumam/gba-duo-companions/blob/main/harvest-moon-fomt-companion/NOTES.md)
 
+## Événement 0657 et musique
+
+Sur A4NP, le choix de dormir correspond à `0342` avec l’adresse `CODE` `0x082DA974` et le PC `0x50`. Les huit octets de préparation du test de Karen concordent avec ceux de la procédure USA. Le jeu sélectionne `0657` après le sommeil dans l’état préparé. Le test de musique part du dernier dialogue de la ferme à `0x083458DC`, PC `0xFE`. [Préparation du sommeil](usa-a4ne.md#test-ciblé-de-karen) · [Essais de musique dans les deux éditions](../evenements/registre-evenements.md)
+
 ## Prototype français externe
 
 Les vérifications ont utilisé les patchs BPS A4NP 0.1 et 0.2. Pour reproduire avec une copie du patch, le charger après la ROM dans **File → Load patch…**, ou lancer cette commande en remplaçant les chemins. [Chargement des patchs dans mGBA Qt](https://github.com/mgba-emu/mgba/blob/0.10.5/src/platform/qt/Window.cpp#L462)

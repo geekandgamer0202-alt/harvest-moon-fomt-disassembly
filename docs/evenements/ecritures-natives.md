@@ -33,6 +33,8 @@ Le bloc de notification relit `VarGet`. Pour les ID pris en charge, il compare l
 
 Pour Karen, le passage `0 → 1` inscrit `198`. Réécrire `1` laisse le registre intact, et `1 → 2` retire l’ID. L’essai réalisé à partir de l’annonce `0657` confirme la transition de fin de scène. Dans les deux états de partie neuve, inscrire successivement `198`, `197` et `199` remplit les trois places. L’écriture suivante passe `196` à l’état `1` alors que la liste reste pleine. Après libération d’une place et transition `196` de `1` à `2` puis de `2` à `1`, `196` entre dans le registre. Un retrait décale les ID suivants et peut laisser une valeur dans une case inactive. [Séquences mesurées](../../ressources/donnees/ecritures-natives/Registre-evenements-VarSet-FoMT.csv) · [Insertion et retrait natifs](https://github.com/Wokann/fomt/blob/9f2f03c775d64270a95250b8c03e6742219fda21/src/event_state.cc#L21-L49)
 
+Lors de l’arrivée à la clinique, le compteur du registre influe sur la demande de musique de la carte. Six essais dans les deux éditions ont comparé le témoin, le compteur à zéro et un ID de registre substitué. [Appelants et essais mGBA](registre-evenements.md)
+
 ## Lire les résultats et les reproduire
 
 - `Essais-VarSet-FoMT.csv` donne l’argument et les retours `VarGet` avant et après chaque appel. Les colonnes `bits_image_modifies` contiennent des couples `offset/masque` séparés par `|`. Chaque masque est le XOR entre les octets au début et à la fin de la phase. Le nombre d’octets touchés inclut les écritures qui laissent la valeur identique.

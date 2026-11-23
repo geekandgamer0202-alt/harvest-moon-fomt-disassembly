@@ -1,0 +1,7 @@
+edition,variante,etat_source,sha256_etat_source,compteur_prepare,premiere_case_brute,grossesse_avant,grossesse_apres,retour_registre_non_vide,retour_musique_active,appel_musique_locale,sequences_demandees,script,code_gba,pc_initial,pc_diagnostic,pc_annonce
+A4NE,temoin,clinic-first.state,c912e13a30358206179df01f6eab2f551ceb75f37614b948cf83e19e0f2231f1,1,198,1,1,1,1,0,17,657,0x08345884,0xFE,0x1C0,0x1FC
+A4NE,compteur_zero,clinic-first.state,c912e13a30358206179df01f6eab2f551ceb75f37614b948cf83e19e0f2231f1,0,198,1,1,0,,1,13|17,657,0x08345884,0xFE,0x1C0,0x1FC
+A4NE,id_substitue,clinic-first.state,c912e13a30358206179df01f6eab2f551ceb75f37614b948cf83e19e0f2231f1,1,65535,1,1,1,1,0,17,657,0x08345884,0xFE,0x1C0,0x1FC
+A4NP,temoin,clinic-first-a4np.state,3a2278b79a573e61b03723ff102c1d02e1143bc8adbc02db4cc54a2af2b5e4f2,1,198,1,1,1,1,0,17,657,0x083458DC,0xFE,0x1C0,0x1FC
+A4NP,compteur_zero,clinic-first-a4np.state,3a2278b79a573e61b03723ff102c1d02e1143bc8adbc02db4cc54a2af2b5e4f2,0,198,1,1,0,,1,13|17,657,0x083458DC,0xFE,0x1C0,0x1FC
+A4NP,id_substitue,clinic-first-a4np.state,3a2278b79a573e61b03723ff102c1d02e1143bc8adbc02db4cc54a2af2b5e4f2,1,65535,1,1,1,1,0,17,657,0x083458DC,0xFE,0x1C0,0x1FC
