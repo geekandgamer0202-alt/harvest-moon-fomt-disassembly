@@ -9,6 +9,7 @@ Les colonnes `export_local*` désignent les chemins d’origine sous `exports/gr
 | Plans du monde | `gMapData` à `0x105EDC`, 66 entrées de `0x28` octets | [Plans](cartes/Cartes.csv) · [Flux](cartes/Flux.csv) · [Tuiles](cartes/Tuiles.csv) · [Palettes](cartes/Palettes.csv) |
 | Portraits de dialogue | `gPortraitIndexedResourceArchive` à `0x52D984`, longueur `0x5E0A4` | [Portraits](personnages/Portraits-A4NE.csv) · [Palettes OBJ](personnages/Palettes-personnages-A4NE.csv) |
 | Sprites du monde | `gActorIndexedResourceArchive` à `0x58BA28`, longueur `0xDB638` | [Images](personnages/Sprites-A4NE.csv) · [Séquences d’animation](personnages/Animations-A4NE.csv) |
+| Allocation des palettes OBJ | `GameSceneWorld::vfunc_48` à `0x01B5C0` USA et `0x01B5D4` Europe | [Règles par carte et essai du mariage](allocation-palettes-obj.md) |
 | Archives OBJ supplémentaires | 52 archives identifiées par leur adresse et leur taille | [Archives](archives-obj/Archives-OBJ.csv) · [Groupes](archives-obj/Groupes-OBJ.csv) |
 | Icônes d’inventaire | Archive commune à `0x6678A0`, fin exclue `0x67A0E8` | [Icônes nommées](objets/Index-icones-objets-A4NE.csv) · [Résolution des entrées](objets/Index-archive-commune-A4NE.csv) · [Vérifications](objets/Verification-icones-objets-A4NE.json) |
 | Titre, menus, polices et fonds | 113 références, avec plages sources et empreintes | [Index de l’interface](interface/Interface.csv) |

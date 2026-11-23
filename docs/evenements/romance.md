@@ -33,7 +33,7 @@ Lors de la création du contrôleur visuel du joueur à la clinique (`0x0013`), 
 | ID `74` dans le registre | `0xFFFF` | `74` | `0` | `2` |
 | Malaise actif | `0xFFFF` | `198` | `1` | `1` |
 
-Le cœur Libretro instrumenté relève l’instruction qui écrit l’octet `PlayerActor + 0x21`. La valeur est lue dans l’EWRAM au diagnostic. Le désassemblage situe aussi un usage du marqueur `371` dans le placement des entités de l’église pendant le mariage de la Déesse. Ce chemin relève de l’analyse statique dans ce lot. [Appels ROM](../../ressources/donnees/registre-evenements/Appels-registre-FoMT.csv) · [Sélection des emplacements à l’église](https://github.com/Wokann/fomt/blob/9f2f03c775d64270a95250b8c03e6742219fda21/src/game_world.cc#L6915-L6929)
+Le cœur Libretro instrumenté relève l’instruction qui écrit l’octet `PlayerActor + 0x21`. La valeur est lue dans l’EWRAM au diagnostic. À l’église, le marqueur `371` sélectionne des ressources de palettes OBJ pour les lutins. Le script `0848` fixe leurs coordonnées. Les deux comportements ont été vérifiés pendant la cérémonie USA et Europe. [Appels ROM](../../ressources/donnees/registre-evenements/Appels-registre-FoMT.csv) · [Palettes de la cérémonie](../graphismes/allocation-palettes-obj.md#cérémonie-à-léglise)
 
 ## Reproduire les relevés
 

@@ -1,0 +1,5 @@
+variante,type_palette,ressources_occupees_avant,mode,premiere_ressource,resultat,flags_modifies
+partage_fixe,19,6,fixe,6,6,
+trou,33,9|10|12,recherche,9,11,11
+derniere_libre,33,9|10|11|12|13|14|15|16|17|18|19|20,recherche,9,21,21
+sature,33,9|10|11|12|13|14|15|16|17|18|19|20|21,recherche,9,21,

@@ -2,7 +2,7 @@ appelant,routine,role,site_a4ne_rom,cible_a4ne_rom,site_a4np_rom,cible_a4np_rom
 GameSceneWorld::GameSceneWorld,HasRegisteredEvents,construction_monde,0x01775E,0x09C5F4,0x017772,0x09C624
 GameSceneWorld::Update,HasRegisteredEvents,changement_fatigue,0x018292,0x09C5F4,0x0182A6,0x09C624
 GameSceneWorld::ChangeMap,HasRegisteredEvents,changement_carte,0x019ECC,0x09C5F4,0x019EE0,0x09C624
-GameSceneWorld,IsActiveRomanceEvent,placement_entites_eglise,0x01B908,0x09C694,0x01B91C,0x09C6C4
+GameSceneWorld::vfunc_48,IsActiveRomanceEvent,selection_palette_obj_eglise,0x01B908,0x09C694,0x01B91C,0x09C6C4
 func_0801EAA0,HasRegisteredEvents,mise_a_jour_monde,0x01EDC8,0x09C5F4,0x01EDDC,0x09C624
 func_08024B9C,IsActiveRomanceEvent,etat_joueur_clinique,0x024BBE,0x09C694,0x024BD2,0x09C6C4
 func_080455D8,IsActiveRomanceEvent,etat_romance_ou_compteur,0x0455F2,0x09C694,0x045606,0x09C6C4

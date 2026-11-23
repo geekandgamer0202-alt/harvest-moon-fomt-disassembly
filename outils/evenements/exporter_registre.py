@@ -25,7 +25,7 @@ APPELS = (
     (0x01775E, 'HasRegisteredEvents', 'GameSceneWorld::GameSceneWorld', 'construction_monde'),
     (0x018292, 'HasRegisteredEvents', 'GameSceneWorld::Update', 'changement_fatigue'),
     (0x019ECC, 'HasRegisteredEvents', 'GameSceneWorld::ChangeMap', 'changement_carte'),
-    (0x01B908, 'IsActiveRomanceEvent', 'GameSceneWorld', 'placement_entites_eglise'),
+    (0x01B908, 'IsActiveRomanceEvent', 'GameSceneWorld::vfunc_48', 'selection_palette_obj_eglise'),
     (0x01EDC8, 'HasRegisteredEvents', 'func_0801EAA0', 'mise_a_jour_monde'),
     (0x024BBE, 'IsActiveRomanceEvent', 'func_08024B9C', 'etat_joueur_clinique'),
     (0x0455F2, 'IsActiveRomanceEvent', 'func_080455D8', 'etat_romance_ou_compteur'),

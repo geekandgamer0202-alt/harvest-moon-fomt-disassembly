@@ -62,6 +62,8 @@ The tables for the **1,328 scripts** begin at `0x0F89D4` in A4NE and `0x0F8A20` 
 
 ![Preview of A4NE maps, portraits, items, and scenes](ressources/graphismes/A4NE/Apercu.png)
 
+World OBJ palette allocation produced the same results in the US and European editions across 39,176 selections. During the Harvest Goddess wedding, the seven Harvest Sprites use three OBJ banks. [Palette allocation](docs/graphismes/allocation-palettes-obj.md) · [CSVs](ressources/donnees/palettes-obj/)
+
 The A4NE graphics extraction includes **4,577 PNGs** and preserves indexes, palettes, and native graphics blocks. [File guide](ressources/graphismes/A4NE/Lire-moi.md) · [SHA-256 manifest](ressources/graphismes/A4NE/Manifest-graphismes.csv)
 
 | Category | Contents | A4NE reference |
