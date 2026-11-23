@@ -1,0 +1,66 @@
+{
+  "A4NE": {
+    "OnCall": {
+      "fonction_rom": "0x03F8DC",
+      "table_rom": "0x03F904",
+      "cases": 327,
+      "destinations_distinctes": 323,
+      "branche_defaut_rom": null
+    },
+    "VarGet": {
+      "fonction_rom": "0x04590C",
+      "table_rom": "0x045934",
+      "cases": 590,
+      "destinations_distinctes": 590,
+      "branche_defaut_rom": "0x048FEC"
+    },
+    "VarSet": {
+      "fonction_rom": "0x048FFC",
+      "table_rom": "0x049034",
+      "cases": 562,
+      "destinations_distinctes": 529,
+      "branche_defaut_rom": "0x04DA2E"
+    },
+    "NotificationVarSet": {
+      "fonction_rom": "0x04DA2E",
+      "table_rom": "0x04DA5C",
+      "cases": 396,
+      "destinations_distinctes": 2,
+      "branche_defaut_rom": "0x04E0E6"
+    }
+  },
+  "A4NP": {
+    "OnCall": {
+      "fonction_rom": "0x03F8F0",
+      "table_rom": "0x03F918",
+      "cases": 327,
+      "destinations_distinctes": 323,
+      "branche_defaut_rom": null
+    },
+    "VarGet": {
+      "fonction_rom": "0x045920",
+      "table_rom": "0x045948",
+      "cases": 590,
+      "destinations_distinctes": 590,
+      "branche_defaut_rom": "0x049000"
+    },
+    "VarSet": {
+      "fonction_rom": "0x049010",
+      "table_rom": "0x049048",
+      "cases": 562,
+      "destinations_distinctes": 529,
+      "branche_defaut_rom": "0x04DA42"
+    },
+    "NotificationVarSet": {
+      "fonction_rom": "0x04DA42",
+      "table_rom": "0x04DA70",
+      "cases": 396,
+      "destinations_distinctes": 2,
+      "branche_defaut_rom": "0x04E0FA"
+    }
+  },
+  "sites": 75522,
+  "liaisons_utilisees": 309,
+  "lectures_litterales": 15614,
+  "ecritures_litterales": 1636
+}

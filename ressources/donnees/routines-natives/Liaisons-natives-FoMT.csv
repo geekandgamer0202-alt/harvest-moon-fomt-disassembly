@@ -1,0 +1,328 @@
+id_natif,symbole_natif,symbole_mary,retour_mary,parametres_mary,case_a4ne_rom,handler_a4ne_rom,case_a4np_rom,handler_a4np_rom,sites
+0x000,NULL,NULL,,,0x03F904,0x03FE20,0x03F918,0x03FE34,0
+0x001,NULL,NULL,,,0x03F908,0x03FE28,0x03F91C,0x03FE3C,0
+0x002,SetEntityPosition,SetEntityPosition,void,"MaryEntityId entity_id, MaryMapSpaceX x, MaryMapSpaceY y, MaryFacingDirection facing",0x03F90C,0x03FE40,0x03F920,0x03FE54,1679
+0x003,GetEntityX,GetEntityX,MaryMapSpaceX,MaryEntityId entity_id,0x03F910,0x03FEB2,0x03F924,0x03FEC6,140
+0x004,GetEntityY,GetEntityY,MaryMapSpaceY,MaryEntityId entity_id,0x03F914,0x03FEEC,0x03F928,0x03FF00,124
+0x005,SetEntityFacing,SetEntityFacing,void,"MaryEntityId entity_id, MaryFacingDirection facing",0x03F918,0x03FF26,0x03F92C,0x03FF3A,2411
+0x006,GetEntityFacing,GetEntityFacing,MaryFacingDirection,MaryEntityId entity_id,0x03F91C,0x04000A,0x03F930,0x04001E,669
+0x007,SetEntitySpritePriority,SetEntitySpritePriority,void,"MaryEntityId entity_id, MaryEntitySpritePriority priority",0x03F920,0x03FFC4,0x03F934,0x03FFD8,6
+0x008,MoveEntityXTo,MoveEntityXTo,void,"MaryEntityId entity_id, MaryMapSpaceX x, MaryEntityMoveSpeed speed",0x03F924,0x040044,0x03F938,0x040058,425
+0x009,MoveEntityXToRaw,MoveEntityXToRaw,void,"MaryEntityId entity_id, MaryMapSpaceX x, MaryEntityMoveSpeedQ16 speed_q16",0x03F928,0x04009E,0x03F93C,0x0400B2,4
+0x00A,MoveEntityYTo,MoveEntityYTo,void,"MaryEntityId entity_id, MaryMapSpaceY y, MaryEntityMoveSpeed speed",0x03F92C,0x0400F6,0x03F940,0x04010A,570
+0x00B,MoveEntityYToRaw,MoveEntityYToRaw,void,"MaryEntityId entity_id, MaryMapSpaceY y, MaryEntityMoveSpeedQ16 speed_q16",0x03F930,0x040150,0x03F944,0x040164,4
+0x00C,WaitForEntityMovement,WaitForEntityMovement,void,MaryEntityId entity_id,0x03F934,0x0401A8,0x03F948,0x0401BC,943
+0x00D,SetEntityAnim,SetEntityAnim,void,"MaryEntityId entity_id, MaryAnimationId animation_id",0x03F938,0x0401D6,0x03F94C,0x0401EA,4447
+0x00E,NoOp014,NoOp014,void,int unused_value,0x03F93C,0x04021C,0x03F950,0x040230,0
+0x00F,HideEntity,HideEntity,void,MaryEntityId entity_id,0x03F940,0x04024A,0x03F954,0x04025E,456
+0x010,SetEntityAuxRenderProfile,SetEntityAuxRenderProfile,void,"MaryEntityId entity_id, MaryEntityAuxRenderProfile render_profile",0x03F944,0x0402FE,0x03F958,0x040312,53
+0x011,StartEntityEffect,StartEntityEffect,void,"MaryEntityId entity_id, MaryEntityEmoteId effect_id, MaryBool persistent",0x03F948,0x040278,0x03F95C,0x04028C,539
+0x012,StopEntityEffect,StopEntityEffect,void,MaryEntityId entity_id,0x03F94C,0x0402D0,0x03F960,0x0402E4,26
+0x013,GetOppositeFacing,GetOppositeFacing,MaryFacingDirection,MaryFacingDirection facing,0x03F950,0x0411C4,0x03F964,0x0411D8,486
+0x014,GetEntityLocation,GetEntityLocation,MaryMapId,MaryEntityId entity_id,0x03F954,0x041260,0x03F968,0x041274,537
+0x015,OffsetEntityPosition,OffsetEntityPosition,void,"MaryEntityId entity_id, MaryMapSpaceX delta_x, MaryMapSpaceY delta_y",0x03F958,0x03FF6C,0x03F96C,0x03FF80,35
+0x016,ChangeMap,ChangeMap,void,"MaryMapId map_id, MaryMapSpaceX x, MaryMapSpaceY y",0x03F95C,0x040344,0x03F970,0x040358,486
+0x017,PanCameraTo,PanCameraTo,void,"MaryMapSpaceX x, MaryMapSpaceY y, MaryCameraMoveSpeed speed",0x03F960,0x0403AC,0x03F974,0x0403C0,110
+0x018,WaitForCameraMovement,WaitForCameraMovement,void,void,0x03F964,0x040404,0x03F978,0x040418,85
+0x019,PlayBGM,PlayBGM,void,"MaryAudioStartMode start_mode, MaryAudioSequenceId song_id",0x03F968,0x04041C,0x03F97C,0x040430,241
+0x01A,StopBGM,StopBGM,void,void,0x03F96C,0x040480,0x03F980,0x040494,17
+0x01B,PlaySong,PlaySong,void,"MaryAudioStartMode start_mode, MaryAudioSequenceId sequence_id",0x03F970,0x040498,0x03F984,0x0404AC,537
+0x01C,StopAllSongs,StopAllSongs,void,void,0x03F974,0x0404DE,0x03F988,0x0404F2,16
+0x01D,FadeOutBGM,FadeOutBGM,void,void,0x03F978,0x045484,0x03F98C,0x045498,2
+0x01E,ResetTalkUi,ResetTalkUi,void,void,0x03F97C,0x0404F6,0x03F990,0x04050A,0
+0x01F,TalkOpen,TalkOpen,void,void,0x03F980,0x04050E,0x03F994,0x040522,4145
+0x020,TalkClose,TalkClose,void,void,0x03F984,0x040526,0x03F998,0x04053A,4400
+0x021,TalkMessage,TalkMessage,void,const char *message,0x03F988,0x0405DC,0x03F99C,0x0405F0,6385
+0x022,TalkMessageSlow,TalkMessageSlow,void,const char *message,0x03F98C,0x04053E,0x03F9A0,0x040552,315
+0x023,TalkAppendMessage,TalkAppendMessage,void,const char *message,0x03F990,0x04058C,0x03F9A4,0x0405A0,441
+0x024,TalkPromptChoice2,TalkPromptChoice2,MaryPromptChoiceResult,"const char *prompt, const char *option_1, const char *option_2",0x03F994,0x0406C0,0x03F9A8,0x0406D4,39
+0x025,TalkPromptChoice3,TalkPromptChoice3,MaryPromptChoiceResult,"const char *prompt, const char *option_1, const char *option_2, const char *option_3",0x03F998,0x04077C,0x03F9AC,0x040790,0
+0x026,TalkPromptChoice4,TalkPromptChoice4,MaryPromptChoiceResult,"const char *prompt, const char *option_1, const char *option_2, const char *option_3, const char *option_4",0x03F99C,0x040868,0x03F9B0,0x04087C,49
+0x027,TalkChoice2,TalkChoice2,MaryChoiceResult,"const char *choice_1, const char *choice_2",0x03F9A0,0x040980,0x03F9B4,0x040994,117
+0x028,TalkChoice3,TalkChoice3,MaryChoiceResult,"const char *choice_1, const char *choice_2, const char *choice_3",0x03F9A4,0x040A10,0x03F9B8,0x040A24,75
+0x029,TalkChoice4,TalkChoice4,MaryChoiceResult,"const char *choice_1, const char *choice_2, const char *choice_3, const char *choice_4",0x03F9A8,0x040ACC,0x03F9BC,0x040AE0,23
+0x02A,TalkChoice5,TalkChoice5,MaryChoiceResult,"const char *choice_1, const char *choice_2, const char *choice_3, const char *choice_4, const char *choice_5",0x03F9AC,0x040BB8,0x03F9C0,0x040BCC,2
+0x02B,TalkChoice6,TalkChoice6,MaryChoiceResult,"const char *choice_1, const char *choice_2, const char *choice_3, const char *choice_4, const char *choice_5, const char *choice_6",0x03F9B0,0x040CD4,0x03F9C4,0x040CE8,31
+0x02C,SetTalkNameplateCharacter,SetTalkNameplateCharacter,void,MaryCharacterId character_id,0x03F9B4,0x04062C,0x03F9C8,0x040640,3618
+0x02D,SetTalkNameplateText,SetTalkNameplateText,void,const char *text,0x03F9B8,0x04065A,0x03F9CC,0x04066E,13
+0x02E,ClearTalkNameplate,ClearTalkNameplate,void,void,0x03F9BC,0x0406A8,0x03F9D0,0x0406BC,25
+0x02F,SetTalkPortrait,SetTalkPortrait,void,MaryTalkPortraitId portrait_id,0x03F9C0,0x040E1C,0x03F9D4,0x040E30,5966
+0x030,ClearTalkPortrait,ClearTalkPortrait,void,void,0x03F9C4,0x040E4A,0x03F9D8,0x040E5E,142
+0x031,ShowTalkHeartIndicator,ShowTalkHeartIndicator,void,MaryCharacterId character_id,0x03F9C8,0x040E62,0x03F9DC,0x040E76,1386
+0x032,HideTalkHeartIndicator,HideTalkHeartIndicator,void,void,0x03F9CC,0x040E90,0x03F9E0,0x040EA4,0
+0x033,FadeOutScreen,FadeOutScreen,void,"MaryScreenFadeStyle fade_style, MaryScreenFadeSpeed fade_speed",0x03F9D0,0x040EA8,0x03F9E4,0x040EBC,822
+0x034,FadeInScreen,FadeInScreen,void,"MaryScreenFadeStyle fade_style, MaryScreenFadeSpeed fade_speed",0x03F9D4,0x040EF6,0x03F9E8,0x040F0A,849
+0x035,FadeInScreenWithoutSceneHook,FadeInScreenWithoutSceneHook,void,"MaryScreenFadeStyle fade_style, MaryScreenFadeSpeed fade_speed",0x03F9D8,0x040F44,0x03F9EC,0x040F58,135
+0x036,WaitFrames,WaitFrames,void,MaryFrameCount frame_count,0x03F9DC,0x040F92,0x03F9F0,0x040FA6,1795
+0x037,CallScript,CallScript,void,MaryScriptId script_id,0x03F9E0,0x040FBC,0x03F9F4,0x040FD0,696
+0x038,SetTextVariableNumber,SetTextVariableNumber,void,"MaryTextVariableSlot variable_index, int value",0x03F9E4,0x040FEC,0x03F9F8,0x041000,85
+0x039,SetTextVariableNumberFieldWidth,SetTextVariableNumberFieldWidth,void,"MaryTextVariableSlot variable_index, int value, MaryTextNumberFieldWidth field_width",0x03F9E8,0x041032,0x03F9FC,0x041046,4
+0x03A,SetTextVariableString,SetTextVariableString,void,"MaryTextVariableSlot variable_index, const char *text",0x03F9EC,0x04108A,0x03FA00,0x04109E,81
+0x03B,RandomU15,RandomU15,int,void,0x03F9F0,0x0410F0,0x03FA04,0x041104,0
+0x03C,RandomIntInclusive,RandomIntInclusive,int,"int min_value, int max_value",0x03F9F4,0x04110C,0x03FA08,0x041120,43
+0x03D,VarGet,VarGet,int,MaryVarId var_id,0x03F9F8,0x041164,0x03FA0C,0x041178,15614
+0x03E,VarSet,VarSet,void,"MaryVarId var_id, int value",0x03F9FC,0x04118C,0x03FA10,0x0411A0,1850
+0x03F,IsPlayerHoldingNothing,IsPlayerHoldingNothing,MaryBool,void,0x03FA00,0x04129A,0x03FA14,0x0412AE,759
+0x040,GetPlayerHeldItemKind,GetPlayerHeldItemKind,MaryHeldItemKind,void,0x03FA04,0x041332,0x03FA18,0x041346,107
+0x041,IsPlayerHeldItemWrapped,IsPlayerHeldItemWrapped,MaryBool,void,0x03FA08,0x041384,0x03FA1C,0x041398,78
+0x042,GetPlayerHeldFoodId,GetPlayerHeldFoodId,MaryItemFoodId,void,0x03FA0C,0x0413D6,0x03FA20,0x0413EA,97
+0x043,GetPlayerHeldArticleId,GetPlayerHeldArticleId,MaryItemArticleId,void,0x03FA10,0x04143C,0x03FA24,0x041450,86
+0x044,GetPlayerHeldChickenId,GetPlayerHeldChickenId,MaryAnimalChickenSlotIndex,void,0x03FA14,0x0414A4,0x03FA28,0x0414B8,8
+0x045,UsePlayerHeldItem,UsePlayerHeldItem,void,void,0x03FA18,0x041500,0x03FA2C,0x041514,121
+0x046,ClearPlayerHeldItem,ClearPlayerHeldItem,void,void,0x03FA1C,0x041514,0x03FA30,0x041528,9
+0x047,SetPlayerHeldFood,SetPlayerHeldFood,void,MaryItemFoodId food_id,0x03FA20,0x04152C,0x03FA34,0x041540,56
+0x048,SetPlayerHeldArticle,SetPlayerHeldArticle,void,MaryItemArticleId article_id,0x03FA24,0x041580,0x03FA38,0x041594,58
+0x049,SetPlayerHeldWrappedFood,SetPlayerHeldWrappedFood,void,MaryItemFoodId food_id,0x03FA28,0x0415C0,0x03FA3C,0x0415D4,20
+0x04A,SetPlayerHeldWrappedArticle,SetPlayerHeldWrappedArticle,void,MaryItemArticleId article_id,0x03FA2C,0x041612,0x03FA40,0x041626,17
+0x04B,CanDiscardPlayerHeldArticle,CanDiscardPlayerHeldArticle,MaryBool,void,0x03FA30,0x0412B8,0x03FA44,0x0412CC,3
+0x04C,TryShipPlayerHeldItem,TryShipPlayerHeldItem,MaryBool,void,0x03FA34,0x041652,0x03FA48,0x041666,1
+0x04D,ThrowPlayerHeldItem,ThrowPlayerHeldItem,void,void,0x03FA38,0x041690,0x03FA4C,0x0416A4,4
+0x04E,GetPlayerHeldToolId,GetPlayerHeldToolId,MaryItemToolId,void,0x03FA3C,0x0416A2,0x03FA50,0x0416B6,51
+0x04F,GetPlayerHeldToolStackCount,GetPlayerHeldToolStackCount,MaryItemToolStackCount,void,0x03FA40,0x0416F4,0x03FA54,0x041708,5
+0x050,SetPlayerHeldTool,SetPlayerHeldTool,void,"MaryItemToolId tool_id, MaryItemToolRequestedStackCount stack_count",0x03FA44,0x04173C,0x03FA58,0x041750,9
+0x051,ClearPlayerHeldTool,ClearPlayerHeldTool,void,void,0x03FA48,0x041860,0x03FA5C,0x041874,8
+0x052,FindFoodInRucksack,FindFoodInRucksack,MaryRucksackSlotIndex,MaryItemFoodId food_id,0x03FA4C,0x041884,0x03FA60,0x041898,2
+0x053,FindArticleInRucksack,FindArticleInRucksack,MaryRucksackSlotIndex,MaryItemArticleId article_id,0x03FA50,0x0418BC,0x03FA64,0x0418D0,1
+0x054,ClearRucksackItemSlot,ClearRucksackItemSlot,void,MaryRucksackSlotIndex slot_id,0x03FA54,0x0418F4,0x03FA68,0x041908,1
+0x055,GetFirstFreeRucksackToolSlot,GetFirstFreeRucksackToolSlot,MaryRucksackSlotIndex,void,0x03FA58,0x041930,0x03FA6C,0x041944,5
+0x056,GetFirstFreeRucksackItemSlot,GetFirstFreeRucksackItemSlot,MaryRucksackSlotIndex,void,0x03FA5C,0x041948,0x03FA70,0x04195C,8
+0x057,AddArticleToRucksack,AddArticleToRucksack,MaryItemUnaddedCount,"MaryItemArticleId article_id, MaryRequestedInventoryCount requested_count",0x03FA60,0x04196C,0x03FA74,0x041980,0
+0x058,AddFoodToRucksack,AddFoodToRucksack,MaryItemUnaddedCount,"MaryItemFoodId food_id, MaryRequestedInventoryCount requested_count",0x03FA64,0x0419B4,0x03FA78,0x0419C8,14
+0x059,AddToolToRucksack,AddToolToRucksack,MaryItemUnaddedCount,"MaryItemToolId tool_id, MaryRequestedInventoryCount requested_count",0x03FA68,0x0419FC,0x03FA7C,0x041A10,6
+0x05A,ShowPlayerHoldingTool,ShowPlayerHoldingTool,void,MaryItemToolId tool_id,0x03FA6C,0x045456,0x03FA80,0x04546A,37
+0x05B,ChangePlayerStaminaAndFatigue,ChangePlayerStaminaAndFatigue,void,"MaryStaminaDelta stamina_delta, MaryFatigueDelta fatigue_delta",0x03FA70,0x04428C,0x03FA84,0x0442A0,35
+0x05C,IsPlayerHoldingTool,IsPlayerHoldingTool,MaryBool,void,0x03FA74,0x043FDE,0x03FA88,0x043FF2,38
+0x05D,PlayerOwnsTool,PlayerOwnsTool,MaryBool,MaryItemToolId tool_id,0x03FA78,0x0440CE,0x03FA8C,0x0440E2,4
+0x05E,PlayerOwnsFood,PlayerOwnsFood,MaryBool,MaryItemFoodId food_id,0x03FA7C,0x0440F8,0x03FA90,0x04410C,0
+0x05F,PlayerOwnsArticle,PlayerOwnsArticle,MaryBool,MaryItemArticleId article_id,0x03FA80,0x044122,0x03FA94,0x044136,1
+0x060,RemoveAllOwnedArticles,RemoveAllOwnedArticles,void,MaryItemArticleId article_id,0x03FA84,0x0451EE,0x03FA98,0x045202,3
+0x061,ObtainPowerBerry,ObtainPowerBerry,void,void,0x03FA88,0x044A94,0x03FA9C,0x044AA8,6
+0x062,ObtainMysticBerry,ObtainMysticBerry,void,void,0x03FA8C,0x044AAC,0x03FAA0,0x044AC0,1
+0x063,IsPlayerRidingHorse,IsPlayerRidingHorse,MaryBool,void,0x03FA90,0x044AC4,0x03FAA4,0x044AD8,15
+0x064,EnterHotSpringBathingState,EnterHotSpringBathingState,void,void,0x03FA94,0x044FA0,0x03FAA8,0x044FB4,1
+0x065,ExitHotSpringBathingState,ExitHotSpringBathingState,void,void,0x03FA98,0x044FB4,0x03FAAC,0x044FC8,2
+0x066,PreservePlayerLocationForNextDay,PreservePlayerLocationForNextDay,void,void,0x03FA9C,0x044FC8,0x03FAB0,0x044FDC,2
+0x067,ClearPreservedPlayerLocation,ClearPreservedPlayerLocation,void,void,0x03FAA0,0x044FDC,0x03FAB4,0x044FF0,3
+0x068,GetPreservedPlayerMapId,GetPreservedPlayerMapId,MaryMapId,void,0x03FAA4,0x044FF0,0x03FAB8,0x045004,2
+0x069,EatRandomMeal,EatRandomMeal,void,void,0x03FAA8,0x045010,0x03FABC,0x045024,1
+0x06A,PreparePlayerForScriptedAnimation,PreparePlayerForScriptedAnimation,void,void,0x03FAAC,0x045028,0x03FAC0,0x04503C,33
+0x06B,RestorePlayerAfterScriptedAnimation,RestorePlayerAfterScriptedAnimation,void,void,0x03FAB0,0x04503C,0x03FAC4,0x045050,2
+0x06C,GetPresentedItemKind,GetPresentedItemKind,MaryHeldItemKind,void,0x03FAB4,0x044AE8,0x03FAC8,0x044AFC,1
+0x06D,GetPresentedItemId,GetPresentedItemId,int,void,0x03FAB8,0x044B0A,0x03FACC,0x044B1E,1
+0x06E,IsPresentedItemGiftWrapped,IsPresentedItemGiftWrapped,MaryBool,void,0x03FABC,0x044B2C,0x03FAD0,0x044B40,1
+0x06F,CanReceiveTool,CanReceiveTool,MaryBool,MaryItemToolId tool_id,0x03FAC0,0x044050,0x03FAD4,0x044064,0
+0x070,CanReceiveFood,CanReceiveFood,MaryBool,MaryItemFoodId food_id,0x03FAC4,0x04407A,0x03FAD8,0x04408E,7
+0x071,CanReceiveArticle,CanReceiveArticle,MaryBool,MaryItemArticleId article_id,0x03FAC8,0x0440A4,0x03FADC,0x0440B8,0
+0x072,GivePlayerBasket,GivePlayerBasket,void,void,0x03FACC,0x044206,0x03FAE0,0x04421A,1
+0x073,PlayerHasBasket,PlayerHasBasket,MaryBool,void,0x03FAD0,0x044234,0x03FAE4,0x044248,1
+0x074,UpgradeRucksack,UpgradeRucksack,void,void,0x03FAD4,0x04425C,0x03FAE8,0x044270,2
+0x075,GetRucksackUpgradeLevel,GetRucksackUpgradeLevel,MaryRucksackUpgradeLevel,void,0x03FAD8,0x044274,0x03FAEC,0x044288,0
+0x076,SetPlayerActorUpdateSuspended,SetPlayerActorUpdateSuspended,void,MaryBool suspended,0x03FADC,0x0451BE,0x03FAF0,0x0451D2,28
+0x077,HasLocalLinkMilestone,HasLocalLinkMilestone,MaryBool,MaryLocalLinkMilestoneId milestone_id,0x03FAE0,0x041A44,0x03FAF4,0x041A58,11
+0x078,HasReceivedLinkMilestone,HasReceivedLinkMilestone,MaryBool,MaryReceivedLinkMilestoneId milestone_id,0x03FAE4,0x041A8C,0x03FAF8,0x041AA0,58
+0x079,SetLocalLinkMilestone,SetLocalLinkMilestone,void,MaryLocalLinkMilestoneId milestone_id,0x03FAE8,0x041AD4,0x03FAFC,0x041AE8,26
+0x07A,ClearLocalLinkMilestone,ClearLocalLinkMilestone,void,MaryLocalLinkMilestoneId milestone_id,0x03FAEC,0x041B18,0x03FB00,0x041B2C,2
+0x07B,IsCharacterBirthdayToday,IsCharacterBirthdayToday,MaryBool,MaryCharacterId character_id,0x03FAF0,0x041B5C,0x03FB04,0x041B70,94
+0x07C,GetNpcFriendship,GetNpcFriendship,MaryNpcFriendshipValue,MaryCharacterId character_id,0x03FAF4,0x041BCC,0x03FB08,0x041BE0,481
+0x07D,AddNpcFriendship,AddNpcFriendship,void,"MaryCharacterId character_id, MaryNpcFriendshipDelta amount",0x03FAF8,0x041C10,0x03FB0C,0x041C24,983
+0x07E,SetNpcFriendship,SetNpcFriendship,void,"MaryCharacterId character_id, MaryNpcFriendshipValue friendship",0x03FAFC,0x041C64,0x03FB10,0x041C78,26
+0x07F,GetDaysSinceLastSpokenToNpc,GetDaysSinceLastSpokenToNpc,MaryDaysSinceNpcConversation,MaryCharacterId character_id,0x03FB00,0x041CB8,0x03FB14,0x041CCC,5
+0x080,MarkNpcSpokenTo,MarkNpcSpokenTo,void,MaryCharacterId character_id,0x03FB04,0x041CFC,0x03FB18,0x041D10,1246
+0x081,WasNpcSpokenToToday,WasNpcSpokenToToday,MaryBool,MaryCharacterId character_id,0x03FB08,0x041D38,0x03FB1C,0x041D4C,190
+0x082,WasNpcSpokenToJustNow,WasNpcSpokenToJustNow,MaryBool,MaryCharacterId character_id,0x03FB0C,0x041D80,0x03FB20,0x041D94,767
+0x083,HasMetNpc,HasMetNpc,MaryBool,MaryCharacterId character_id,0x03FB10,0x041DC8,0x03FB24,0x041DDC,403
+0x084,MarkNpcGifted,MarkNpcGifted,void,MaryCharacterId character_id,0x03FB14,0x041E10,0x03FB28,0x041E24,40
+0x085,WasNpcGiftedToday,WasNpcGiftedToday,MaryBool,MaryCharacterId character_id,0x03FB18,0x041E4C,0x03FB2C,0x041E60,41
+0x086,GetCharacterLove,GetCharacterLove,MaryCharacterLoveValue,MaryCharacterId character_id,0x03FB1C,0x041E94,0x03FB30,0x041EA8,314
+0x087,AddCharacterLove,AddCharacterLove,void,"MaryCharacterId character_id, MaryCharacterLoveDelta amount",0x03FB20,0x041ED8,0x03FB34,0x041EEC,285
+0x088,SetCharacterLove,SetCharacterLove,void,"MaryCharacterId character_id, MaryCharacterLoveValue love",0x03FB24,0x041F2C,0x03FB38,0x041F40,0
+0x089,SetEntityEventScript,SetEntityEventScript,void,"MaryEntityId entity_id, MaryScriptId script_id",0x03FB28,0x041F80,0x03FB3C,0x041F94,459
+0x08A,ClearEntityEventScript,ClearEntityEventScript,void,MaryEntityId entity_id,0x03FB2C,0x041FC6,0x03FB40,0x041FDA,867
+0x08B,OpenSupermarketShop,OpenSupermarketShop,void,void,0x03FB30,0x041FF4,0x03FB44,0x042008,3
+0x08C,PurchaseSupermarketItem,PurchaseSupermarketItem,void,MarySupermarketItemId item_id,0x03FB34,0x04200C,0x03FB48,0x042020,7
+0x08D,OpenWonShop,OpenWonShop,void,void,0x03FB38,0x04206A,0x03FB4C,0x04207E,1
+0x08E,OpenCarpenterShop,OpenCarpenterShop,void,void,0x03FB3C,0x042082,0x03FB50,0x042096,1
+0x08F,OpenBlacksmithShop,OpenBlacksmithShop,void,void,0x03FB40,0x04209A,0x03FB54,0x0420AE,1
+0x090,OpenClinicShop,OpenClinicShop,void,void,0x03FB44,0x0420B2,0x03FB58,0x0420C6,1
+0x091,OpenBeachCafeShop,OpenBeachCafeShop,void,void,0x03FB48,0x0420CA,0x03FB5C,0x0420DE,1
+0x092,OpenYodelRanchShop,OpenYodelRanchShop,void,void,0x03FB4C,0x0420E2,0x03FB60,0x0420F6,1
+0x093,OpenWineryShop,OpenWineryShop,void,void,0x03FB50,0x0420FA,0x03FB64,0x04210E,1
+0x094,OpenInnShop,OpenInnShop,void,void,0x03FB54,0x042112,0x03FB68,0x042126,1
+0x095,OpenPoultryFarmShop,OpenPoultryFarmShop,void,void,0x03FB58,0x04212A,0x03FB6C,0x04213E,1
+0x096,OpenSpecialMerchantShop,OpenSpecialMerchantShop,void,void,0x03FB5C,0x04203A,0x03FB70,0x04204E,1
+0x097,OpenGiftWrappingMenu,OpenGiftWrappingMenu,void,void,0x03FB60,0x042052,0x03FB74,0x042066,1
+0x098,ShowReferencePage,ShowReferencePage,void,MaryReferencePageId page_id,0x03FB64,0x042142,0x03FB78,0x042156,78
+0x099,OpenBookList,OpenBookList,void,void,0x03FB68,0x042170,0x03FB7C,0x042184,1
+0x09A,OpenLetterList,OpenLetterList,void,void,0x03FB6C,0x042188,0x03FB80,0x04219C,1
+0x09B,OpenCalendar,OpenCalendar,void,void,0x03FB70,0x0421A0,0x03FB84,0x0421B4,5
+0x09C,OpenToolChest,OpenShelf,void,void,0x03FB74,0x0421B8,0x03FB88,0x0421CC,1
+0x09D,OpenRefrigerator,OpenToolChest,void,void,0x03FB78,0x0421D0,0x03FB8C,0x0421E4,1
+0x09E,OpenShelf,OpenRefrigerator,void,void,0x03FB7C,0x0421E8,0x03FB90,0x0421FC,1
+0x09F,OpenClock,OpenClock,void,void,0x03FB80,0x042200,0x03FB94,0x042214,4
+0x0A0,OpenCookingMenu,OpenCookingMenu,void,void,0x03FB84,0x0424F0,0x03FB98,0x042504,1
+0x0A1,OpenRecipeList,OpenRecipeList,void,void,0x03FB88,0x042508,0x03FB9C,0x04251C,1
+0x0A2,RunGameCubeLink,RunGameCubeLink,MaryGameCubeLinkResult,void,0x03FB8C,0x042520,0x03FBA0,0x042534,1
+0x0A3,OpenNameEntry,OpenNameEntry,void,"MaryNameEntryKind kind, MaryNameEntryTargetIndex target_index",0x03FB90,0x043532,0x03FBA4,0x043546,17
+0x0A4,StartFarmInheritanceFlashback,StartFarmInheritanceFlashback,void,void,0x03FB94,0x042538,0x03FBA8,0x04254C,1
+0x0A5,OpenNameEntryKeyboard,OpenNameEntryKeyboard,void,void,0x03FB98,0x042550,0x03FBAC,0x042564,1
+0x0A6,OpenRucksackMenu,OpenRucksackMenu,void,int unused_stack_value,0x03FB9C,0x042568,0x03FBB0,0x04257C,1
+0x0A7,SelectFestivalAnimal,SelectFestivalAnimal,MaryAnimalSlotIndex,MaryFestivalAnimalKind festival_kind,0x03FBA0,0x04259C,0x03FBB4,0x0425B0,3
+0x0A8,RunStaffCredits,RunStaffCredits,void,void,0x03FBA4,0x0425CA,0x03FBB8,0x0425DE,6
+0x0A9,OpenFarmingTutorial,OpenFarmingTutorial,void,MaryFarmingTutorialKind tutorial_kind,0x03FBA8,0x0425E2,0x03FBBC,0x0425F6,2
+0x0AA,PrepareClockMenuTransition,PrepareClockMenuTransition,void,void,0x03FBAC,0x042218,0x03FBC0,0x04222C,2
+0x0AB,RestoreAfterClockMenu,RestoreAfterClockMenu,void,void,0x03FBB0,0x042230,0x03FBC4,0x042244,1
+0x0AC,PrepareCookingMenuTransition,PrepareCookingMenuTransition,void,void,0x03FBB4,0x042248,0x03FBC8,0x04225C,2
+0x0AD,RestoreAfterCookingMenu,RestoreAfterCookingMenu,void,void,0x03FBB8,0x042260,0x03FBCC,0x042274,1
+0x0AE,PrepareRecipeMenuTransition,PrepareRecipeMenuTransition,void,void,0x03FBBC,0x042278,0x03FBD0,0x04228C,2
+0x0AF,RestoreAfterRecipeMenu,RestoreAfterRecipeMenu,void,void,0x03FBC0,0x042290,0x03FBD4,0x0422A4,1
+0x0B0,RecordPlayerHasAlbum,RecordPlayerHasAlbum,MaryBool,void,0x03FBC4,0x042436,0x03FBD8,0x04244A,2
+0x0B1,SwapRecordPlayerAlbum,SwapRecordPlayerAlbum,MaryItemArticleId,MaryItemArticleId article_id,0x03FBC8,0x04245E,0x03FBDC,0x042472,2
+0x0B2,RemoveRecordPlayerAlbum,RemoveRecordPlayerAlbum,MaryItemArticleId,void,0x03FBCC,0x0424CE,0x03FBE0,0x0424E2,1
+0x0B3,LightFireplaceAtLocation,LightFireplaceAtLocation,void,MaryMapId map_id,0x03FBD0,0x043648,0x03FBE4,0x04365C,1
+0x0B4,IsFireplaceLitAtLocation,IsFireplaceLitAtLocation,MaryBool,MaryMapId map_id,0x03FBD4,0x043676,0x03FBE8,0x04368A,5
+0x0B5,SetVaseArticleId,SetVaseArticleId,void,MaryItemArticleId article_id,0x03FBD8,0x043718,0x03FBEC,0x04372C,2
+0x0B6,GetVaseArticleId,GetVaseArticleId,MaryItemArticleId,void,0x03FBDC,0x043746,0x03FBF0,0x04375A,2
+0x0B7,IsChickenFeedTroughFilled,IsChickenFeedTroughFilled,MaryBool,MaryChickenCoopFeedTroughIndex trough_index,0x03FBE0,0x0422A8,0x03FBF4,0x0422BC,8
+0x0B8,FillChickenFeedTrough,FillChickenFeedTrough,void,MaryChickenCoopFeedTroughIndex trough_index,0x03FBE4,0x0422DE,0x03FBF8,0x0422F2,9
+0x0B9,BeginEggIncubation,BeginEggIncubation,void,MaryChickenCoopIncubatorIndex incubator_index,0x03FBE8,0x043798,0x03FBFC,0x0437AC,3
+0x0BA,IsIncubatorOccupied,IsIncubatorOccupied,MaryBool,MaryChickenCoopIncubatorIndex incubator_index,0x03FBEC,0x0437C6,0x03FC00,0x0437DA,4
+0x0BB,GetIncubatorCapacity,GetIncubatorCapacity,MaryChickenCoopIncubatorCapacity,void,0x03FBF0,0x044B4E,0x03FC04,0x044B62,2
+0x0BC,IsEggReadyToHatch,IsEggReadyToHatch,MaryBool,MaryChickenCoopIncubatorIndex incubator_index,0x03FBF4,0x044B70,0x03FC08,0x044B84,2
+0x0BD,AttemptEggHatch,AttemptEggHatch,MaryAnimalChickenSlotIndex,MaryChickenCoopIncubatorIndex incubator_index,0x03FBF8,0x044BA4,0x03FC0C,0x044BB8,1
+0x0BE,IsBarnFeedTroughFilled,IsBarnFeedTroughFilled,MaryBool,MaryBarnFeedTroughIndex trough_index,0x03FBFC,0x042322,0x03FC10,0x042336,18
+0x0BF,FillBarnFeedTrough,FillBarnFeedTrough,void,MaryBarnFeedTroughIndex trough_index,0x03FC00,0x042378,0x03FC14,0x04238C,22
+0x0C0,StartShipmentBoxDepositAnimation,StartShipmentBoxDepositAnimation,void,void,0x03FC04,0x0423D8,0x03FC18,0x0423EC,5
+0x0C1,GetPregnancyStallCapacity,GetPregnancyStallCapacity,MaryBarnPregnancyStallCapacity,void,0x03FC08,0x044BFE,0x03FC1C,0x044C12,2
+0x0C2,IsBarnAnimalReadyToGiveBirth,IsBarnAnimalReadyToGiveBirth,MaryBool,MaryBarnPregnancyStallIndex pregnancy_stall_index,0x03FC0C,0x044C20,0x03FC20,0x044C34,2
+0x0C3,AttemptBarnAnimalBirth,AttemptBarnAnimalBirth,MaryAnimalSlotIndex,MaryBarnPregnancyStallIndex pregnancy_stall_index,0x03FC10,0x044C54,0x03FC24,0x044C68,1
+0x0C4,BuildMountainCottage,BuildMountainCottage,void,void,0x03FC14,0x044E3C,0x03FC28,0x044E50,6
+0x0C5,BuildSeasideCottage,BuildSeasideCottage,void,void,0x03FC18,0x044E4A,0x03FC2C,0x044E5E,1
+0x0C6,HasGoldenLumberOnFarm,HasGoldenLumberOnFarm,MaryBool,void,0x03FC1C,0x043578,0x03FC30,0x04358C,6
+0x0C7,OpenDoor,OpenDoor,void,MaryDoorIndex door_index,0x03FC20,0x044E58,0x03FC34,0x044E6C,16
+0x0C8,CloseDoor,CloseDoor,void,MaryDoorIndex door_index,0x03FC24,0x044E82,0x03FC38,0x044E96,6
+0x0C9,RedrawRucksackShelfAfterPurchase,RedrawRucksackShelfAfterPurchase,void,void,0x03FC28,0x04249E,0x03FC3C,0x0424B2,2
+0x0CA,RedrawBlueFeatherShelfAfterPurchase,RedrawBlueFeatherShelfAfterPurchase,void,void,0x03FC2C,0x0424B6,0x03FC40,0x0424CA,2
+0x0CB,GetHarvestSpriteCurrentTask,GetHarvestSpriteCurrentTask,MaryHarvestSpriteTask,MaryCharacterId sprite_id,0x03FC30,0x042610,0x03FC44,0x042624,7
+0x0CC,GetHarvestSpriteWorkDaysLeft,GetHarvestSpriteWorkDaysLeft,MaryHarvestSpriteWorkDays,MaryCharacterId sprite_id,0x03FC34,0x042654,0x03FC48,0x042668,14
+0x0CD,GetHarvestSpriteTaskExperience,GetHarvestSpriteTaskExperience,MaryHarvestSpriteTaskExperience,"MaryCharacterId sprite_id, MaryHarvestSpriteTask task",0x03FC38,0x042698,0x03FC4C,0x0426AC,63
+0x0CE,HasHarvestSpritePlayedMinigameToday,HasHarvestSpritePlayedMinigameToday,MaryBool,MaryCharacterId sprite_id,0x03FC3C,0x0426F0,0x03FC50,0x042704,7
+0x0CF,HasHarvestSpriteMinigameExperience,HasHarvestSpriteMinigameExperience,MaryBool,"MaryCharacterId sprite_id, MaryHarvestSpriteTask task",0x03FC40,0x042738,0x03FC54,0x04274C,0
+0x0D0,StartHarvestSpriteTask,StartHarvestSpriteTask,void,"MaryCharacterId sprite_id, MaryHarvestSpriteTask task, MaryHarvestSpriteWorkDays days",0x03FC44,0x0427A0,0x03FC58,0x0427B4,63
+0x0D1,ScheduleHarvestSpriteTaskToEndAfterToday,ScheduleHarvestSpriteTaskToEndAfterToday,void,MaryCharacterId sprite_id,0x03FC48,0x042808,0x03FC5C,0x04281C,7
+0x0D2,IsHarvestSpriteDailyWorkComplete,IsHarvestSpriteDailyWorkComplete,MaryBool,MaryCharacterId sprite_id,0x03FC4C,0x042844,0x03FC60,0x042858,7
+0x0D3,RunHarvestSpriteAnimalCareMinigame,RunHarvestSpriteAnimalCareMinigame,MaryBool,MaryCharacterId sprite_id,0x03FC50,0x04287E,0x03FC64,0x042892,7
+0x0D4,RunHarvestSpriteHarvestingMinigame,RunHarvestSpriteHarvestingMinigame,MaryBool,MaryCharacterId sprite_id,0x03FC54,0x0428DA,0x03FC68,0x0428EE,7
+0x0D5,RunHarvestSpriteWateringMinigame,RunHarvestSpriteWateringMinigame,MaryBool,MaryCharacterId sprite_id,0x03FC58,0x0428AC,0x03FC6C,0x0428C0,7
+0x0D6,RunChickenFestivalContest,RunChickenFestivalContest,MaryFestivalContestResult,void,0x03FC5C,0x042908,0x03FC70,0x04291C,1
+0x0D7,RunHorseRace,RunHorseRace,MaryFestivalHorseRaceInterfaceResult,MaryFestivalHorseRaceMode race_mode,0x03FC60,0x042920,0x03FC74,0x042934,2
+0x0D8,PrepareHorseRaceEntries,PrepareHorseRaceEntries,void,MaryFestivalHorseRaceEntryMode entry_mode,0x03FC64,0x04294E,0x03FC78,0x042962,10
+0x0D9,OpenHorseRaceMedalExchange,OpenHorseRaceMedalExchange,void,void,0x03FC68,0x0429A8,0x03FC7C,0x0429BC,2
+0x0DA,RunFrisbeeGame,RunFrisbeeGame,MaryFestivalContestResult,MaryFestivalFrisbeeMode game_mode,0x03FC6C,0x0429C0,0x03FC80,0x0429D4,2
+0x0DB,RunFrisbeeTournamentRound,RunFrisbeeTournamentRound,void,void,0x03FC70,0x0429F4,0x03FC84,0x042A08,1
+0x0DC,PrepareAnimalFestivalOpponents,PrepareAnimalFestivalOpponents,void,void,0x03FC74,0x042A0C,0x03FC88,0x042A20,1
+0x0DD,GetTVShoppingSelection,GetTVShoppingSelection,MaryTVShoppingItemId,void,0x03FC78,0x042A34,0x03FC8C,0x042A48,2
+0x0DE,GetPendingTVShoppingItem,GetPendingTVShoppingItem,MaryTVShoppingItemId,void,0x03FC7C,0x042A58,0x03FC90,0x042A6C,3
+0x0DF,IsTVShoppingDeliveryReady,IsTVShoppingDeliveryReady,MaryBool,void,0x03FC80,0x042A7C,0x03FC94,0x042A90,1
+0x0E0,SetTVShoppingSelection,SetTVShoppingSelection,void,MaryTVShoppingItemId item_id,0x03FC84,0x042AA4,0x03FC98,0x042AB8,16
+0x0E1,ConfirmTVShoppingOrder,ConfirmTVShoppingOrder,void,void,0x03FC88,0x042AD4,0x03FC9C,0x042AE8,1
+0x0E2,CompleteTVShoppingDelivery,CompleteTVShoppingDelivery,void,void,0x03FC8C,0x042AEC,0x03FCA0,0x042B00,16
+0x0E3,IsVacationVillaBuilt,IsVacationVillaBuilt,MaryBool,void,0x03FC90,0x042C98,0x03FCA4,0x042CAC,1
+0x0E4,AreAllRequiredVillagersAtMaxFriendship,AreAllRequiredVillagersAtMaxFriendship,MaryBool,void,0x03FC94,0x042CBC,0x03FCA8,0x042CD0,1
+0x0E5,HasShippedOneOfEachCrop,HasShippedOneOfEachCrop,MaryBool,void,0x03FC98,0x042CE4,0x03FCAC,0x042CF8,1
+0x0E6,AreAllFarmAnimalsAtMaxAffection,AreAllFarmAnimalsAtMaxAffection,MaryBool,void,0x03FC9C,0x042D1A,0x03FCB0,0x042D2E,1
+0x0E7,HasShippedOneOfEachMineral,HasShippedOneOfEachMineral,MaryBool,void,0x03FCA0,0x042D38,0x03FCB4,0x042D4C,1
+0x0E8,HasCaughtEveryFishSpecies,HasCaughtEveryFishSpecies,MaryBool,void,0x03FCA4,0x042D4E,0x03FCB8,0x042D62,2
+0x0E9,GetTotalFishCaught,GetTotalFishCaught,MaryFishCount,void,0x03FCA8,0x042D72,0x03FCBC,0x042D86,7
+0x0EA,HasObtainedMythicTool,HasObtainedMythicTool,MaryBool,void,0x03FCAC,0x042D94,0x03FCC0,0x042DA8,1
+0x0EB,HasShippedOneOfEachProduct,HasShippedOneOfEachProduct,MaryBool,void,0x03FCB0,0x042D04,0x03FCC4,0x042D18,0
+0x0EC,GetMoney,GetMoney,MaryMoneyBalance,void,0x03FCB4,0x042DB2,0x03FCC8,0x042DC6,33
+0x0ED,AddMoney,AddMoney,void,MaryMoneyAmount amount,0x03FCB8,0x042DD4,0x03FCCC,0x042DE8,1
+0x0EE,SubtractMoney,SubtractMoney,void,MaryMoneyAmount amount,0x03FCBC,0x042E04,0x03FCD0,0x042E18,26
+0x0EF,EnableScriptedNpcControl,EnableScriptedNpcControl,void,void,0x03FCC0,0x043618,0x03FCD4,0x04362C,136
+0x0F0,DisableScriptedNpcControl,DisableScriptedNpcControl,void,void,0x03FCC4,0x043630,0x03FCD8,0x043644,243
+0x0F1,GetBlacksmithOrderId,GetBlacksmithOrderId,MaryBlacksmithOrderId,void,0x03FCC8,0x0437FC,0x03FCDC,0x043810,4
+0x0F2,IsBlacksmithOrderReady,IsBlacksmithOrderReady,MaryBool,void,0x03FCCC,0x043820,0x03FCE0,0x043834,4
+0x0F3,CollectBlacksmithOrder,CollectBlacksmithOrder,MaryBlacksmithCollectionResult,void,0x03FCD0,0x043848,0x03FCE4,0x04385C,1
+0x0F4,SetGameTime,SetGameTime,void,"MaryClockHour hour, MaryClockMinute minute",0x03FCD4,0x043DBC,0x03FCE8,0x043DD0,42
+0x0F5,IsLetterWaiting,IsLetterWaiting,MaryBool,MaryLetterId letter_id,0x03FCD8,0x043E30,0x03FCEC,0x043E44,3
+0x0F6,HasReceivedLetter,HasReceivedLetter,MaryBool,MaryLetterId letter_id,0x03FCDC,0x043E66,0x03FCF0,0x043E7A,17
+0x0F7,DeliverLetter,DeliverLetter,void,MaryLetterId letter_id,0x03FCE0,0x043E9C,0x03FCF4,0x043EB0,62
+0x0F8,MarkLetterRead,MarkLetterRead,void,MaryLetterId letter_id,0x03FCE4,0x043EC8,0x03FCF8,0x043EDC,3
+0x0F9,GetWaitingLetterCount,GetWaitingLetterCount,MaryLetterCount,void,0x03FCE8,0x043EF4,0x03FCFC,0x043F08,1
+0x0FA,GetSavedLetterCount,GetSavedLetterCount,MaryLetterCount,void,0x03FCEC,0x043F0A,0x03FD00,0x043F1E,1
+0x0FB,ShowTelevisionMessage,ShowTelevisionMessage,MaryTelevisionInput,const char *message,0x03FCF0,0x044DF0,0x03FD04,0x044E04,1013
+0x0FC,SetTelevisionProgram,SetTelevisionProgram,void,MaryTelevisionProgramId program_id,0x03FCF4,0x0423F0,0x03FD08,0x042404,182
+0x0FD,EndTelevisionProgram,EndTelevisionProgram,void,void,0x03FCF8,0x04241E,0x03FD0C,0x042432,31
+0x0FE,RefreshAllNpcSchedules,RefreshAllNpcSchedules,void,void,0x03FCFC,0x0442D2,0x03FD10,0x0442E6,21
+0x0FF,DoesAnimalExist,DoesAnimalExist,MaryBool,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD00,0x0442EA,0x03FD14,0x0442FE,1
+0x100,CreateFarmHorse,CreateFarmHorse,void,"MaryBool skip_creation, MaryAnimalHorseAgeStage age_stage, MaryMapId map_id, MaryMapSpaceX x, MaryMapSpaceY y",0x03FD04,0x044336,0x03FD18,0x04434A,2
+0x101,RemoveFarmHorse,RemoveFarmHorse,void,"MaryBool skip_removal, int unused_value",0x03FD08,0x0443C0,0x03FD1C,0x0443D4,2
+0x102,GetAnimalName,GetAnimalName,void,"MaryTextVariableSlot text_variable, MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD0C,0x044406,0x03FD20,0x04441A,14
+0x103,GetInteractingAnimalIndex,GetInteractingAnimalIndex,MaryAnimalSlotIndex,void,0x03FD10,0x044472,0x03FD24,0x044486,3
+0x104,HasAnimalBeenTalkedTo,HasAnimalBeenTalkedTo,MaryBool,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD14,0x04448C,0x03FD28,0x0444A0,3
+0x105,SetAnimalTalkedTo,SetAnimalTalkedTo,void,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD18,0x0444D6,0x03FD2C,0x0444EA,3
+0x106,AddAnimalAffection,AddAnimalAffection,void,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index, MaryAnimalAffectionDelta amount",0x03FD1C,0x044562,0x03FD30,0x044576,3
+0x107,IsAnimalUnhappy,IsAnimalUnhappy,MaryBool,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD20,0x0445BA,0x03FD34,0x0445CE,2
+0x108,IsAnimalSick,IsAnimalSick,MaryBool,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD24,0x044604,0x03FD38,0x044618,5
+0x109,IsAnimalPregnant,IsAnimalPregnant,MaryBool,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD28,0x04464E,0x03FD3C,0x044662,4
+0x10A,GetAnimalHealthyPregnancyDays,GetAnimalHealthyPregnancyDays,MaryAnimalHealthyPregnancyDays,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD2C,0x044698,0x03FD40,0x0446AC,2
+0x10B,GetAnimalAge,GetAnimalAge,MaryAnimalAgeDays,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD30,0x04451A,0x03FD44,0x04452E,0
+0x10C,GetAnimalAffection,GetAnimalAffection,MaryAnimalAffectionValue,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD34,0x0446E0,0x03FD48,0x0446F4,4
+0x10D,GetAnimalGrowthStage,GetAnimalGrowthStage,int,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD38,0x044728,0x03FD4C,0x04473C,10
+0x10E,IsSheepSheared,IsSheepSheared,MaryBool,MaryAnimalSlotIndex sheep_index,0x03FD3C,0x044816,0x03FD50,0x04482A,1
+0x10F,CountAnimalsByLifeState,CountAnimalsByLifeState,MaryAnimalCount,"MaryAnimalKind animal_kind, MaryLivestockLifeState life_state",0x03FD40,0x044912,0x03FD54,0x044926,8
+0x110,ShowLivestockNeglectDeathSummary,ShowLivestockNeglectDeathSummary,void,void,0x03FD44,0x044A34,0x03FD58,0x044A48,1
+0x111,RemoveLivestockDeadFromNeglect,RemoveLivestockDeadFromNeglect,void,void,0x03FD48,0x044A4C,0x03FD5C,0x044A60,1
+0x112,ShowNaturalLivestockDeathSummary,ShowNaturalLivestockDeathSummary,void,void,0x03FD4C,0x044A64,0x03FD60,0x044A78,1
+0x113,RemoveNaturallyDeadLivestock,RemoveNaturallyDeadLivestock,void,void,0x03FD50,0x044A7C,0x03FD64,0x044A90,1
+0x114,IsCowAtBarnSlot,IsCowAtBarnSlot,MaryBool,MaryAnimalSlotIndex barn_slot,0x03FD54,0x044CAE,0x03FD68,0x044CC2,4
+0x115,GetCowCount,GetCowCount,MaryAnimalCount,void,0x03FD58,0x0441AC,0x03FD6C,0x0441C0,2
+0x116,GetSheepCount,GetSheepCount,MaryAnimalCount,void,0x03FD5C,0x0441C2,0x03FD70,0x0441D6,2
+0x117,GetChickenCount,GetChickenCount,MaryAnimalCount,void,0x03FD60,0x0441E4,0x03FD74,0x0441F8,2
+0x118,SetContestAnimal,SetContestAnimal,void,"MaryAnimalKind animal_kind, MaryAnimalSlotIndex animal_index",0x03FD64,0x044850,0x03FD78,0x044864,6
+0x119,ClearContestAnimal,ClearContestAnimal,void,MaryAnimalKind animal_kind,0x03FD68,0x044896,0x03FD7C,0x0448AA,23
+0x11A,GetContestAnimalIndex,GetContestAnimalIndex,MaryAnimalSlotIndex,MaryAnimalKind animal_kind,0x03FD6C,0x0448C4,0x03FD80,0x0448D8,10
+0x11B,SetTextVariableToCaughtFishName,SetTextVariableToCaughtFishName,void,MaryTextVariableSlot text_variable,0x03FD70,0x044D58,0x03FD84,0x044D6C,1
+0x11C,GetCaughtFishSize,GetCaughtFishSize,MaryFishSize,void,0x03FD74,0x044D90,0x03FD88,0x044DA4,1
+0x11D,IsCaughtFishMaximumSize,IsCaughtFishMaximumSize,MaryBool,void,0x03FD78,0x044DB0,0x03FD8C,0x044DC4,1
+0x11E,IsCaughtFishKing,IsCaughtFishKing,MaryBool,void,0x03FD7C,0x044DD0,0x03FD90,0x044DE4,2
+0x11F,SelectMoonViewingPartner,SelectMoonViewingPartner,MaryFestivalMoonViewingPartner,void,0x03FD80,0x042E34,0x03FD94,0x042E48,1
+0x120,GetCookingFestivalDishRating,GetCookingFestivalDishRating,MaryFestivalCookingDishRating,void,0x03FD84,0x04315A,0x03FD98,0x04316E,1
+0x121,SelectThomasStockingGift,SelectThomasStockingGift,MaryThomasStockingGift,void,0x03FD88,0x043458,0x03FD9C,0x04346C,1
+0x122,GetRandomSpouseGiftArticleId,GetRandomSpouseGiftArticleId,MaryItemArticleId,void,0x03FD8C,0x043484,0x03FDA0,0x043498,12
+0x123,UnlockNextVanAlbum,UnlockNextVanAlbum,MaryBool,void,0x03FD90,0x0434BA,0x03FDA4,0x0434CE,3
+0x124,AreAllVanAlbumsAvailable,AreAllVanAlbumsAvailable,MaryBool,void,0x03FD94,0x0434E0,0x03FDA8,0x0434F4,2
+0x125,SetPlayerNicknameForSpouse,SetPlayerNicknameForSpouse,void,const char *nickname,0x03FD98,0x04358E,0x03FDAC,0x0435A2,14
+0x126,PlacePlayerAtFarmhouseBed,PlacePlayerAtFarmhouseBed,void,void,0x03FD9C,0x043F2C,0x03FDB0,0x043F40,33
+0x127,FlashScreenColor,FlashScreenColor,void,"MaryRgb5Channel red, MaryRgb5Channel green, MaryRgb5Channel blue",0x03FDA0,0x043F7C,0x03FDB4,0x043F90,21
+0x128,RebuildMapEntitiesForNewDay,RebuildMapEntitiesForNewDay,void,void,0x03FDA4,0x044038,0x03FDB8,0x04404C,1
+0x129,CureAllSickLivestock,CureAllSickLivestock,void,void,0x03FDA8,0x0453CC,0x03FDBC,0x0453E0,1
+0x12A,AddAffectionToAllFarmAnimals,AddAffectionToAllFarmAnimals,void,MaryAnimalAffectionDelta amount,0x03FDAC,0x04532A,0x03FDC0,0x04533E,2
+0x12B,EnableShootingStarShippingBonus,EnableShootingStarShippingBonus,void,void,0x03FDB0,0x04414C,0x03FDC4,0x044160,1
+0x12C,GetAmountShipped,GetAmountShipped,MaryProductShippedCount,MaryProductId product_id,0x03FDB4,0x044164,0x03FDC8,0x044178,11
+0x12D,CreatePlayerChildEntity,CreatePlayerChildEntity,void,void,0x03FDB8,0x044D28,0x03FDCC,0x044D3C,6
+0x12E,RelocateEntityToMap,RelocateEntityToMap,void,"MaryEntityId entity_id, MaryMapId map_id, MaryMapSpaceX x, MaryMapSpaceY y",0x03FDBC,0x0453E0,0x03FDD0,0x0453F4,4
+0x12F,CreateNewYearSunriseEffect,CreateNewYearSunriseEffect,void,void,0x03FDC0,0x044F48,0x03FDD4,0x044F5C,1
+0x130,PlayNewYearSunriseEffect,PlayNewYearSunriseEffect,void,void,0x03FDC4,0x044F5C,0x03FDD8,0x044F70,1
+0x131,DestroyNewYearSunriseEffect,DestroyNewYearSunriseEffect,void,void,0x03FDC8,0x044F74,0x03FDDC,0x044F88,1
+0x132,PlayStarSparkleEffect,PlayStarSparkleEffect,void,void,0x03FDCC,0x044F88,0x03FDE0,0x044F9C,3
+0x133,GetKnownRecipeCount,GetKnownRecipeCount,MaryKnownRecipeCount,void,0x03FDD0,0x045496,0x03FDE4,0x0454AA,1
+0x134,GenerateMineFloorLayout,GenerateMineFloorLayout,void,"MaryMineKind mine_kind, MaryMineFloorIndex floor_index",0x03FDD4,0x043FF2,0x03FDE8,0x044006,2
+0x135,DescendMineFloor,DescendMineFloor,void,void,0x03FDD8,0x044D40,0x03FDEC,0x044D54,1
+0x136,IsToolCursed,IsToolCursed,MaryBool,MaryItemToolId tool_id,0x03FDDC,0x044EAC,0x03FDF0,0x044EC0,2
+0x137,AdvanceCursedToolLiftProgress,AdvanceCursedToolLiftProgress,MaryBool,MaryItemToolId tool_id,0x03FDE0,0x044EE0,0x03FDF4,0x044EF4,2
+0x138,AttemptChurchCursedToolRemoval,AttemptChurchCursedToolRemoval,MaryBool,MaryItemToolId tool_id,0x03FDE4,0x044F14,0x03FDF8,0x044F28,1
+0x139,CreateEventIcon,CreateEventIcon,void,"MaryEventIconSlot slot, MaryMapSpaceX x, MaryMapSpaceY y, MaryEventIconLayer layer, MaryEventIconId icon_id",0x03FDE8,0x045054,0x03FDFC,0x045068,111
+0x13A,RemoveEventIcon,RemoveEventIcon,void,MaryEventIconSlot slot,0x03FDEC,0x0450E2,0x03FE00,0x0450F6,276
+0x13B,GetFoodIconId,GetFoodIconId,MaryEventIconId,MaryItemFoodId food_id,0x03FDF0,0x04513A,0x03FE04,0x04514E,111
+0x13C,GetArticleIconId,GetArticleIconId,MaryEventIconId,MaryItemArticleId article_id,0x03FDF4,0x04517A,0x03FE08,0x04518E,0
+0x13D,GetToolIconId,GetToolIconId,MaryEventIconId,MaryItemToolId tool_id,0x03FDF8,0x04510C,0x03FE0C,0x045120,0
+0x13E,NoOpTutorialFieldTile,NoOpTutorialFieldTile,void,"int unused_operand_1, int unused_operand_2, int unused_operand_3, int unused_operand_4, int unused_operand_5",0x03FDFC,0x045572,0x03FE10,0x045586,94
+0x13F,NoOpTutorialFieldObject,NoOpTutorialFieldObject,void,"int unused_operand_1, int unused_operand_2, int unused_operand_3",0x03FE00,0x045572,0x03FE14,0x045586,6
+0x140,NoOpTutorialEggDefinition,NoOpTutorialEggDefinition,void,"int unused_operand_1, int unused_operand_2, int unused_operand_3",0x03FE04,0x045572,0x03FE18,0x045586,2
+0x141,NoOpTutorialEggSelection,NoOpTutorialEggSelection,void,int unused_operand,0x03FE08,0x045572,0x03FE1C,0x045586,2
+0x142,BeginHoldingActorGraphic,BeginHoldingActorGraphic,void,MaryAnimationId animation_id,0x03FE0C,0x0454C8,0x03FE20,0x0454DC,4
+0x143,NoOpAnimalEventEntityInitialization,NoOpAnimalEventEntityInitialization,void,"MaryEntityId entity_id, int growth_stage, int animal_actor_kind",0x03FE10,0x045572,0x03FE24,0x045586,19
+0x144,SetTextVariableToProductName,SetTextVariableToProductName,void,"MaryTextVariableSlot text_variable, MaryProductId product_id",0x03FE14,0x04551E,0x03FE28,0x045532,6
+0x145,GetEventContextValue,GetEventContextValue,int,void,0x03FE18,0x0454FA,0x03FE2C,0x04550E,7
+0x146,CycleBackwardToNonCursedTool,CycleBackwardToNonCursedTool,void,void,0x03FE1C,0x041794,0x03FE30,0x0417A8,1
